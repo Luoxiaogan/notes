@@ -58,4 +58,32 @@
 
 + （Burnside）$p^aq^b$阶群可解，从而不是单群
 
-+ $2p$阶群分类，只有$\mathbb{Z}_{2p}$和$D_{2p}$
++ $p$为奇素数，那么$2p$阶群的分类只有$\mathbb{Z}_{2p}$和$D_{2p}$
+
++ $4$阶群：$\mathbb{Z}_4, \mathbb{Z}_2 \times \mathbb{Z}_2 \cong V_4, D_4$
+
++ 最小的有限非交换单群同构于$A_5$
+
++ $p$群不是单群，除非$|G|=p$，，$p$为素数
+
++ $2m$阶群不是单群，$m$为奇数（指数为2的子群必然存在，故有非平凡正规子群）
+
+#### 大结论1
+
++ $|G|=60$，$G$是单群，那么$G \cong A_5$
+
++ $pq$阶群的分类
+
+> $p=q$，是交换群，$\mathbb{Z}_p$和$\mathbb{Z}_p \times \mathbb{Z}_p$
+> $p<q, p \nmid q-1$, 是交换群，$\mathbb{Z}_p \times \mathbb{Z}_{q} \cong \mathbb{Z}_{pq}$
+> $p<q, p \mid q-1$，是交换群，$\mathbb{Z}_p \times \mathbb{Z}_{q} \cong \mathbb{Z}_{pq}$，或者是非交换群，$\mathbb{Z}_q \rtimes_{\phi} \mathbb{Z}_{p}$是唯一的$pq$阶非交换群
+
+#### 对应定理
+
++ $\phi : H \to K, Ker(\phi)=N, H/N \cong K$
+
++ $\forall x\in H , \langle x \rangle := Q\lhd H, N \unlhd H, QN\lhd H$
+
++ $QN/N \cong Q/ (Q \cap N) \cong \langle \phi(x) \rangle$
+
++ 故有$o(\phi(x))\mid o(x)$
