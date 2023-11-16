@@ -59,6 +59,9 @@
 + $P,R \in Syl_p(G), P\cap R \neq \{e\},P\neq R$，设$P_0=P\cap R$，那么$P_0 \lhd P,P_0 \lhd R$，故$ P_0 \lhd N_P(P_0), P_0 \lhd N_R(P_0)$
 + 可以尝试由$N_G(P_0)$的指数$[G:N_G(P_0)]$足够小来导出矛盾
 + 特殊情况，$|P|=|Q|=p^{\alpha}, \alpha \geq 2, |P \cap Q|=p^{\alpha-1}$，那么由$[P:P\cap Q]=p$可知，$(P\cap Q) \unlhd P$，同理$(P\cap Q) \unlhd Q$，故有$P_0=P\cap Q, N_P(P_0)=P,N_Q(P_0)=Q$，故$N=N_G(P_0)$包含$P,Q$，$|N|=p^{\alpha}k,(k,p)=1$
+
++ 进一步对$N_G(P_0)$使用$Sylow$定理，计算它里面的$Sylow-p$子群的个数
+
 > 有限群$G$，若$n_p\neq 1 (\mod p^2)$，那么存在两个交非单位的$Sylow-p$子群
 证明：
 > + $P\in Syl_p(G)$，$P$共轭作用于$Syl_p(G)$，划分轨道，每个轨道$|O_R|=[P:Stb(R)], Stb(R)=\{g\in P | gRg^{-1}=R\}=N_G(R)\cap P$，故$|O_R|=[P:N_G(R)\cap P]$
