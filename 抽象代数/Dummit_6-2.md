@@ -65,4 +65,4 @@
 > 有限群$G$，若$n_p\neq 1 (\mod p^2)$，那么存在两个交非单位的$Sylow-p$子群
 证明：
 > + $P\in Syl_p(G)$，$P$共轭作用于$Syl_p(G)$，划分轨道，每个轨道$|O_R|=[P:Stb(R)], Stb(R)=\{g\in P | gRg^{-1}=R\}=N_G(R)\cap P$，故$|O_R|=[P:N_G(R)\cap P]$
-> + 若$p^2$整除$[P:R\cap P]$，那么$s上$
+> + 若$p^2$整除$[P:R\cap P]$，那么$s$上
