@@ -24,12 +24,12 @@
 
 > error of  classifier：根据分布$\mathcal{D}$生成$x_i$，已知$y_i$，那么$h(x_i)\neq y_i$的概率就定义成失败几率
 
->给定样本$\mathcal{X}$，事件$A\in \mathcal{X}$，那么随机选取$\mathcal{D}$中一个点，落在$A$中的概率记为$\mathcal{D}(A)$
-$\pi : \mathcal{X} \to \{0,1\}, A=\{x\in \mathcal{X}|\pi(x)=1\},\mathcal{D}(A)=\mathbb{P}_{\mathcal{D}\sim x}(\pi(x))$
+> 给定样本$\mathcal{X}$，事件$A\in \mathcal{X}$，那么随机选取$\mathcal{D}$中一个点，落在$A$中的概率记为$\mathcal{D}(A)$
+> $\pi : \mathcal{X} \to \{0,1\}, A=\{x\in \mathcal{X}|\pi(x)=1\},\mathcal{D}(A)=\mathbb{P}_{\mathcal{D}\sim x}(\pi(x))$
 
 > **true error** of $h$：$\mathcal{L}_{\mathcal{D},f}(h):=\mathbb{P}_{\mathcal{D}\sim x}(h(x)\neq f(x))$
 
->实际上不知道$\mathcal{D}$和$f$，所以true error很多时候是不知道的
+> 实际上不知道$\mathcal{D}$和$f$，所以true error很多时候是不知道的
 
 > **empirical error**：$L_{S}(h)=\frac{|\{i \in [m], h(x_i)\neq y_i\}|}{m}$
 
