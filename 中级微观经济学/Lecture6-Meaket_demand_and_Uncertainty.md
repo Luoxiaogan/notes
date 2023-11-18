@@ -51,3 +51,56 @@
 + 留待补充
 
 #### 影响弹性的因素
+
+## Choice Under Uncertainty
+
+### 基本概念
+
++ 度量不确定性：随机变量，期望
+
++ 随机变量的分布$(p_1,...,p_n)$
+
++ **Lottery**（随机选择）：$p_1  \circ c_1+...+p_n \circ c_n$
+
+### Expected Utility（期望效用）
+
++ expected untility function:
+
+> $u$：冯诺伊曼效用函数
+$v$：伯努利效用函数
+
++ $u(p_1  \circ c_1+...+p_n \circ c_n)=p_1v(c_1)+...+p_nv(c_n)$
+
+> 直观上，lottery（随机选择）的效用=每个可能选择的效用的期望（效用的期望）
+期望效用=效用的期望
+$u(L)=E(v(c))$
+
+### 面对风险的态度 (Attitude towards risk)
+
++ 前提：certainty情况下的效用首先要与lottery情况下的期望效用相同
+
+>$v$是凸函数(convex)，则风险偏好(Risk loving)
+>$v$是凹函数(concave)，则风险规避(Risk aversion)
+>$v$是线性函数(linear)，则风险中性(Risk neutral)
+
++ 证明：
+
+>不妨令lottery为：$0.5 \circ (c-c^{\prime})+ 0.5 \circ (c+c^{\prime})$
+>certainty情况下：财富为$c$，效用为$v(c)$
+>采用lottery情况下：期望效用为：$0.5v(c-c^{\prime})+0.5v(c+c^{\prime})$
+>比较$v(c)$与$0.5v(c-c^{\prime})+0.5v(c+c^{\prime})$
+
+>$v$是凸函数(convex)，$v(c)<0.5v(c-c^{\prime})+0.5v(c+c^{\prime})$，风险偏好
+>$v$是凹函数(convex)，$v(c)>0.5v(c-c^{\prime})+0.5v(c+c^{\prime})$，风险规避
+
++ **需要会画图**：utility在$y$轴，wealth在$x$轴
+
+### 确定性等值(Certainty Equivalent)与风险溢价(Risk Premuim)
+
++ 确定性等值：certainty情况下效用要与lottery情况下期望效用相同需要多少wealth?
+
+>$v(CE)=p_1v(c_1)+(1-p_1)v(c_2)$
+
++ 风险溢价：真实的wealth减去CE（别记错了，**真实的减去虚假的**）
+
+>$RP=[p_1c_1+(1-p_1)c_2]-CE$
