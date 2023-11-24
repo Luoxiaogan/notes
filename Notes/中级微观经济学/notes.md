@@ -23,7 +23,7 @@ $$\min_{x_1,x_2} w_1x_1+w_2x_2, \;s.t. \; \overline{y}=f(x_1,x_2)$$
 + 一阶条件
 $$\frac{w_1}{w_2}=\frac{MP_1}{MP_2}=TSR_{12}$$
 
-+ 解(conditional input demand)
++ 解(conditional input demand $\Rightarrow$ demand function)
 $$x_1=x_1(y,w_1,w_2)$$
 $$x_2=x_2(y,w_1,w_2)$$
 
@@ -158,7 +158,7 @@ $$\frac{w_1}{w_2}=\frac{MP_1}{MP_2}=TSR_{12}$$
 > 等成本线：$w_1x_1+w_2x_2=C$
 > 等产量线：$\overline{y}=f(x_1,x_2)$
 
-![[Pasted image 20231125035202.png]]
+![[Pasted image 20231125050254.png]]
 
 + **注意此处的约束和目标跟效用处对偶的无差异曲线位置对换了，此处约束是曲线，目标函数是直线**！
 
@@ -178,3 +178,24 @@ $$\frac{w_1}{w_2}=\frac{MP_1}{MP_2}=TSR_{12}$$
 + $\frac{w_1}{w_2}=TSR_{12}=\frac{ax_2}{bx_1}$且$c(y)=x_1w_1+x_2w_2$
 
 ##### 完全互补(Perfect Complements)
+
+#### 完全竞争市场上的短期的成本最小化(Short-Run Cost Minimization)
+
++ 短期情况下，某些生产要素的投入是固定的(不妨$x_2$固定)，故问题十分简单
+
+#### Short-run Costs v.s. Long-run Costs
+
+> 固定$y$的情况下，在由于短期情况，固定$x_2$，得到最优解$x_1^*(y,w_1,w_2,y)$
+> 如果这个时候开始变动$x_2$，那么对于每一个固定的$x_2$，使得成本最小的$x_1=x_1^*$，对于不同的$x_2$，**最小化的成本就是长期情况下的最小化成本**
+
++ 对于固定的产出$y$
+
+$$c(y,w_1,w_2)=\min_{x_2} c_{short}(x_2,y,w_1,w_2)$$
+
++ 画图分析
+
+![[image/5012e70ad2a06176e87fd4e585db8f9.jpg]]
+
+![[image/701f6718c071ce9dc67a6865128256d.jpg]]
+
+
