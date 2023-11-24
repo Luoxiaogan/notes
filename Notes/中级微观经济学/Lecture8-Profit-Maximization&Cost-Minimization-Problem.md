@@ -197,5 +197,3 @@ $$c(y,w_1,w_2)=\min_{x_2} c_{short}(x_2,y,w_1,w_2)$$
 ![[image/5012e70ad2a06176e87fd4e585db8f9.jpg]]
 
 ![[image/701f6718c071ce9dc67a6865128256d.jpg]]
-
-

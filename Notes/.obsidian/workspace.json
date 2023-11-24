@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/notes.md"
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "022ec7d0c3f2e5c4",
   "lastOpenFiles": [
+    "中级微观经济学/notes.md",
+    "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
     "image/701f6718c071ce9dc67a6865128256d.jpg",
     "image/5012e70ad2a06176e87fd4e585db8f9.jpg",
     "image/Pasted image 20231125050254.png",
@@ -156,7 +158,6 @@
     "701f6718c071ce9dc67a6865128256d.jpg",
     "Pasted image 20231125035202.png",
     "5012e70ad2a06176e87fd4e585db8f9.jpg",
-    "中级微观经济学/notes.md",
     "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
     "中级微观经济学/Lecture7-Technology.md",
     "未命名.canvas",
