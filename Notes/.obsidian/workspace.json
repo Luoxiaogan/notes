@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "中级微观经济学/notes.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "中级微观经济学/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "中级微观经济学/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md"
+                "file": "中级微观经济学/notes.md"
               }
             }
           }
@@ -148,18 +148,25 @@
   },
   "active": "022ec7d0c3f2e5c4",
   "lastOpenFiles": [
-    "中级微观经济学/notes.md",
     "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+    "中级微观经济学/notes.md",
+    "image/Pasted image 20231125063736.png",
+    "image/Pasted image 20231125063415.png",
+    "image/Pasted image 20231125062037.png",
+    "image/Pasted image 20231125061701.png",
+    "image/Pasted image 20231125054557.png",
+    "中级微观经济学/Lecture7-Technology.md",
     "image/701f6718c071ce9dc67a6865128256d.jpg",
+    "image/Pasted image 20231125052109.png",
+    "记录.md",
+    "README.md",
+    "ML+OP/ML1.md",
+    "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
     "image/5012e70ad2a06176e87fd4e585db8f9.jpg",
     "image/Pasted image 20231125050254.png",
     "image",
     "新建文件夹",
     "701f6718c071ce9dc67a6865128256d.jpg",
-    "Pasted image 20231125035202.png",
-    "5012e70ad2a06176e87fd4e585db8f9.jpg",
-    "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
-    "中级微观经济学/Lecture7-Technology.md",
     "未命名.canvas",
     "抽象代数/抽象代数4a_Part3.md",
     "抽象代数/抽象代数4a_Part4.md",
@@ -168,8 +175,6 @@
     "抽象代数/半期复习ppt.md",
     "抽象代数/环论/环论2-同态与理想.md",
     "抽象代数/环论/环论1-环的基本概念.md",
-    "记录.md",
-    "README.md",
     "LICENSE",
     "中级微观经济学",
     "数学分析三/数分三习题课第十周.md",
@@ -181,7 +186,6 @@
     "抽象代数/环论",
     "抽象代数/半期往年题.md",
     "抽象代数",
-    "ML+OP/ML1.md",
     "ML+OP"
   ]
 }
