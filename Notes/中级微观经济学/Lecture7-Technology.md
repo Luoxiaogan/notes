@@ -58,6 +58,8 @@
 
 + **凸性**：相对于极端，平均更好
 
+> 生产函数的凸性是在($x_1,x_2$坐标系内定义的)
+
 ### 3.边际产出(Marginal Product)
 
 + $MP_i(x_1,x_2)=\frac{\partial f(x_1,x_2)}{\partial x_i}$
@@ -98,6 +100,7 @@
 
 ### 5.规模报酬(Return to Scale)
 
++ 要点：$t>1$
 + **同时改变所有投入的生产要素**，并且改变比例相同
 
 > **(CRS)规模报酬不变**(constant returns to scale)：$f(tx_1,tx_2)=tf(x_1,x_2),\forall (x_1,x_2), t>1$
