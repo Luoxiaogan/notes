@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "边际成本",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/notes.md"
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md"
               }
             }
           }
@@ -147,11 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8d1651c8c1fe1be2",
+  "active": "022ec7d0c3f2e5c4",
   "lastOpenFiles": [
+    "中级微观经济学/notes.md",
+    "中级微观经济学/Lecture9-Cost-Curves.md",
     "image/2a201d6ac5e757f946d08d2b5c71273.jpg",
     "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
-    "中级微观经济学/notes.md",
     "抽象代数/作业/5a-Part1.md",
     "抽象代数/作业/5a-Par2.md",
     "抽象代数/群论/半期复习ppt.md",
@@ -168,7 +168,6 @@
     "image/Pasted image 20231125061701.png",
     "image/Pasted image 20231125054557.png",
     "image/701f6718c071ce9dc67a6865128256d.jpg",
-    "image/Pasted image 20231125052109.png",
     "记录.md",
     "README.md",
     "ML+OP/ML1.md",
