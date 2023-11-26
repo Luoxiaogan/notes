@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "中级微观经济学/notes.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "中级微观经济学/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "中级微观经济学/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md"
+                "file": "中级微观经济学/notes.md"
               }
             }
           }
@@ -146,19 +146,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "022ec7d0c3f2e5c4",
+  "active": "3385f5cbce8b77a5",
   "lastOpenFiles": [
+    "image/f1475aa375f3fef4476d7a168928d4d.jpg",
     "中级微观经济学/notes.md",
     "中级微观经济学/Lecture9-Cost-Curves.md",
-    "image/2a201d6ac5e757f946d08d2b5c71273.jpg",
+    "中级微观经济学/Lecture7-Technology.md",
     "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+    "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
+    "image/2a201d6ac5e757f946d08d2b5c71273.jpg",
     "抽象代数/作业/5a-Part1.md",
     "抽象代数/作业/5a-Par2.md",
     "抽象代数/群论/半期复习ppt.md",
     "抽象代数/环论/环论1-环的基本概念.md",
     "抽象代数/环论/环论2-同态与理想.md",
-    "中级微观经济学/Lecture7-Technology.md",
-    "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
     "image/Pasted image 20231125065015.png",
     "image/Pasted image 20231125064933.png",
     "image/Pasted image 20231125064859.png",
