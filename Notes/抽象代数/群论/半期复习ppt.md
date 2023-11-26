@@ -37,12 +37,12 @@ $\forall N \unlhd G$，且$N \lhd H$，有$\forall a\in G, N=aNa^{-1} \lhd aHa^{
 
 **中国剩余定理**：$(m,n)=1$，则$x\equiv a(\mod m), x\equiv b(\mod n)$有解，解$x\equiv y(\mod xy)$
 
-+ $(m,n)=1, \exist u,v $，使得$um+vn=1$，自然有$(u,n)=1,(v,m)=1$，故$x=avn+bum$
++ $(m,n)=1, \exists u,v$ $，使得$um+vn=1$，自然有$(u,n)=1,(v,m)=1$，故$x=avn+bum$
 + **群直积的子群的形式**：有限群$G_1,G_2$阶互素，那么$\forall K \lhd G_1 \times G_2, K=H_1 \times H_2, H_i \lhd G_i$
 
 > 证明：
 > $H_1=\varphi_1(K),H_2=\varphi_2(K), K \subset H_1 \times H_2$
-> $\forall a \in H_1, \exist b \in H_2 ,(a,b) \in K$，$o(a)=m, o(b)=n, (n,m)=1$，故$\exist r,s$，使得$(a,b)^r=(a,e_2)\in K, (a,b)^s=(e_1,b)\in K$，故$H_1 \times H_2 \subset K, K=H_1 \times H_2$
+> $\forall a \in H_1, \exists b \in H_2 ,(a,b) \in K$，$o(a)=m, o(b)=n, (n,m)=1$，故$\exists r,s$，使得$(a,b)^r=(a,e_2)\in K, (a,b)^s=(e_1,b)\in K$，故$H_1 \times H_2 \subset K, K=H_1 \times H_2$
 
 + 若$G_1,G_2$的阶不互素，那么直积的子群不一定可以表示成子群的直积的形式
 
