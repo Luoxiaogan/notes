@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "抽象代数/环论/环论1-环的基本概念.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "958dc15e360925f2",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "抽象代数/环论/环论1-环的基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "抽象代数/环论/环论1-环的基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md"
+                "file": "抽象代数/环论/环论1-环的基本概念.md"
               }
             }
           }
@@ -148,8 +149,9 @@
   },
   "active": "022ec7d0c3f2e5c4",
   "lastOpenFiles": [
-    "中级微观经济学/notes.md",
+    "抽象代数/环论/环论2-同态与理想.md",
     "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+    "中级微观经济学/notes.md",
     "中级微观经济学/Lecture7-Technology.md",
     "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
     "image/Pasted image 20231125065015.png",
@@ -173,7 +175,6 @@
     "抽象代数/小结论.md",
     "抽象代数/Dummit_6-2.md",
     "抽象代数/半期复习ppt.md",
-    "抽象代数/环论/环论2-同态与理想.md",
     "抽象代数/环论/环论1-环的基本概念.md",
     "LICENSE",
     "中级微观经济学",
