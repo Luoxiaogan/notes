@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2623f21bbaba7a40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "中级微观经济学/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "file": "中级微观经济学/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md"
+                "file": "中级微观经济学/notes.md"
               }
             }
           }
@@ -160,9 +147,24 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "2623f21bbaba7a40",
+  "active": "022ec7d0c3f2e5c4",
   "lastOpenFiles": [
+    "image/Pasted image 20231127215305.png",
+    "image/Pasted image 20231127215201.png",
+    "image/Pasted image 20231127212210.png",
+    "image/7676fa458ef64440fe09d675297425b.jpg",
+    "image/0106a6a18d4d9ace3b9826fade6917a.jpg",
+    "image/96bab6e252fb9d1b3940eac64244984.jpg",
+    "image/Pasted image 20231127204155.png",
+    "image/Pasted image 20231127203239.png",
+    "中级微观经济学/Lecture9-Cost-Curves.md",
     "中级微观经济学/notes.md",
+    "image/a441673636ef2141d31ed846ab7388f.jpg",
+    "中级微观经济学/Lecture7-Technology.md",
+    "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
+    "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+    "image/Pasted image 20231127142502.png",
+    "image/Pasted image 20231127141826.png",
     "抽象代数/环论/环论2-同态与理想.md",
     "抽象代数/作业/5a-Par2.md",
     "抽象代数/作业/5a-Part1.md",
@@ -172,21 +174,7 @@
     "抽象代数/群论/Dummit_6-2.md",
     "抽象代数/环论/环论1-环的基本概念.md",
     "ML+OP/ML1.md",
-    "image/f1475aa375f3fef4476d7a168928d4d.jpg",
-    "中级微观经济学/Lecture9-Cost-Curves.md",
-    "中级微观经济学/Lecture7-Technology.md",
-    "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
-    "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
-    "image/2a201d6ac5e757f946d08d2b5c71273.jpg",
     "抽象代数/群论/半期复习ppt.md",
-    "image/Pasted image 20231125065015.png",
-    "image/Pasted image 20231125064933.png",
-    "image/Pasted image 20231125064859.png",
-    "image/Pasted image 20231125063736.png",
-    "image/Pasted image 20231125063415.png",
-    "image/Pasted image 20231125062037.png",
-    "image/Pasted image 20231125061701.png",
-    "image/Pasted image 20231125054557.png",
     "记录.md",
     "image",
     "新建文件夹",
