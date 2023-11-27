@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2623f21bbaba7a40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/notes.md"
+                "file": "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md"
               }
             }
           }
@@ -143,23 +156,29 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false
     }
   },
-  "active": "3385f5cbce8b77a5",
+  "active": "2623f21bbaba7a40",
   "lastOpenFiles": [
-    "image/f1475aa375f3fef4476d7a168928d4d.jpg",
     "中级微观经济学/notes.md",
+    "抽象代数/环论/环论2-同态与理想.md",
+    "抽象代数/作业/5a-Par2.md",
+    "抽象代数/作业/5a-Part1.md",
+    "抽象代数/群论/半期往年题.md",
+    "未命名.canvas",
+    "README.md",
+    "抽象代数/群论/Dummit_6-2.md",
+    "抽象代数/环论/环论1-环的基本概念.md",
+    "ML+OP/ML1.md",
+    "image/f1475aa375f3fef4476d7a168928d4d.jpg",
     "中级微观经济学/Lecture9-Cost-Curves.md",
     "中级微观经济学/Lecture7-Technology.md",
     "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
     "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
     "image/2a201d6ac5e757f946d08d2b5c71273.jpg",
-    "抽象代数/作业/5a-Part1.md",
-    "抽象代数/作业/5a-Par2.md",
     "抽象代数/群论/半期复习ppt.md",
-    "抽象代数/环论/环论1-环的基本概念.md",
-    "抽象代数/环论/环论2-同态与理想.md",
     "image/Pasted image 20231125065015.png",
     "image/Pasted image 20231125064933.png",
     "image/Pasted image 20231125064859.png",
@@ -168,13 +187,9 @@
     "image/Pasted image 20231125062037.png",
     "image/Pasted image 20231125061701.png",
     "image/Pasted image 20231125054557.png",
-    "image/701f6718c071ce9dc67a6865128256d.jpg",
     "记录.md",
-    "README.md",
-    "ML+OP/ML1.md",
     "image",
     "新建文件夹",
-    "未命名.canvas",
     "抽象代数/抽象代数4a_Part3.md",
     "抽象代数/抽象代数4a_Part4.md",
     "抽象代数/小结论.md",
