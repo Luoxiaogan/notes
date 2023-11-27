@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "抽象代数/环论/环论2-同态与理想.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 248.5
   },
   "right": {
     "id": "958dc15e360925f2",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "抽象代数/环论/环论2-同态与理想.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "抽象代数/环论/环论2-同态与理想.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/notes.md"
+                "file": "抽象代数/环论/环论2-同态与理想.md"
               }
             }
           }
@@ -147,8 +147,18 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "022ec7d0c3f2e5c4",
+  "active": "3385f5cbce8b77a5",
   "lastOpenFiles": [
+    "日记/2023-11-27.md",
+    "image/5711b73cf05fe92364a87ca6ed1afe9.png",
+    "image/cfe4cd77de57974607d5d84b5265aaf.png",
+    "image/b29b912a60ee9fd440b06caa7714cb5.png",
+    "抽象代数/环论/环论1-环的基本概念.md",
+    "2023-11-27.md",
+    "日记",
+    "新建文件夹",
+    "抽象代数/环论/环论2-同态与理想.md",
+    "中级微观经济学/notes.md",
     "image/Pasted image 20231127215305.png",
     "image/Pasted image 20231127215201.png",
     "image/Pasted image 20231127212210.png",
@@ -156,28 +166,20 @@
     "image/0106a6a18d4d9ace3b9826fade6917a.jpg",
     "image/96bab6e252fb9d1b3940eac64244984.jpg",
     "image/Pasted image 20231127204155.png",
-    "image/Pasted image 20231127203239.png",
     "中级微观经济学/Lecture9-Cost-Curves.md",
-    "中级微观经济学/notes.md",
-    "image/a441673636ef2141d31ed846ab7388f.jpg",
     "中级微观经济学/Lecture7-Technology.md",
     "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
     "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
-    "image/Pasted image 20231127142502.png",
-    "image/Pasted image 20231127141826.png",
-    "抽象代数/环论/环论2-同态与理想.md",
     "抽象代数/作业/5a-Par2.md",
     "抽象代数/作业/5a-Part1.md",
     "抽象代数/群论/半期往年题.md",
     "未命名.canvas",
     "README.md",
     "抽象代数/群论/Dummit_6-2.md",
-    "抽象代数/环论/环论1-环的基本概念.md",
     "ML+OP/ML1.md",
     "抽象代数/群论/半期复习ppt.md",
     "记录.md",
     "image",
-    "新建文件夹",
     "抽象代数/抽象代数4a_Part3.md",
     "抽象代数/抽象代数4a_Part4.md",
     "抽象代数/小结论.md",
@@ -192,8 +194,6 @@
     "概率论/C4.md",
     "概率论",
     "抽象代数/环论",
-    "抽象代数/半期往年题.md",
-    "抽象代数",
-    "ML+OP"
+    "抽象代数"
   ]
 }
