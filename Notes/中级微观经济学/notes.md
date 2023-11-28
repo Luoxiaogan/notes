@@ -1,0 +1,3 @@
+# notes
+
+## Partial Equilibrium

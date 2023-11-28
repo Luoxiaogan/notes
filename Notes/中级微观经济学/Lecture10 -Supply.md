@@ -1,6 +1,6 @@
 # notes
 
-## Lecture10 -Supply-&-Partial-Equilibrium
+## Lecture10 -Supply
 
 ### 1.市场环境(Market environments)
 
