@@ -1,0 +1,71 @@
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath, amsthm, amssymb, graphicx}
+\usepackage[bookmarks=true, colorlinks, citecolor=blue, linkcolor=black]{hyperref}
+\usepackage{geometry}
+\geometry{left=2.54cm, right=2.54cm, top=3.18cm, bottom=3.18cm}
+\linespread{1.5}
+\newtheorem{theorem}{theorem}[section]
+\newtheorem{definition}[theorem]{definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{推论}
+\newtheorem{example}[theorem]{例}
+\newtheorem{proposition}[theorem]{命题}
+\newtheorem{remark}[theorem]{Remark}
+% 导言区
+
+\title{随想随感}
+\author{Rogan}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+\section{chapter 1}
+
+\begin{lemma}
+    If a rectangle is the almost disjoint union of finitely many other rectangles, say $R=\bigcup _{k=1}^{N}R_k$, then$$|R|=\sum_{k=1}^N |R_k|$$
+
+    If $R,R_1,. . . ,R_N $are rectangles, and $R\in \bigcup _{k=1}^{N}R_k$ ,then $$|R|\leq \sum_{k=1}^N |R_k|$$
+\end{lemma}
+
+\begin{remark}
+    有限个几乎不交的并集，求面积可以直接相加；有交就小于等于。
+\end{remark}
+
+\begin{theorem}
+    Every open subset $\mathcal{O} $ of $R$ can be writen uniquely as acountable union of disjoint open intervals
+\end{theorem}
+
+\begin{remark}
+    任何开区间可以被分解为可数个不交的开区间的并集
+\end{remark}
+
+\begin{theorem}
+    Every open subset $\mathcal{O} $ of $\mathbb{R} ^{d}$ ,$d\geq 1$, can be written as acountable union of almost disjoint closed cubes
+\end{theorem}
+
+\begin{remark}
+    用小立方体(d维)去不断逼近
+\end{remark}
+
+\begin{definition}[Cantor Set]
+    非空，有界，闭集，完全不连通，不可数集，零测
+\end{definition}
+
+\begin{definition}[Exterior Measure]
+    
+    if $E$ is any subset of $\mathbb{R} ^d$, the exterior measure of $E$ is $$m_{*}(E)=\inf \sum_{j=1}^{\infty}|Q_j|$$
+\end{definition}
+
+consedering any arbitrary covering of a closed cube $Q\in \bigcup_{j=1}^{\infty}Q_j$($Q_j$ is also closed cube), note that it suffices to prove that$$|Q|\leq \sum_{j=1}^{\infty}|Q_j|$$
+
+稍微放大$Q_j$, 得到 open cube $S_j$, 之后可以利用有限覆盖定理, 得到 $$|Q|\leq (1+\epsilon)\sum_{j=1}^{M}|Q_j| \leq (1+\epsilon)\sum_{j=1}^{\infty}|Q_j|$$ So $$|Q|\leq m_{*}(Q)$$
+
+对于 closed cube $Q$, $m_{*}(Q)\leq|Q|$显然, $|Q|\leq m_{*}(Q)$ 需要稍微放大$Q_j$成 open cube $S_j$, 之后用有限覆盖定理
+
+对于 open cube $Q$, 取 closure of Q, 那么$m_{*}(Q)\leq|Q|$也同样显然，$|Q|\leq m_{*}(Q)$ 需要取任意被$Q$覆盖的 open cube $Q_0$, 而任何对于$Q$的立方体开覆盖必然覆盖$Q_0$, 所以下确界 $m_*(Q_)\geq |Q_0|$, 又可以取充分接近, 可得$|Q|\leq m_{*}(Q)$
+\end{document}

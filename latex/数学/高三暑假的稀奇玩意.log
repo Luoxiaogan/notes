@@ -1,0 +1,2227 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.21)  19 AUG 2023 10:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**高三暑假的稀奇玩意
+(./高三暑假的稀奇玩意.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexart.cls (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
+File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count185
+\l__pdf_internal_box=\box51
+))
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (CTEX)
+(c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\l__ctex_tmp_int=\count186
+\l__ctex_tmp_box=\box52
+\l__ctex_tmp_dim=\dimen140
+\g__ctex_section_depth_int=\count187
+\g__ctex_font_size_int=\count188
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
+)
+
+Class ctexart Warning: UTF8 will be used as the default encoding.
+
+(c:/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(c:/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen141
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
+ (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+Package: CJKutf8 2021/10/16 4.8.5
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2021/10/16 4.8.5
+ (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2021/10/16 4.8.5
+) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+\CJK@indent=\box53
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)) (c:/texlive/2023/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+Package: CJKpunct 2016/05/14 4.8.4
+\CJKpunct@cnta=\count197
+\CJKpunct@cntb=\count198
+\CJKpunct@cntc=\count199
+\CJKpunct@cntd=\count266
+\CJKpunct@cnte=\count267
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2026 (decimal 8230)
+ (c:/texlive/2023/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
+Package: CJKspace 2021/10/16 3.8.0
+) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+) (c:/texlive/2023/texmf-dist/tex/latex/ctex/ctexspa.def
+File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
+)
+\ccwd=\dimen142
+\l__ctex_ccglue_skip=\skip50
+)
+\l__ctex_ziju_dim=\dimen143
+ (c:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count268
+\l__zhnum_tmp_int=\count269
+ (c:/texlive/2023/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
+))
+\l__ctex_heading_skip=\skip51
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-article.def
+File: ctex-scheme-chinese-article.def 2022/07/14 v2.5.10 Chinese scheme for article (CTEX)
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
+)) (c:/texlive/2023/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTEX)
+)) (c:/texlive/2023/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen144
+)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count270
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count271
+\leftroot@=\count272
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count273
+\DOTSCASE@=\count274
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count275
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count276
+\dotsspace@=\muskip16
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks19
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks20
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks21
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks28
+) (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks29
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+ (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count282
+)
+\@linkdim=\dimen155
+\Hy@linkcounter=\count283
+\Hy@pagecounter=\count284
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count285
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4060.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4060.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4060.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count286
+ (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen156
+ (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count287
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count288
+\c@Item=\count289
+\c@Hfootnote=\count290
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count291
+\c@bookmark@seq@number=\count292
+ (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip58
+) (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen159
+\Gm@wd@mp=\dimen160
+\Gm@odd@mp=\dimen161
+\Gm@even@mp=\dimen162
+\Gm@layoutwidth=\dimen163
+\Gm@layoutheight=\dimen164
+\Gm@layouthoffset=\dimen165
+\Gm@layoutvoffset=\dimen166
+\Gm@dimlist=\toks30
+)
+\c@theorem=\count296
+ (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+) (c:/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+) (./高三暑假的稀奇玩意.aux)
+\openout1 = `高三暑假的稀奇玩意.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+ (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count297
+\scratchdimen=\dimen167
+\scratchbox=\box56
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen168
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks32
+) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 20.
+ (./高三暑假的稀奇玩意.out) (./高三暑假的稀奇玩意.out)
+\@outlinefile=\write3
+\openout3 = `高三暑假的稀奇玩意.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(90.47955pt, 664.08774pt, 90.47955pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=664.08774pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-18.79044pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 23.
+(c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
+)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 26.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
+File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
+
+] (./高三暑假的稀奇玩意.toc)
+\tf@toc=\write4
+\openout4 = `高三暑假的稀奇玩意.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 \newpage
+              [1]
+./高三暑假的稀奇玩意.tex:47: Undefined control sequence.
+l.47 \chapter
+             {数学分析-\uppercase\expandafter{\romannumeral1}-实数理论}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
+
+ []
+
+Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyle (quanjiao) on input line 61.
+
+LaTeX Warning: Command \b invalid in math mode on input line 64.
+
+./高三暑假的稀奇玩意.tex:64: Missing $ inserted.
+<inserted text> 
+                $
+l.64          &(1)A \neq \b\varnothing
+                                       ，B\neq \varnothing;、\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./高三暑假的稀奇玩意.tex:64: Missing $ inserted.
+<inserted text> 
+                $
+l.64          &(1)A \neq \b\varnothing
+                                       ，B\neq \varnothing;、\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 66.
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 66.
+(c:/texlive/2023/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 66.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 66.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 77.
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 77.
+(c:/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 77.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 86.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 87.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 87.
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+./高三暑假的稀奇玩意.tex:98: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 \begin{note}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:102: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 109.
+
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 109.
+
+LaTeX Warning: Command \textless invalid in math mode on input line 109.
+
+
+./高三暑假的稀奇玩意.tex:111: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:114: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 118.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 118.
+
+
+./高三暑假的稀奇玩意.tex:122: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:124: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (17.59438pt too wide) in paragraph at lines 123--126
+[]\C70/rm/m/n/12/8b � \C70/rm/m/n/12/66 ^^N \C70/rm/m/n/12/60 ^^] \C70/rm/m/n/12/8d �|\C70/rm/m/n/12/ff ^^Z| \C70/rm/m/n/12/4f ^^? \C70/rm/m/n/12/75 ( \C70/rm/m/n/12/53 � \C70/rm/m/n/12/8b � \C70/rm/m/n/12/6c �\OT1/cmr/m/n/12 .\C70/rm/m/n/12/5d � \C70/rm/m/n/12/77 �$\OML/cmm/m/it/12 P$|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/89 � \C70/rm/m/n/12/8b �$\OML/cmm/m/it/12 Q \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 A[]B[]$\OT1/cmr/m/n/12 .\C70/rm/m/n/12/53 � \C70/rm/m/n/12/4e � \C70/rm/m/n/12/51 H \C70/rm/m/n/12/4e �$\OMS/cmsy/m/n/12 :\OML/cmm/m/it/12 Q \OT1/cmr/m/n/12 =
+ []
+
+[2]
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 133.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 133.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 133.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 133.
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 133.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 135.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 135.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 135.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 135.
+
+
+./高三暑假的稀奇玩意.tex:138: LaTeX Error: Environment remark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138  \begin{remark}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:140: LaTeX Error: \begin{document} ended by \end{remark}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140  \end{remark}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:142: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142  \begin{note}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:144: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144  \end{note}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 157.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 157.
+
+./高三暑假的稀奇玩意.tex:166: Undefined control sequence.
+l.166      &(2)\foall
+                      \epsilon \textgreater 0 \mbox{，}\exists x^{\prime}\i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 166.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 166.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 166.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 166.
+
+[3]
+./高三暑假的稀奇玩意.tex:174: Undefined control sequence.
+l.174      &(2)\foall
+                      \epsilon \textgreater 0 \mbox{，}\exists x^{\prime}\i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 174.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 174.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 174.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 174.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 190.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 190.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 190.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 190.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 193.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 193.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 194.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 194.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 195.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 195.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 204.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 204.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 205.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 205.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 208.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 208.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 208.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 208.
+
+[4]
+
+./高三暑假的稀奇玩意.tex:211: LaTeX Error: Environment remark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 \begin{remark}
+                    [助教老师提供的(1)的证明方法]\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 212.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 212.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 213.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 213.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 215.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 215.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 215.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 215.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 215.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 215.
+
+
+./高三暑假的稀奇玩意.tex:217: LaTeX Error: \begin{document} ended by \end{remark}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \end{remark}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:218: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 \begin{note}
+                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:219: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 (
+       1)也可以表述为$\forall a \in A$，$\forall b\in Q$且$b \textle...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 219.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 219.
+
+
+./高三暑假的稀奇玩意.tex:220: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:221: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.221 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 222.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 222.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 223.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 223.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 224.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 224.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 225.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 225.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 225.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 225.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 226.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 226.
+
+
+./高三暑假的稀奇玩意.tex:227: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:229: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 236.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 236.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 236.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 236.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 237.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 237.
+
+
+./高三暑假的稀奇玩意.tex:241: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5]
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 248.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 248.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 248.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 248.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 251.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 251.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 251.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 251.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 252.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 252.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 252.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 252.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 252.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 252.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 266.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 266.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 269.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 273.
+
+./高三暑假的稀奇玩意.tex:273: Undefined control sequence.
+l.273 ...et A_a$，同理，$y_2\in A_{y_1}\subste
+                                                   A_b$，所以，由$A$的...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
+
+ []
+
+./高三暑假的稀奇玩意.tex:311: Undefined control sequence.
+l.311 \chapter
+              {数学分析-\uppercase\expandafter{\romanquanxujinumeral1}-�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./高三暑假的稀奇玩意.tex:311: Undefined control sequence.
+l.311 ...percase\expandafter{\romanquanxujinumeral
+                                                  1}-数列极限}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 315.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 315.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 315.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 315.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 317.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 317.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 325.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 325.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 325.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 325.
+
+
+Overfull \hbox (1.12544pt too wide) in paragraph at lines 325--326
+[][]\C70/rm/bx/n/12/5b � \C70/rm/bx/n/12/4e I \OT1/cmr/bx/n/12 4.2 \OT1/cmr/m/n/12 (\C70/rm/m/n/12/53 � \C70/rm/m/n/12/65 c \C70/rm/m/n/12/5e � \C70/rm/m/n/12/52 ^^W \C70/rm/m/n/12/76 � \C70/rm/m/n/12/5b � \C70/rm/m/n/12/4e I\OT1/cmr/m/n/12 )\OT1/cmr/bx/n/12 . []\C70/rm/m/it/12/8b �$\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x[]\OMS/cmsy/m/n/12 g$\C70/rm/m/it/12/66 / \C70/rm/m/it/12/4e ^^@ * \C70/rm/m/it/12/65 p \C70/rm/m/it/12/52 ^^W\OT1/cmr/m/it/12 .\C70/rm/m/it/12/82 �$\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 a \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 R$\OT1/cmr/m/it/12 ,$\OMS/cmsy/m/n/12 9\OML/cmm/m/it/12 ^^O[][]\OT1/cmr/m/n/12 0$\OT1/cmr/m/it/12 ,$\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 N \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 N$\OT1/cmr/m/it/12 ,\C70/rm/m/it/12/60 ; \C70/rm/m/it/12/5b X \C70/rm/m/it/12/57 ($\OML/cmm/m/it/12 n[][]N$|\C70/rm/m/it/12/ff ^^L|
+ []
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 330.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 330.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 330.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 330.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 330.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 330.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 331.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 331.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 331.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 331.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 331.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 331.
+
+[7]
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 335.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 335.
+
+
+Overfull \hbox (12.7748pt too wide) in paragraph at lines 335--337
+[][]\C70/rm/bx/n/12/5b � \C70/rm/bx/n/12/4e I \OT1/cmr/bx/n/12 4.4 \OT1/cmr/m/n/12 (\C70/rm/m/n/12/67 	 \C70/rm/m/n/12/75 L \C70/rm/m/n/12/4e ^^N \C70/rm/m/n/12/65 � \C70/rm/m/n/12/75 L\OT1/cmr/m/n/12 )\OT1/cmr/bx/n/12 . []\C70/rm/m/it/12/8b �$\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x[]\OMS/cmsy/m/n/12 g$\C70/rm/m/it/12/66 / \C70/rm/m/it/12/4e ^^@ * \C70/rm/m/it/12/65 p \C70/rm/m/it/12/52 ^^W|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/82 �$\OMS/cmsy/m/n/12 9\OML/cmm/m/it/12 M[]\OT1/cmr/m/n/12 0$\OT1/cmr/m/it/12 ,$\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 n$|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/67 	$\OMS/cmsy/m/n/12 k\OML/cmm/m/it/12 x[]\OMS/cmsy/m/n/12 k ^^T \OML/cmm/m/it/12 M$\C70/rm/m/it/12/62 ^^P \C70/rm/m/it/12/7a �|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/52 ^^Y \C70/rm/m/it/12/79 �$\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 x[]\OMS/cmsy/m/n/12 g$\C70/rm/m/it/12/66 /
+ []
+
+
+./高三暑假的稀奇玩意.tex:345: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.345 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:347: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.347 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./高三暑假的稀奇玩意.tex:355: Undefined control sequence.
+l.355 (1)若$a\texteless
+                         b$，则对于任意给定的$c\in(a,b)$，$\exists...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 355.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 355.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 355.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 355.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 355.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 355.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 356.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 356.
+
+
+./高三暑假的稀奇玩意.tex:359: LaTeX Error: Environment remark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 \begin{remark}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:361: LaTeX Error: \begin{document} ended by \end{remark}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 \end{remark}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 374.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 374.
+
+[8] [9]
+./高三暑假的稀奇玩意.tex:418: Undefined control sequence.
+l.418 \chapter
+              {数学分析-\uppercase\expandafter{\romannumeral1}-函数极...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./高三暑假的稀奇玩意.tex:425: Undefined control sequence.
+<recently read> \foralll 
+                         
+l.425 ...�义，若存在实数$A$,使得$\foralll
+                                                   \epsilon \textgreater 0,\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 425.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 425.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 425.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 425.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 425.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 425.
+
+
+Overfull \hbox (60.00502pt too wide) in paragraph at lines 431--432
+[][]\C70/rm/bx/n/12/5b � \C70/rm/bx/n/12/74 ^^F \OT1/cmr/bx/n/12 6.2 \OT1/cmr/m/n/12 (\C70/rm/m/n/12/51 � \C70/rm/m/n/12/65 p \C70/rm/m/n/12/67 � \C70/rm/m/n/12/96 P \C70/rm/m/n/12/76 � \C70/rm/m/n/12/53 U \C70/rm/m/n/12/8c ^^C \C70/rm/m/n/12/67 	 \C70/rm/m/n/12/75 L \C70/rm/m/n/12/65 6 [ \C70/rm/m/n/12/53 � \C70/rm/m/n/12/74 ^^F\OT1/cmr/m/n/12 )\OT1/cmr/bx/n/12 . []\C70/rm/m/it/12/8b � \C70/rm/m/it/12/51 � \C70/rm/m/it/12/65 p$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ($\OML/cmm/m/it/12 U[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; ^^N[]\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/51 � \C70/rm/m/it/12/67 	 \C70/rm/m/it/12/5b � \C70/rm/m/it/12/4e I|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/82 �$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ($\OML/cmm/m/it/12 U[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; ^^N[]\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/51 �
+ []
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 444.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 445.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 445.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 445.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 445.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 445.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 445.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 445.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 445.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 451.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 451.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 451.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 451.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 451.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 451.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 451.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 451.
+
+[10
+
+]
+./高三暑假的稀奇玩意.tex:456: Undefined control sequence.
+l.456 ($\Rightarrow$)：设$\lim\imtis
+                                      _{x\to x_0}f(x)=A$，则$$\forall \eps...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 456.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 456.
+
+
+Overfull \hbox (44.24527pt too wide) in paragraph at lines 464--465
+[][]\C70/rm/bx/n/12/5b � \C70/rm/bx/n/12/4e I \OT1/cmr/bx/n/12 7.1 \OT1/cmr/m/n/12 (\C70/rm/m/n/12/51 � \C70/rm/m/n/12/65 p \C70/rm/m/n/12/57 ( \C70/rm/m/n/12/67 � \C70/rm/m/n/12/4e ^^@ \C70/rm/m/n/12/70 � \C70/rm/m/n/12/59 ^^D \C70/rm/m/n/12/8f � \C70/rm/m/n/12/7e � \C70/rm/m/n/12/76 � \C70/rm/m/n/12/5b � \C70/rm/m/n/12/4e I\OT1/cmr/m/n/12 )\OT1/cmr/bx/n/12 . []\C70/rm/m/it/12/8b � \C70/rm/m/it/12/51 � \C70/rm/m/it/12/65 p$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ($\OML/cmm/m/it/12 U\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; ^^N[]\OT1/cmr/m/n/12 ) (\OML/cmm/m/it/12 ^^N[] > \OT1/cmr/m/n/12 0)$\C70/rm/m/it/12/51 � \C70/rm/m/it/12/67 	 \C70/rm/m/it/12/5b � \C70/rm/m/it/12/4e I|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/82 �$[] \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) =
+ []
+
+
+Overfull \hbox (5.1944pt too wide) in paragraph at lines 468--469
+[][]\C70/rm/bx/n/12/5b � \C70/rm/bx/n/12/4e I \OT1/cmr/bx/n/12 7.2 \OT1/cmr/m/n/12 (\C70/rm/m/n/12/51 � \C70/rm/m/n/12/65 p \C70/rm/m/n/12/57 ( \C70/rm/m/n/12/67 � \C70/rm/m/n/12/4e ^^@ \C70/rm/m/n/12/70 � \C70/rm/m/n/12/51 � \C70/rm/m/n/12/53 U \C70/rm/m/n/12/4f � \C70/rm/m/n/12/8f � \C70/rm/m/n/12/7e � \C70/rm/m/n/12/76 � \C70/rm/m/n/12/5b � \C70/rm/m/n/12/4e I\OT1/cmr/m/n/12 )\OT1/cmr/bx/n/12 . []\C70/rm/m/it/12/82 � \C70/rm/m/it/12/51 � \C70/rm/m/it/12/65 p$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ($\OML/cmm/m/it/12 U[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; ^^N[]\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/4e 
+ \C70/rm/m/it/12/67 	 \C70/rm/m/it/12/5b � \C70/rm/m/it/12/4e I|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/4e ^^T$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 +
+ []
+
+
+Overfull \hbox (22.01172pt too wide) in paragraph at lines 473--474
+[][]\C70/rm/bx/n/12/5b � \C70/rm/bx/n/12/4e I \OT1/cmr/bx/n/12 7.3 \OT1/cmr/m/n/12 (\C70/rm/m/n/12/51 � \C70/rm/m/n/12/65 p \C70/rm/m/n/12/57 ( \C70/rm/m/n/12/67 � \C70/rm/m/n/12/4e ^^@ \C70/rm/m/n/12/53 : \C70/rm/m/n/12/95 � \C70/rm/m/n/12/4e 
+ \C70/rm/m/n/12/8f � \C70/rm/m/n/12/7e � \C70/rm/m/n/12/76 � \C70/rm/m/n/12/5b � \C70/rm/m/n/12/4e I\OT1/cmr/m/n/12 )\OT1/cmr/bx/n/12 . []\C70/rm/m/it/12/82 � \C70/rm/m/it/12/51 � \C70/rm/m/it/12/65 p$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ($\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 ]$\C70/rm/m/it/12/4e 
+ \C70/rm/m/it/12/67 	 \C70/rm/m/it/12/5b � \C70/rm/m/it/12/4e I\OT1/cmr/m/it/12 .\C70/rm/m/it/12/82 � \C70/rm/m/it/12/5b �$\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 )$\OT1/cmr/m/it/12 ,$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 (
+ []
+
+
+Overfull \hbox (17.03192pt too wide) in paragraph at lines 473--474
+\C70/rm/m/it/12/70 �$\OML/cmm/m/it/12 x$\C70/rm/m/it/12/59 ^^D \C70/rm/m/it/12/8f � \C70/rm/m/it/12/7e �|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/52 ^^Y \C70/rm/m/it/12/79 �$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ($\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/51 � \C70/rm/m/it/12/8f � \C70/rm/m/it/12/7e �|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/6b d \C70/rm/m/it/12/65 � \C70/rm/m/it/12/8b � \C70/rm/m/it/12/4e :$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 )$|\C70/rm/m/it/12/ff ^^[| \C70/rm/m/it/12/82 �$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 )$|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/4e ^^T$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 (
+ []
+
+[11]
+./高三暑假的稀奇玩意.tex:513: Undefined control sequence.
+l.513 ...,M]$,即对${\forall}\eta \in(m,M),\exist
+                                                   \xi \in (a,b)$,使得$f(\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 517.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 517.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 517.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 517.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 521.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 521.
+
+./高三暑假的稀奇玩意.tex:521: Undefined control sequence.
+<recently read> \exist 
+                       
+l.521 ...orall \epsilon \textgreater 0$,总$\exist
+                                                   \delta \textgreater 0$,�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 521.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 521.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 521.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 521.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 521.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 521.
+
+
+Overfull \hbox (47.83147pt too wide) in paragraph at lines 521--522
+[][]\C70/rm/bx/n/12/5b � \C70/rm/bx/n/12/74 ^^F \OT1/cmr/bx/n/12 7.13 \OT1/cmr/m/n/12 (\C70/rm/m/n/12/4e ^^@ \C70/rm/m/n/12/81 � \C70/rm/m/n/12/8f � \C70/rm/m/n/12/7e � \C70/rm/m/n/12/76 � \C70/rm/m/n/12/5b � \C70/rm/m/n/12/4e I\OT1/cmr/m/n/12 )\OT1/cmr/bx/n/12 . []\C70/rm/m/it/12/8b � \C70/rm/m/it/12/51 � \C70/rm/m/it/12/65 p$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ( \C70/rm/m/it/12/53 : \C70/rm/m/it/12/95 �$\OML/cmm/m/it/12 I$\C70/rm/m/it/12/4e 
+ \C70/rm/m/it/12/67 	 \C70/rm/m/it/12/5b � \C70/rm/m/it/12/4e I|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/82 �$\OML/cmm/m/it/12 x[]; x[] \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 I$|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/5b �$\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 ^^O[]\OT1/cmr/m/n/12 0$\OT1/cmr/m/it/12 ,\C70/rm/m/it/12/60 ;$\OML/cmm/m/it/12 ^^N[]\OT1/cmr/m/n/12 0$\OT1/cmr/m/it/12 ,\C70/rm/m/it/12/5f S$\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12 ^^@
+ []
+
+./高三暑假的稀奇玩意.tex:528: Undefined control sequence.
+l.528 \chapter
+              {数学分析-\uppercase\expandafter{\romannumeral1}-一元微...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./高三暑假的稀奇玩意.tex:530: LaTeX Error: Environment introduction undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.530 \begin{introduction}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:531: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.531   \item �
+               ��数和微分的概念及图像解释
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 531
+[][]
+ []
+
+
+./高三暑假的稀奇玩意.tex:532: LaTeX Error: \begin{document} ended by \end{introduction}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 \end{introduction}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./高三暑假的稀奇玩意.tex:539: Undefined control sequence.
+l.539     \lim\limts
+                    _{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[12]
+Overfull \hbox (16.78114pt too wide) in paragraph at lines 540--546
+\C70/rm/m/it/12/5b X \C70/rm/m/it/12/57 (|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/52 ^^Y \C70/rm/m/it/12/79 �$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ( \C70/rm/m/it/12/70 �$\OML/cmm/m/it/12 x[]$\C70/rm/m/it/12/59 ^^D \C70/rm/m/it/12/53 � \C70/rm/m/it/12/5b �|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/5e v \C70/rm/m/it/12/4e ^^T \C70/rm/m/it/12/79 � \C70/rm/m/it/12/6b d \C70/rm/m/it/12/67 � \C70/rm/m/it/12/96 P \C70/rm/m/it/12/50 < \C70/rm/m/it/12/4e :$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/57 ($\OML/cmm/m/it/12 x[]$\C70/rm/m/it/12/59 ^^D \C70/rm/m/it/12/76 � \C70/rm/m/it/12/5b � \C70/rm/m/it/12/65 p|\C70/rm/m/it/12/ff ^^L| \C70/rm/m/it/12/8b � \C70/rm/m/it/12/4e :$\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )$\C70/rm/m/it/12/62 ^^V \C70/rm/m/it/12/80 ^^E$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--546
+
+ []
+
+
+./高三暑假的稀奇玩意.tex:548: LaTeX Error: Environment remark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.548 \begin{remark}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:550: LaTeX Error: \begin{document} ended by \end{remark}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.550 \end{remark}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:552: LaTeX Error: Environment remark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 \begin{remark}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:554: LaTeX Error: \begin{document} ended by \end{remark}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.554 \end{remark}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:556: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.556 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:559: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.559 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
+
+ []
+
+./高三暑假的稀奇玩意.tex:566: Undefined control sequence.
+l.566     \lim\limts
+                    _{\Delta x\to x_0^{+}}\frac{f(x_0+\Delta x)-f(x_0)}{\Del...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--570
+
+ []
+
+./高三暑假的稀奇玩意.tex:571: Undefined control sequence.
+l.571    \lim\limts
+                   _{\Delta x\to x_0^{-}}\frac{f(x_0+\Delta x)-f(x_0)}{\Delt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+
+ []
+
+
+./高三暑假的稀奇玩意.tex:584: LaTeX Error: Environment remark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.584 \begin{remark}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:586: LaTeX Error: \begin{document} ended by \end{remark}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.586 \end{remark}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 619--623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--623
+
+ []
+
+[14]
+./高三暑假的稀奇玩意.tex:638: Missing { inserted.
+<to be read again> 
+                   $
+l.638 也记为$y^{'}_$
+                       
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./高三暑假的稀奇玩意.tex:638: Missing } inserted.
+<inserted text> 
+                }
+l.638 也记为$y^{'}_$
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--653
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 657--659
+
+ []
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 669.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 669.
+
+
+Overfull \hbox (1.17357pt too wide) in paragraph at lines 669--670
+[]\C70/rm/m/n/12/4e ^^M \C70/rm/m/n/12/59 � \C70/rm/m/n/12/8b �$\OML/cmm/m/it/12 x[]$\C70/rm/m/n/12/66 / \C70/rm/m/n/12/51 � \C70/rm/m/n/12/65 p$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/n/12/76 � \C70/rm/m/n/12/67 � \C70/rm/m/n/12/59 ' \C70/rm/m/n/12/50 < \C70/rm/m/n/12/70 � |\C70/rm/m/n/12/ff ^^H|\C70/rm/m/n/12/82 � \C70/rm/m/n/12/4e : \C70/rm/m/n/12/67 � \C70/rm/m/n/12/5c ^^O \C70/rm/m/n/12/50 < \C70/rm/m/n/12/70 � \C70/rm/m/n/12/53 � \C70/rm/m/n/12/54 ^^L \C70/rm/m/n/12/74 ^^F \C70/rm/m/n/12/8b � \C70/rm/m/n/12/66 ^^N|\C70/rm/m/n/12/ff 	||^^L| \C70/rm/m/n/12/52 ^^Y$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )$,\C70/rm/m/n/12/62 @
+ []
+
+
+Overfull \hbox (16.10019pt too wide) in paragraph at lines 669--670
+\C70/rm/m/n/12/5f S$\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 U[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; ^^N[]\OT1/cmr/m/n/12 )$\C70/rm/m/n/12/65 �|\C70/rm/m/n/12/ff ^^L| $\OML/cmm/m/it/12 x[]x[]$\OT1/cmr/m/n/12 ,\C70/rm/m/n/12/62 @ \C70/rm/m/n/12/4e �$[] \OMS/cmsy/m/n/12 ^^U \OT1/cmr/m/n/12 0$|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/75 1 \C70/rm/m/n/12/51 � \C70/rm/m/n/12/65 p \C70/rm/m/n/12/67 � \C70/rm/m/n/12/96 P \C70/rm/m/n/12/76 � \C70/rm/m/n/12/4f � \C70/rm/m/n/12/5e � \C70/rm/m/n/12/60 '|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/53 � \C70/rm/m/n/12/5f �$[] [] \OMS/cmsy/m/n/12 ^^U
+ []
+
+
+Overfull \hbox (13.64207pt too wide) in paragraph at lines 669--670
+\OT1/cmr/m/n/12 0$,\C70/rm/m/n/12/54 ^^L \C70/rm/m/n/12/74 ^^F|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/5f S$\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 U[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; ^^N[]\OT1/cmr/m/n/12 )$\C70/rm/m/n/12/65 �\OT1/cmr/m/n/12 ,\C70/rm/m/n/12/53 � \C70/rm/m/n/12/5f �$[] [] \OMS/cmsy/m/n/12 ^^T \OT1/cmr/m/n/12 0$,\C70/rm/m/n/12/56 � \C70/rm/m/n/12/4e :$\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 )$\C70/rm/m/n/12/5b X \C70/rm/m/n/12/57 (|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/80 ^^L$\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 +) =
+ []
+
+[15]
+
+./高三暑假的稀奇玩意.tex:679: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.679 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:681: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.681 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (14.4695pt too wide) in paragraph at lines 684--685
+[]\C70/rm/m/n/12/75 1 \C70/rm/m/n/12/4e � \C70/rm/m/n/12/51 � \C70/rm/m/n/12/65 p$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/n/12/57 ($\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 ]$\C70/rm/m/n/12/4e 
+ \C70/rm/m/n/12/8f � \C70/rm/m/n/12/7e �|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/75 1 \C70/rm/m/n/12/67 ^^@ \C70/rm/m/n/12/50 < \C70/rm/m/n/12/5b � \C70/rm/m/n/12/74 ^^F \C70/rm/m/n/12/53 � \C70/rm/m/n/12/77 �|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/5f � \C70/rm/m/n/12/71 6 \C70/rm/m/n/12/5b X \C70/rm/m/n/12/57 ( \C70/rm/m/n/12/67 ^^@ \C70/rm/m/n/12/59 ' \C70/rm/m/n/12/50 <$\OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 ,\C70/rm/m/n/12/67 ^^@ \C70/rm/m/n/12/5c ^^O \C70/rm/m/n/12/50 <$\OML/cmm/m/it/12 m$\OT1/cmr/m/n/12 .\C70/rm/m/n/12/82 �$\OML/cmm/m/it/12 M \OT1/cmr/m/n/12 =
+ []
+
+
+./高三暑假的稀奇玩意.tex:694: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.694 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no � in font cmr12!
+
+./高三暑假的稀奇玩意.tex:696: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.696 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./高三暑假的稀奇玩意.tex:699: Undefined control sequence.
+<recently read> \exist 
+                       
+l.699 ...a)=g(b)$,由$Rolle$定理，可知$\exist
+                                                   \xi \in （a,b）$使得$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./高三暑假的稀奇玩意.tex:710: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.710 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (34.986pt too wide) in paragraph at lines 711--712
+[]$\OML/cmm/m/it/12 Cauchy$\C70/rm/m/n/12/4e - \C70/rm/m/n/12/50 < \C70/rm/m/n/12/5b � \C70/rm/m/n/12/74 ^^F \C70/rm/m/n/12/66 /$\OML/cmm/m/it/12 Lagrange$\C70/rm/m/n/12/4e - \C70/rm/m/n/12/50 < \C70/rm/m/n/12/5b � \C70/rm/m/n/12/74 ^^F \C70/rm/m/n/12/76 � \C70/rm/m/n/12/8f � \C70/rm/m/n/12/4e ^^@ \C70/rm/m/n/12/6b e \C70/rm/m/n/12/63 � \C70/rm/m/n/12/5e ^^?|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/4e � \C70/rm/m/n/12/53 � \C70/rm/m/n/12/80 � \C70/rm/m/n/12/75 ( \C70/rm/m/n/12/4e � \C70/rm/m/n/12/66 > \C70/rm/m/n/12/79 : \C70/rm/m/n/12/65 � \C70/rm/m/n/12/7a  \C70/rm/m/n/12/76 �$\OML/cmm/m/it/12 Lagrange$\C70/rm/m/n/12/4e -
+ []
+
+[16]
+
+./高三暑假的稀奇玩意.tex:719: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.719 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:721: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.721 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:723: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.723 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (39.36755pt too wide) in paragraph at lines 722--724
+[]\C70/rm/m/n/12/62 ^^Q \C70/rm/m/n/12/4e � \C70/rm/m/n/12/66 / \C70/rm/m/n/12/62 �$\OML/cmm/m/it/12 ^^X$\C70/rm/m/n/12/4e � \C70/rm/m/n/12/51 e \C70/rm/m/n/12/76 �$[] \OT1/cmr/m/n/12 = []$,\C70/rm/m/n/12/62 @ \C70/rm/m/n/12/4e �|\C70/rm/m/n/12/ff ^^L| \C70/rm/m/n/12/8f � \C70/rm/m/n/12/91 � \C70/rm/m/n/12/76 �$\OML/cmm/m/it/12 ^^X$\C70/rm/m/n/12/66 /$\OML/cmm/m/it/12 t$\C70/rm/m/n/12/8f t \C70/rm/m/n/12/4e 
+ \C70/rm/m/n/12/76 � \C70/rm/m/n/12/65 p\OT1/cmr/m/n/12 .\C70/rm/m/n/12/80 ^^L \C70/rm/m/n/12/5b � \C70/rm/m/n/12/74 ^^F \C70/rm/m/n/12/4e - \C70/rm/m/n/12/76 �$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$,$\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\C70/rm/m/n/12/57 ($\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 a; b\OT1/cmr/m/n/12 ]$\C70/rm/m/n/12/4e 
+
+ []
+
+
+./高三暑假的稀奇玩意.tex:725: LaTeX Error: Environment note undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.725 \begin{note}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:730: LaTeX Error: \begin{document} ended by \end{note}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.730 \end{note}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./高三暑假的稀奇玩意.tex:737: Undefined control sequence.
+<recently read> \exist 
+                       
+l.737 ...所以，由$Rolle$定理可知，$\exist
+                                                   \xi \in (a,b)$,满足$h^{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./高三暑假的稀奇玩意.tex:752: LaTeX Error: Environment remark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.752 \begin{remark}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./高三暑假的稀奇玩意.tex:762: LaTeX Error: \begin{document} ended by \end{remark}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.762 \end{remark}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./高三暑假的稀奇玩意.tex:772: Undefined control sequence.
+<argument> ...0;\\ g^{'}(x)\neq 0;\\ \lim \limtis 
+                                                  _{x\to a}\frac {f^{'}(x)}{...
+l.772 \end{align*}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./高三暑假的稀奇玩意.tex:772: Undefined control sequence.
+<argument> ...0;\\ g^{'}(x)\neq 0;\\ \lim \limtis 
+                                                  _{x\to a}\frac {f^{'}(x)}{...
+l.772 \end{align*}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about wh

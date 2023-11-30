@@ -1,0 +1,1465 @@
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath, amsthm, amssymb, graphicx}
+\usepackage[bookmarks=true, colorlinks, citecolor=blue, linkcolor=black]{hyperref}
+\usepackage{geometry}
+\geometry{left=2.54cm, right=2.54cm, top=3.18cm, bottom=3.18cm}
+\linespread{1.5}
+\pagenumbering{Roman}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{definition}[theorem]{定义}
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+\newtheorem{example}[theorem]{例}
+\newtheorem{proposition}[theorem]{命题}
+% 导言区
+
+\title{我的第一个\LaTeX 文档}
+\author{Rogan}
+\date{\today}
+
+\begin{document}
+
+\begin{center}
+    \Huge\textbf{前言}
+\end{center}~\
+
+日拱一卒，坚持一个月，看看我们的变化\\
+
+努力者多助，摆烂者寡助\\
+
+完成数学分析-\uppercase\expandafter{\romannumeral1}，写好讲义，厘清概念，日拱一卒。
+~\\
+\begin{flushright}
+    \begin{tabular}{c}
+        南开大祭酒\\
+        2022年8月8日
+    \end{tabular}
+\end{flushright}
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\chapter{数学分析-\uppercase\expandafter{\romannumeral1}-实数理论}
+
+\section{戴德金分割}
+1.我们首先来看有理数$Q$，有理数可以表示为：
+\begin{equation*}
+    \frac{p}{q}\;\;\;\;q\in N^{*}\mbox{,}p\in Z
+\end{equation*}
+有理数可以进行四则运算，满足交换律，分配律，结合律，并且有理数对于四则运算具有封闭性，构成一个有理数域.\\
+有理数集有以下性质：\\
+(1)有理数集是全序集：任意两个元素都可以比较大小(通过分析$x-y$的符号来定义大小，而符号通过$p$的符号来定义)\\
+(2)稠密性：任意两个有理数之间还有有理数(与任意有理数任意接近的有理数存在)\\
+
+2.我们再来看无理数,我们中学时是用无限不循环小数来定义无理数的，但这并不严谨，那么我们如何通过我们已知的有理数来定义无理数呢？需要使用戴德金分割.
+\begin{theorem}[戴德金分割]
+设$S$是一个有大小顺序的非空数集，$A$和$B$是它的两个子集，若：
+\begin{equation*}
+    \begin{aligned}
+         &(1)A \neq \b\varnothing ，B\neq \varnothing;、\\
+         &(2)A\cup B=S;\\
+         &(3)\forall a \in A\mbox{，}\forall b \in B\mbox{，都有}a \textless b;\\
+         &(4)A\mbox{中无最大数}
+    \end{aligned}
+\end{equation*}
+则我们讲$A$，$B$称为$S$的一个分划，记为$(A|B)$
+\end{theorem}
+所以要判断我们面对的分划是否是戴德金分划，就需要看$A$，$B$是否满足上述四个条件.
+\begin{example}
+\begin{equation*}
+    \begin{aligned}
+         &A=\{x\textless 0\mbox{或}x\geq 0 \mbox{且} x^{2}\textless 2 \}\\
+         &B=Q \textbackslash A
+    \end{aligned}
+\end{equation*}
+这个例子里$B$中没有最小元素（因为$B$是有理数集，$\sqrt{2}$不在有理数集内）
+\end{example}
+
+\begin{example}
+\begin{equation*}
+    \begin{aligned}
+         &A=\{x\textless 1\mbox{，}x \in Q\}\\
+         &B=Q \textbackslash A
+    \end{aligned}
+\end{equation*}
+$B$中有最小元素
+\end{example}
+所以，我们可以对有理数的分划进行分类：\\
+\begin{align*}
+    &(1)\mbox{有理分划：$B$中有最小元}\\
+     &(2)\mbox{无理分划：$B$中无最小元}
+\end{align*}
+每一个分划对应一个数，那么有理数集的全体分化可以定义为实数集.
+\begin{note}
+实数系是关于极限封闭的数域\\
+实数系是一个以有理数域为子域的有序域\\
+有理数系具有稠密性，但不具有连续性;实数系具有连续性(实数集一个有序的连通域)
+\end{note}
+\section{实数集的性质}
+1.定义实数的大小关系：
+\begin{proposition}
+$R$是全序集（任意两个元素都可以比较大小）
+\end{proposition}
+\begin{proof}
+$\forall \alpha \mbox{，}\beta \in R$，可以表示为$\alpha=A_{\alpha}|B_{\alpha} $，$\beta=A_{\beta}|B_{\beta}$，所以$\alpha=\beta \Leftrightarrow A_{\alpha}=A_{\beta}$，$\alpha \textless \beta \Leftrightarrow A_{\alpha}\subsetneqq A_{\beta}$
+\end{proof}
+\begin{note}
+另一种表述：对$R$的任一分划$(A|B)$，$B$中必有最小数.\\
+$R$中的数可以与数轴上的数一一对应
+\end{note}
+2.定义实数集的分划来证明实数的完备性
+\begin{theorem}[戴德金定理]
+\begin{equation*}
+    A\cup B=R\mbox{，}\forall a\in A \mbox{，}b\in B ,\mbox{有}a\textless b
+\end{equation*}
+则$A$中有最大元或$B$中有最小元
+\end{theorem}
+\begin{note}
+证明思路：使用反证法.已知$P$，要证$Q=A\mbox{中有最大元或}B\mbox{中有最小元}$.可以先令$\neg Q=A\mbox{中无最大元且}B\mbox{中无最小元}$成立，然后由条件$P$推得$\neg Q$不成立，来证明结论$Q$成立.
+\end{note}
+\begin{proof}
+设$A$中无最大元且$B$中无最小元.\\
+令$\widetilde{A}=A\cap Q$，$\widetilde{B}=B\cap Q$，
+\\则$\widetilde{A}$无最大元，$\widetilde{B}$无最小元$^{(1)}$.\\
+所以（心中要对戴德金分割的四点要求过一遍）$\widetilde{A}|\widetilde{B}$为$Q$的一个分划，则$\widetilde{A}|\widetilde{B}\in R$，\\
+然而$\widetilde{A}|\widetilde{B} \not\in A \mbox{，}B$ $^{(2)}$，故矛盾，所以$A$中有最大元或$B$中有最小元
+\end{proof}
+
+（1）假设$\widetilde{A}$中有最大元，那么为了保证$A$没有最大元，那么肯定存在无理数$c\in A$，使得$c\textgreater \widetilde{A}$的最大元，而无理数$c$可以用戴德金分割的形式来表示$c=A_{c}|B_{c}$，那么$\widetilde{A} \subsetneqq A_c$，那么$A_c\textbackslash \widetilde{A}$必然不为空集，那么肯定存在有理数大于$\widetilde{A}$的最大元，而该有理数肯定也属于$\widetilde{A}$，矛盾，所以$\widetilde{A}$中无最大元.\\
+(2)若$\widetilde{A}|\widetilde{B} \in A $，那么$\widetilde{A}|\widetilde{B}$一定为$A$的最大值$^{(3)}$，而$A$中没有最大元，故矛盾.\\
+(3)若$\widetilde{A}|\widetilde{B} \in A $,假设$\widetilde{A}|\widetilde{B}$不是$A$的最大值，即存在$d\in A$,$d \textgreater \widetilde{A}|\widetilde{B}$，而$d=A_d|B_d$，那么$\widetilde{A}\subsetneqq A_d$，那么那么$A_d \textbackslash
+ \widetilde{A}$必然不为空集，那么肯定存在有理数不属于$\widetilde{A}$，矛盾
+ 
+ \begin{remark}
+ 戴德金定理的本意就是在数轴上随便切一刀，那么切下去的那一点肯定对应了一个实数.
+ \end{remark}
+ 
+ \begin{note}
+ 这里的精髓就是假定有更大的数，对这个数做戴德金分割表示，那么可以确定一个在有理数集上的真子集包含关系，就可以推出差集非空，推出矛盾
+ \end{note}
+
+\begin{definition}[稠密性]
+数集E在R上是稠密的，指任意两个实数之间必然存在E的子集
+\end{definition}
+稠密性：直观上指，有理数在数轴上选取的任意线段上存在(不能找到任意两个有理数之间的最小距离)，但不在数轴上选取的任意一点存在(数轴上还有点不能被有理数填充给)，而实数在数轴上选取的任意一点存在，即实数才能完全铺满数轴上的所有点.
+
+3.由实数的完备性来定义上下确界
+\begin{definition}[有界]
+设集合$E \subset R$，且$E \neq \varnothing $.如果存在$M\in R$，使得$\forall x\in E$，都有$x\leq M$，则称$E$是有上界的，并称$M$是$E$的一个上界;\\如果存在$M\in R$，使得$\forall x\in E$，都有$x\geq M$，则称$E$是有下界的，并称$M$是$E$的一个下界\\
+如果$E$既有上界又有下界，则称$E$是有界的.\\
+$E$有界的充分必要条件是
+\begin{equation*}
+    \exists M\textgreater 0\mbox{，使得}\forall x \in E \mbox{，有} |x|\leq M
+\end{equation*}
+\end{definition}
+
+\begin{definition}[上确界与下确界]
+设集合$E \subset R$，且$E \neq \varnothing $.若有$M\in R$满足：
+\begin{equation*}
+\begin{aligned}
+     &(1)M\mbox{是}E\mbox{的一个上界，}\forall x\in E\mbox{，有}x\leq m.\\
+     &(2)\foall \epsilon \textgreater 0 \mbox{，}\exists x^{\prime}\in E \mbox{，有}x^{\prime} \textgreater M-\epsilon
+\end{aligned}
+\end{equation*}
+则称$M$为$E$的上确界，记为$M=\sup E=\sup_{x\in E}\{x\}$\\
+若有$m\in R$满足：
+\begin{equation*}
+\begin{aligned}
+     &(1)m\mbox{是}E\mbox{的一个下界，}\forall x\in E\mbox{，有}x\geq m.\\
+     &(2)\foall \epsilon \textgreater 0 \mbox{，}\exists x^{\prime}\in E \mbox{，有}x^{\prime} \textless m+\epsilon
+\end{aligned}
+\end{equation*}
+则称$m$为$E$的下确界，记为$M=\inf E=\inf_{x\in E}\{x\}$
+\end{definition}
+
+\begin{theorem}[确界存在原理]
+非空有上界实数集必有上确界，非空有下界实数集必有下确界.
+\end{theorem}
+
+\begin{proof}
+方法一：\\
+设$E$是一个非空有上界的数集.若$E$中存在最大数$M$，则
+\begin{equation*}
+    \sup E=\max E=M
+\end{equation*}
+现假设$E$中没有最大数，对$R$做分划:$B$是由$E$的所有上界组成的集合，而$A=R\textbackslash B$.由于$E$有上界，推出$B\neq \varnothing$ ,由于$E\neq \varnothing$，推出$A \neq \varnothing$.并且，对于$\forall a\in A$，$b\in B$，有$a\textless b$$^{(1)}$.并且$A$中没有最大值$^{(2)}$.因此$(A|B)$是$R$的一个分划，从而，由戴德金定理可知，$B$中存在最小数$M$，$M=\sup A$
+\end{proof}
+
+(1)因为$B$是所有上界的集合，所以$a\textless b$\\
+(2)先证明$E\subset A$.假设$E$中有元素$e$不属于$A$，那么$e\in B$，所以$e$为$E$的一个上界，又因为$E$中无最大数，那么必然$\exists t\in E$，使得$t\textgreater e$，这与$e$为上界矛盾.所以$E\subset A$.\\
+在证明$A$中没有最大值.假设$A$有最大值，那么$A$肯定不等于$E$，即$E\subsetneqq A$，设$A$的最大值为$a$,那么$a\not\in E$，所以$\forall \epsilon \in E$，必然满足$\epsilon \textless a$(无论$E$是否有下界)，那么$e\in B$，又因为$e\in A$，矛盾.\\
+所以，$A$中没有最大值.
+\begin{proof}
+方法二：\\
+设$E$是一个非空有上界的数集.若$E$中存在最大数$M$，则
+\begin{equation*}
+    \sup E=\max E=M
+\end{equation*}
+现假设$E$中没有最大数，$\forall \alpha \in E $，$\alpha=A_{\alpha}|B_{\alpha}$\\
+令：$A=\bigcup_{\alpha \in E} A_{\alpha}$，$B=Q \textbackslash A$，现考察是否符合戴德金分割的要求：\\
+(1)$\forall a\in A$，$b\in B$，$a\textless b$$^{(1)}$\\
+(2)$A$ 中无最大元素$^{(2)}$\\Q
+则$A|B$为$Q$的一个分划，设$c=A|B$，容易看出$c$是$E$的上界$^{(3)}$\\
+再证明$c$为$A$的最小上界：$\forall d \textless c$，$d=A_d|B_d$，所以$A_d \subsetneqq A$，一定能找到有理数$s$，满足$d \textless s$，所以$d$不是上界，所以$c$是最小上界，即上确界
+\end{proof}
+
+\begin{remark}[助教老师提供的(1)的证明方法]\\
+先证明引理：如果有理数$x\textless y$，则$x\in A_y$.\\
+因为$y$为有理数，所以$y=B_y$，因为$x\textless y$，所以$x \in A_y$.\\
+%%现假设$\exists t\in E$且$t\in Q$，但$t\not\in \cup_{\alpha \in E}A_{\alpha }$，$t=A_t|B_t$%%
+因为$E$没有最大数，则对任意的有理数$a\in A$，则存在$t\in A$，满足$a\textless t$，由引理可知，$a\in A_t$，因而$A_a \subsetneqq A_t$(否则只要有一个比$A$小的数$u$不在$A_t$，那么$u$就只能属于$B_t$，这就与$A_t|B_t$是分划的第四条($a\textless b$)矛盾)，而任取有理数$z\textless a$，则由引理$z\in A_a$，因此$z\subsetneqq A_t$，所以$z\in A$
+
+\end{remark}
+\begin{note}\\
+(1)也可以表述为$\forall a \in A$，$\forall b\in Q$且$b \textless a$，有$b\in A$(并且在证明的时候，这种表述方法明显更加好用)\\
+\end{note}
+\begin{note}
+证明两种表述的等价性(前提是$B,A\in Q$且$B=Q\textbackslash A$)：\\
+P:$\forall a\in A$，$b\in B$，$a\textless b$\\
+Q:$\forall b\in Q$且$b \textless a$，有$b\in A$\\
+($\Rightarrow$：若P成立，那么对于$\forall b\in Q$且$b\textless a$，若$b\not\subset A$，即$b\in B$，那么由命题P，$a\textless b$，矛盾，所以命题Q成立.\\
+($\Leftarrow$)：若Q成立，那么对于$\forall a\in A$，$\forall b\in B$，若$b\leq a$，因为$b\neq a$(因为集合交集为空集)，即若$b\textless a$，由命题Q可得，$b\in A$，与$b\in B$矛盾，所以命题P成立. 
+\end{note}
+
+\begin{note}
+命题$P$:$\forall a\in A$，$b\in B$，则
+
+
+
+%%假设$\exists a\in A $，$b \in B$，使得$a\geq b$.若$a=b$，因为$B=R\textbackslash A$，所以$A\cap B=\varnothing $，不可能.若$a \textgreater b$，因为$a\in Q$，$b\in Q$，所以$t=\frac{a+b}{2}\in Q$，\\%%
+即证$\cup_{\alpha \in E}A_{\alpha }$这种取法可以取完$E$中所有的有理数.\\
+现假设$\exists t \in E$且$t\in Q$ ，但$t\not\in \cup_{\alpha \in E}A_{\alpha }$，$t=A_t|B_t$，又因为$E$没有最大值，所以$\exists s\in Q$且$s\textgreater t$，使得$s=A_s|B_s$，如果$s\in \cup_{\alpha \in E}A_{\alpha }$，那么由于$s \textgreater t$，所以$A_t \subsetneqq A_s$，所以$A_t$必定属于$\cup_{\alpha \in E}A_{\alpha }$，矛盾.所以$\cup_{\alpha \in E}A_{\alpha }$这种取法可以取完$E$中所有的有理数.
+所以$\forall a \in A$，$\forall b\in B$，$b \textgreater a$ 
+($E$无最大数就保证了$s$的存在性)\\
+(2)反证法：若$A$中有最大元素，设为$a_m$，那么$a_m\in A_i$，那么$a_m$为$A_i$的最大值，而在定义$i=A_i|B_i$时已知$A_i$没有最大数，所以矛盾.\\
+(3)因为$\forall \alpha \in E$，$\alpha=A_{\alpha}|B_{\alpha}$，而$c=A|B$，因为$A_{\alpha}\subset A$，所以$\forall a \in E$ ，$a\leq c$，所以$c$是$E$的上界.
+\end{note}
+
+4.定义实数的四则运算
+\begin{theorem}[加法]
+$a$，$b\in R$，则$a+b\in R$
+\end{theorem}
+\begin{proof}
+$a=A_a|B_a$，$b=A_b|B_b$，令$A=\{x+y|x\in A_a \mbox{，} y\in A_b\}$，$B=Q \textbackslash A$，那么$A$，$B$必然不为空集，并且$\forall a\in A$，$b\in B$，有$a\textless b$$^{(1)}$，又因为$A_a$，$A_b$中均无最大数，所以$A$中也没有最大数.所以$(A|B)$满足戴德金分割的条件，所以$(A|B)\in R$.
+\end{proof}
+
+(1)为了证明$\forall a\in A$，$b\in B$，有$a\textless b$，我们可以去证明它的等价命题：$\forall a\in A $，$b\in Q$且$b\textless a$，则$b\in A$.\\
+设$\alpha\in A$，$\alpha=x_1+y_1$，其中$x_1\in A_a$，$y_1\in A_b$，又设$\beta=x_2+y_2$且$\beta \textless \alpha$，可以得到：$x_2=x_1+\frac{\beta-\alpha}{2}$，$y_2=y_1+\frac{\beta-\alpha}{2}$，所以$x_2\textless x_1$，$y_2\textless y_1$，所以$x_2\in A_{x_1}\subset A_a$，$y_2\in A_{y_1}\subset A_b$，由$A$的定义可知，$\beta \in A$.
+
+\begin{proposition}[相反数]
+$a\in R$，则$-a \in R$
+\end{proposition}
+
+\begin{proposition}[减法]
+$a$，$b\in R$，则$a-b\in R$
+\end{proposition}
+\begin{proof}
+由加法与相反数的定义可以推出
+\end{proof}
+
+\begin{theorem}[正数的乘法]
+$a$，$b\in R$，且$a$，$b\textgreater 0$，则$ab \in R$
+\end{theorem}
+\begin{proof}
+$a=A_a|B_a$，$b=A_b|B_b$，令$A=\{x\in Q\textbackslash Q^{*}\mbox{或}xy|x\in A_a \mbox{，}y\in A_b  \}$，$B=Q\textbackslash A$.因为$A$，$B$不为空集.且$\forall a\in A$，$b\in B$，有$a\textless b$$^{(1)}$，又因为$A$没有最大数，所以$(A|B)$满足分割的定义，所以$(A|B)\in R$.
+\end{proof}
+
+(1)即证$\forall a\in A $，$b\in Q$且$b\textless a$，则$b\in A$\\
+设$\alpha\in A$，$\alpha=x_1\cdot y_1$，其中$x_1\in A_a$，$y_1\in A_b$，又设$x_2=x_1\sqrt{\frac{\beta}{\alpha}}$，$y_2=y_1\sqrt{\frac{\beta}{\alpha}}$且$\beta \textless \alpha$，则$x_2\cdot x_1=\beta $，因为$\sqrt{\frac{\beta}{\alpha}}\textless 1$，所以$x_2\textless x_1$，所以$x_2\in A_{x_1}\subset A_a$，同理，$y_2\in A_{y_1}\subste A_b$，所以，由$A$的定义可知，$\beta \in A$。
+\begin{proposition}[绝对值]
+$a \in R$，则$|a| \in R$ 
+\end{proposition}
+
+\begin{proposition}[倒数]
+$a\in R$且$a\neq 0$，则$\frac{1}{a}\in R$
+\end{proposition}
+
+\begin{proposition}[除法]
+$a\in R$，$b\in R$且$b\neq 0$，则$\frac{a}{b}\in R$
+\end{proposition}
+
+\section{函数的概念}
+
+\begin{definition}[一一对应]
+设$f:X\to Y$是一个函数.若对任意的$x_1$，$x_2\in X$，只要$x_1\neq x_2$，就有$f(x_1)\neq f(x_2)$成立，则称$f(x)$是单的；若$Y=f(X)$，则称$f(x)$是满的；若$f(x)$既是单的又是满的，则称它为一个一一对应.
+\end{definition}
+单的：任意一个x映射过去之后y都不一样(保证$Y\to X$也满足函数关系)\\
+满的：所有y都被覆盖到了(保证Y是定义域)\\
+
+\begin{definition}[反函数]
+设$f:X\to Y$是一个一一对应.定义函数$g:Y\to X$如下：对任意的$y\in Y$，函数值$g(y)$规定为由关系式$y=f(x)$所唯一确定的$x\in X$.这样定义的函数$g(y)$称为是函数$f(x)$的反函数，记为$g=f^{-1}$.
+\end{definition}
+
+\begin{example}
+设$y=f(x)$是定义在$X$上的函数，并且记$Y=f(X)$，证明：若存在$Y$上定义的函数$g(y)$，使得$g(f(x))=x$，则$f(x)$的反函数存在，且$g=f^{-1}$.
+\end{example}
+
+\begin{proof}
+
+\end{proof}
+
+
+
+
+
+
+\chapter{数学分析-\uppercase\expandafter{\romanquanxujinumeral1}-数列极限}
+
+\section{数列极限的概念和性质}
+\begin{definition}[数列极限的定义]
+设$\{x_n\}$是一个数列.若存在常数$a \in R$，使得$\forall \epsilon \textgreater 0$,$\exists N \in N $,当$n \textgreater N$时，有
+\begin{equation*}
+    |x_n-a|\textless \epsilon
+\end{equation*}
+则称该序列时收敛的，并称$a$为该序列的极限(或者说序列${x_n}$收敛于$a$),记作$\lim\limits_{n\to \infty}x_n=a$或$x_n \to a(n \to \infty)$，若不存在$a \in R$，使得$\{x_n\}$收敛于$a$,则称之为发散序列
+
+\end{definition}
+
+
+\begin{definition}[发散序列的定义]
+设$\{x_n\}$是一个数列.若$\forall a \in R$,$\exists \epsilon_0 \textgreater 0$,$\forall N\in N$,总存在$n_0 \textgreater N$，使得$|x_n-a|\geq \epsilon_0$，则称$\{x_n\}$为发散序列
+\end{definition}
+
+\begin{definition}[无穷小量和无穷大量]
+设$\{x_n\}$是一个数列.若$x_n \to 0(n \to \infty )$，则称序列$\{x_n\}$为无穷小量，记为$\{x_n\}=o(1)(n \to \infty)$\\
+设$\{x_n\}$是一个数列，若$\forall M \textgreater 0$，总$\exists N$，当$n \textgreater N$时，有$x_n \textgreater M $，则称$\{x_n\}$为正无穷大量\\
+设$\{x_n\}$是一个数列，若$\forall M \textgreater 0$，总$\exists N$，当$n \textgreater N$时，有$x_n \textless -M $，则称$\{x_n\}$为负无穷大量
+\end{definition}
+
+\begin{definition}[有界与无界]
+设$\{x_n\}$是一个数列，若$\exists M \textgreater 0$,$\forall n$，有$\|x_n\| \leq M$成立，则称$\{x_n\}$是有界的(等价于数集$\{x_n\}$是一个有界集)\\
+若一个数列$\{x_n\}$是有界的，则记为$x_n=O(1)$
+\end{definition}
+
+\begin{theorem}[数列极限的一些基础性质]
+1.改变一个数列$\{x_n\}$的有限多项，不改变其敛散性；当$\{x_n\}$收敛时，不改变其极限值\\
+2.收敛数列的极限是唯一的\\
+3.收敛数列是有界的
+\end{theorem}
+
+\begin{note}
+收敛$\Rightarrow$有界，但有界不能推出收敛，单调有界$\Rightarrow$收敛
+\end{note}
+
+\begin{theorem}[数列极限的保序性]
+给定两个数列$\{x_n\}$,$\{y_n\}$，并且假定
+\begin{equation*}
+    \lim\limits_{n\to \infty}x_n=a\;\;\;\lim\limits_{n\to \infty}y_n=b
+\end{equation*}
+则有：\\
+(1)若$a\texteless b$，则对于任意给定的$c\in(a,b)$，$\exists N_0 \textgreater N_0$时，$x_n  \textless c \textless y_n$\\
+(2)若$\exists N_0 >0$，当$n \textgreater N_0$时，$x_n \leq y_n$,则$a \leq b$
+\end{theorem}
+
+\begin{remark}
+注意小于号和小于等于的区别！
+\end{remark}
+
+\begin{theorem}[极限的四则运算]
+设$\lim\limits_{n\to \infty}x_n=a$,$\lim\limits_{n\to \infty}y_n=b$,则\\
+(1)$\lim\limits_{n\to \infty}(x_n \pm y_n)=a\pm b$\\
+(2)$\lim\limits_{n\to \infty}(x_n y_n)=ab$\\
+(3)$\lim\limits_{n\to \infty}(\frac{x_n}{y_n}=\frac{a}{b})$，其中$b \neq 0$,$y_n\neq 0$
+
+\end{theorem}
+
+\begin{theorem}[夹逼收敛准则]
+设$\{x_n\}$,$\{y_n\}$,$\{z_n\}$满足
+\begin{equation*}
+    x_n \leq y_n \leq z_n\;\;\; \forall n \textgreater  N_0
+\end{equation*}
+若$\lim\limits_{n\to \infty}x_n=\lim\limits_{n\to \infty}z_n=a$,则$\lim\limits_{n\to \infty}y_n=a$
+\end{theorem}
+
+\section{数列的收敛判别法}
+
+\begin{definition}[单调数列的定义]
+若数列$\{x_n\}$满足：
+\begin{equation*}
+    x_n \leq x_{x+1} \;\;\; \forall n\in N
+\end{equation*}
+则称$\{x_n\}$时单调递增数列\\
+若数列$\{x_n\}$满足：
+\begin{equation*}
+    x_n \geq x_{x+1} \;\;\; \forall n\in N
+\end{equation*}
+则称$\{x_n\}$时单调递减数列
+\end{definition}
+
+\begin{theorem}[单调收敛原理]
+单调有界数列必收敛
+\end{theorem}
+
+\subsection{实数系连续性基本定理}
+
+\begin{theorem}[闭区间套基本定理]
+设$\{[a_n,b_n]\}$是一列闭区间，并满足：\\
+(1)$[a_n,b_n] \supseteq [a_{n+1},b_{n+1}]$，$n=1,2,3..$\\
+(2)$\lim\limits_{n\to \infty }(b_n-a_n=0)$\\
+则存在一个唯一的一点$c \in R $,使得$c \in [a_n.b_n]$，$n=1,2,3,..$，即
+\begin{equation*}
+    \{c\}=\bigcap_{n=1}^{\infty}[a_n,b_n].
+\end{equation*}
+
+\end{theorem}
+
+
+
+
+
+
+\clearpage
+
+\chapter{数学分析-\uppercase\expandafter{\romannumeral1}-函数极限与连续性}
+
+\section{函数的极限}
+
+\subsection{函数极限的定义}
+
+\begin{definition}[函数极限]
+设函数$f(x)$在$U_{0}(x_0,\delta_0)$内有定义，若存在实数$A$,使得$\foralll \epsilon \textgreater 0,\exists \delta \textgreater 0$，当$x\in U_0(x_0,\delta)$时，有$|f(x)-A|\textless \epsilon$，称$x$趋于$x_0$时，$f(x)$以$A$为极限（$f(x)$在点$x_0$处极限存在，其极限为$A$）
+\end{definition}
+
+\subsection{极限存在性定理}
+
+\begin{theorem}[函数极限的单调有界收敛原理]
+设函数$f(x)$在$U_{0}^{+}(x_0,\delta_0)$内有定义，若$f(x)$在$U_{0}^{+}(x_0,\delta_0)$内单调上升，则
+\begin{equation*}
+    \lim\limits_{x\to x_{0}^{+}}f(x)=\inf_{x \in U_{0}^{+}(x_0,\delta_0)}\{f(x)\}
+\end{equation*}
+若$f(x)$在$U_{0}^{+}(x_0,\delta_0)$内单调下降，则
+\begin{equation*}
+    \lim\limits_{x\to x_{0}^{+}}f(x)=\sup_{x \in U_{0}^{+}(x_0,\delta_0)}\{f(x)\}
+\end{equation*}
+\end{theorem}
+
+\begin{proof}
+只证明第一种情况\\
+$A=\inf\{f(x)\}$，所以$A$为有限数或$-\infty $.\\
+当$A\in R$时，因为$A$时下确界，所以$$\forall \epsilon \textgreater 0,\exists x_1 \in U_{0}^{+}(x_0,\delta_0),s.t.f(x_1)\textless A+\epsilon$$因为$f(x)$在$U_{0}^{+}(x_0,\delta_0)$上单调下降，所以令$\delta=x_1-x_0,\delta \textgreater 0$，所以$$\forall x\in U_{0}^{+}(x_0,\delta),A \leq f(x)\textless f(x_1)\textless A+\epsilon$$所以$|f(x)-A|\textless \epsilon$，所以$\lim\limits_{x\to x_{0}^{+}}f(x)=A=\inf_{x \in U_{0}^{+}(x_0,\delta_0)}\{f(x)\}$\\
+当$A=-\infty$时，$$\forall M \textgreater 0,\exists x_1 \in U_{0}^{+}(x_0,\delta_0),s.t.\;f(x_1)\textless -M $$因为$f(x)$在$U_{0}^{+}(x_0,\delta_0)$上单调下降，所以$$\forall x \in (x_0,x_1),f(x)\textless f(x_1)\textless -M$$所以$\lim\limits_{x\to x_{0}^{+}}f(x)=\sup_{x \in U_{0}^{+}(x_0,\delta_0)}\{f(x)\}$
+\end{proof}
+
+\begin{theorem}[函数极限的柯西收敛准则]
+设$f(x)$在$U_{0}(x_0,\delta_0)$内有定义，则
+\begin{equation*}
+    \lim_{x\to x_0}f(x) \mbox{存在}\iff \forall \epsilon \textgreater 0,\exists 0\textless \delta \textless \delta_0,s.t.\; \forall x_1,x_2\in U_{0}(x_0,\delta),|f(x_1)-f(x_2)|\textless \epsilon
+\end{equation*}
+\end{theorem}
+
+\begin{proof}
+($\Rightarrow$)：设$\lim\imtis_{x\to x_0}f(x)=A$，则$$\forall \epsilon \textgreater 0,\exists \delta \textgreater 0,\forall x\in U_{0}(x_0,\delta),|f(x)-A|\textless \frac{\epsilon}{2}$$ 所以$$\forall x_1,x_2\in U_{0}(x_0,\delta),|f(x_1)-f(x_2)|\textless |f(x_1)-A|+|f(x_2)-A|\textless \epsilon$$\\
+($\Leftarrow$)：在$U_{0}(x_0,\delta_0)$中任意选取一个收敛于$x_0$的
+\end{proof}
+
+
+\section{函数的连续与间断}
+\subsection{函数的连续与间断}
+\begin{definition}[函数在某一点处连续的定义]
+设函数$f(x)$在$U(x_0,\delta_0)\,(\delta_0>0)$内有定义，若$\lim\limits_{x\to x_0}f(x)=f(x_0)$，则称$f(x)$在$x_0$处连续，并称$x_0$为$f(x)$的一个连续点；否则称$f(x)$在$x_0$处不连续，并称$x_0$为$f(x)$的一个间断点（或不连续点）.
+\end{definition}
+
+\begin{definition}[函数在某一点出单侧连续的定义]
+若函数$f(x)$在$U^+(x_0,\delta_0)$上有定义，且$f(x_0+0)=f(x_0)$(即$\lim\limits_{x\to x_0^+}f(x)=f(x_0)$),则称$f(x)$在点$x_0$右连续；若函数$f(x)$在$U^-(x_0,\delta_0)$上有定义，且$f(x_0-0)=f(x_0)$(即$\lim\limits_{x\to x_0^-}f(x)=f(x_0)$),则称$f(x)$在点$x_0$左连续.
+\end{definition}
+
+
+\begin{definition}[函数在某一区间上连续的定义]
+若函数$f(x)$在$[a,b]$上有定义.若对$x\in (a,b)$,$f(x)$在点$x$处连续，则称$f(x)$在$(a,b)$内连续，此时记为$f(x)\in C(a,b)$；若$f(x)\in C(a,b)$，且$f(x)$在左端点$a$右连续，在右端点$b$左连续，则称$f(x)$在$[a,b]$上连续，记为$f(x)\in C[a,b]$.
+\end{definition}
+
+
+\begin{definition}[间断点的分类]
+
+第一类间断点
+$f(x_0-0)$和$f(x_0+0)$都存在\\
+第二类间断点
+$f(x_0-0)$和$f(x_0+0)$至少有一个不存在
+\end{definition}
+
+\subsection{连续函数的性质}
+\begin{theorem}[连续函数经四则运算后任然连续]
+\end{theorem}
+
+\begin{theorem}[复合函数的连续性]
+设$u=g(x)$在点$x_0$处连续，$y=f(u)$在$u_0=g(x_0)$处连续，则复合函数$f(g(x))$在$x_0$处连续.
+\end{theorem}
+
+\begin{theorem}[反函数的连续性]
+设$f(x)$是区间$I$上严格单调的连续函数，则其反函数$x=f^{-1}(y)$在$f(I)$上连续.
+\end{theorem}
+
+\subsection{初等函数的连续性}
+
+\begin{theorem}[初等函数在其定义域内是连续的]
+\end{theorem}
+
+\subsection{1.3闭区间上连续函数的基本性质}
+
+\begin{theorem}[有界性：函数在闭区间上连续则函数在闭区间上有界]
+设函数$f(x)\in C(a,b)$，则$f(x)$在$[a,b]$上有界.
+\end{theorem}
+
+\begin{theorem}[最值定理]
+设$f(x)\in C[a,b]$，则$f(x)$在$[a,b]$上必有最小值和最大值，即存在$\xi,\zeta \in [a,b]$,使得$f(\xi) \leq f(x)\leq f(\zeta)$对一切$x\in [a,b]$成立.
+\end{theorem}
+
+\begin{theorem}[介值定理]
+设$f(x)\in C[a,b]$，记$m=\min\limits_{x\in [a,b]}f(x)$,$M=\max\limits_{x\in [a,b]}f(x)$,则$f([a,b])=[m,M]$,即对${\forall}\eta \in(m,M),\exist \xi \in (a,b)$,使得$f(\xi)=\eta$.
+\end{theorem}
+
+\begin{theorem}[零点存在定理]
+设$f(x)$在区间$I$上连续，若$\alpha \beta \in I$,$\alpha \textless \beta$,若$f(\alpha)f(\beta)\textless 0$,则一定存在$\xi \in (\alpha,\beta)$，使得$f(\xi)=0$
+\end{theorem}
+
+\begin{theorem}[一致连续的定义]
+设函数$f(x)$在区间$I$上有定义，若$x_1,x_2 \in I$，对$\forall \epsilon \textgreater 0$,总$\exist \delta \textgreater 0$,当$|x_1-x_2| \textless \delta $时，$|f(x_1)-f(x_2)| \textless \epsilon$,则称$f(x)$在$I$上一致连续.
+\end{theorem}
+
+\begin{theorem}[康托尔定理]
+设函数$f(x)\in C[a,b]$，则$f(x)$在闭区间$[a,b]$上一致连续
+\end{theorem}
+
+\chapter{数学分析-\uppercase\expandafter{\romannumeral1}-一元微分学}
+
+\begin{introduction}
+  \item 导数和微分的概念及图像解释
+\end{introduction}
+
+\subsection{一元函数的导数}
+
+\begin{definition}[导数]
+设函数$f(x)$在$U(x_0,\delta_0)$内有定义，若极限
+\begin{equation}
+    \lim\limts_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}
+\end{equation}
+存在，则称$f(x)$在点$x_0$处可导，并且称此极限值为$f(x)$在$x_0$处的导数，记为$f^{'}(x_0)$或者$\frac{df(x_0)}{dx}$\\ ~\\
+$\Delta x$为增量（改变量）（增量不一定为正），
+$\Delta f(x)=f(x_0+\Delta x)-f(x_0)$为差分，
+$\frac{\Delta f(x)}{\Delta x}$为差商，
+所以导数也可理解为差商的极限 （$x\to x_0$ \; 或\; $\Delta x\to 0$）
+\end{definition}
+
+\begin{remark}
+极限$\lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}$存在且有限$\Leftrightarrow$可导,存在且无限，则不可导（尽管几何上的切线存在），若极限不存在，则也不可导
+\end{remark}
+
+\begin{remark}
+导数是一个局部概念
+\end{remark}
+
+\begin{note}
+
+$ \lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}$也可以写作$\lim\limits_{\Delta x\to x_0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}$,前者是以$x$为自变量的函数，而后者是以$\Delta x$为自变量的函数\\
+\end{note}
+
+
+
+\begin{definition}[单侧导数]
+设函数$f(x)$在$U^{+}(x_0,\delta_0)$内有定义，若极限
+\begin{equation}
+    \lim\limts_{\Delta x\to x_0^{+}}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}
+\end{equation}
+存在，则称$f(x)$在$x_0$处右可导，并且称此极限值为$f(x_0)$在$x_0$处的右导数，记为$f^{'}_{+}(x_0)$.\\~\\
+设函数$f(x)$在$U^{-}(\delta_0,x_0)$内有定义,若极限
+\begin{equation}
+   \lim\limts_{\Delta x\to x_0^{-}}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}
+\end{equation}
+存在,则称$f(x)$在$x_0$处左可导，并且称此极限值为$f(x_0)$在$x_0$处的左导数，记为$f^{'}_{-}(x_0)$.\\
+\end{definition}
+
+\begin{proposition}
+函数$f(x)$在某一点$x_0$\textbf{存在的充分必要条件}是$f^{'}_{+}(x_0)$与$f^{'}_{-}(x_0)$都存在且相等，即$f^{'}_{+}(x_0)=f^{'}_{-}(x_0) \in R $
+\end{proposition}
+
+\begin{theorem}[可导与连续的关系]
+若函数$f(x)$在$x_0$处可导，则函数$f(x)$在$x_0$处连续
+\end{theorem}
+
+\begin{remark}
+可导是连续的充分条件，而连续是可导的必要条件
+\end{remark}
+
+\subsection{一元函数的微分}
+
+\begin{definition}[微分]
+设函数$f(x)$在$U(x_0,\delta_0)$内有定义，如果存在常数$A$,使得
+\begin{equation}
+    \Delta y=f(x_0+\Delta x)-f(x_0)=A\Delta x+o(\Delta x) (\Delta x \to 0)
+\end{equation}
+则称$f(x)$在点$x_0$处可微，并称$A\Delta x$为$f(x)$在$x_0$处的微分，记做
+\begin{equation}
+    dy=A\Delta x \;\mbox{或者}\; df(x_0)=A\Delta x
+\end{equation}
+其中$A$为函数$f(x)$在$x_0$处的导数$f^{'}(x_0)$,$A\Delta x$即微分为$\Delta y$的线性主部
+\end{definition}
+
+\begin{proposition}[一阶微分形式的不变性]
+设函数$y=f(x)$在$x_0$处可导，函数$x=g(t)$在$t_0$处可导，则对函数$y=f(g(t))$求微分
+\begin{equation}
+    df(g(t))=f^{'}(g(t))dg(t)=f^{'}(g(t))g^{'}(t)dt
+\end{equation}
+而代入$x=g(t)$,可得
+\begin{equation}
+    df(g(t))=df(x)=f^{'}(x)dx=f^{'}(g(t))dg(t)
+\end{equation}
+由此可见，无论f(x)是作为自变量还是因变量，结果都具有相同的形式，这叫做一阶微分形式的不变性
+\end{proposition}
+
+\section{一元函数导数和微分的计算}
+
+\subsection{求导数的方法}
+
+\begin{theorem}[函数四则运算的导数]
+设函数f(x)，g(x)在公共定义域$I$内可导\\
+(1)\;$(f(x)+g(x))^{'}=f^{'}(x)+g^{'}(x)$\\~\\
+(2)\;$(f(x)g(x))^{'}=f^{'}(x)g(x)+f(x)g^{'}(x)$\\~\\
+(3)\;$(\frac{f(x)}{g(x)})^{'}=\frac{f^{'}(x)g(x)-f(x)g^{'}(x)}{g(x)^{2}},g(x)\neq 0$
+\end{theorem}
+
+\begin{theorem}[反函数求导法则]
+设函数$f(x)$在$(a,b)$内严格单调且可导且导函数$f^{'}(x)\neq 0$，则有
+\begin{equation}
+    (f^{-1}(y))^{'}=\frac{df^{-1}(y)}{dy}=\frac{1}{f^{'}(x)}
+\end{equation}
+即反函数的导数等于原函数的导数的倒数
+\end{theorem}
+
+\begin{theorem}[复合函数求导法则（链式法则）]
+设函数$y=f(x)$在$U(x_0,\delta_0)$内有定义，函数$x=g(t)$在$U(t_0,\eta_0)$内有定义，则
+\begin{equation}
+    (f(g(t_0)))^{'}=\frac{df(g(t_0))}{dt}=f^{'}(g(t_0))g^{'}(t_0)
+\end{equation}
+也记为$y^{'}_$
+\end{theorem}
+
+\section{高阶导数与高阶微分}
+
+\section{不定积分的计算}
+
+\section{微分中值定理}
+
+\begin{definition}[极值与极值点]
+若函数$f(x)$在某一个去心邻域$U_0(x_0,\delta_0)$内恒有
+\begin{equation}
+    f(x)\leq f(x_0)
+\end{equation}
+则称$x_0$为$f(x)$的极大值点，$f(x_0)$称为$f(x)$的极大值；若在上述不等式中，不等号严格成立，则称$f(x_0)$为严格极大值\\
+
+若函数$f(x)$在某一个去心邻域$U_0(x_0,\delta_0)$内恒有
+\begin{equation}
+    f(x)\geq f(x_0)
+\end{equation}
+则称$x_0$为$f(x)$的极小值点，$f(x_0)$称为$f(x)$的极小值；若在上述不等式中，不等号严格成立，则称$f(x_0)$为严格极小值\\
+
+极大值与极小值统称为极值，极大值点与极小值点统称为极值点
+
+\end{definition}
+
+\begin{lemma}[Fermat定理]
+设函数$f(x)$在$U(x_0,\delta_0)$中有定义，若$x_0$是函数$f(x)$的极值点，且$f^{'}(x_0)$存在，则$f^{'}(x_0)=0$
+\end{lemma}
+
+\begin{proof}
+不妨设$x_0$是函数$f(x)$的极大值点（若为极小值点可同理证明），则$f(x)\leq f(x_0)$,所以\\当$x\in U^{-}(x_0,\delta_0)$时，$x\textless x_0$,所以$\frac{f(x)-f(x_0)}{x-x_0}\geq 0$，由函数极限的保序性，可得$\lim\limits_{x\to x^{-}_0}\frac{f(x)-f(x_0)}{x-x_0}\geq 0$,同理，当$x\in U^{+}(x_0,\delta_0)$时,可得$\lim\limits_{x\to x^{+}_0}\frac{f(x)-f(x_0)}{x-x_0}\leq 0$,因为$f^{'}(x_0)$存在，而$f^{'}(x_0)=f^{'}(x_0+)=f^{'}(x_0-)$，所以$f^{'}(x_0)=\lim\limits_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}=0$.
+\end{proof}
+
+\begin{theorem}[Rolle定理]
+设函数$f(x)$在$[a,b]$上连续，在$(a,b)$上可导，且$f(a)=f(b)$，则在$(a,b)$内至少存在一点$\xi$，使得
+\begin{equation}
+    f^{'}(\xi)=0
+\end{equation}
+\end{theorem}
+
+\begin{note}
+要证$f^{'}(\xi)=0$,即证$\xi$是函数$f(x)$的极值点，即证$f(x)$在$(a,b)$上存在极值点
+\end{note}
+
+\begin{proof}
+由于函数$f(x)$在$[a,b]$上连续，由最值定理可知，必然存在最大值$M$,最小值$m$.若$M=m$，则$f(x)$为常值函数，则$\forall x\in [a,b],f^{'}(x)=0$，所以$\xi$存在；若$M\geq m$，又因为$f(a)=f(b)$，所以$f(a)=f(b)$至多与$M$或者$m$相等，所以$M$与$m$至少有一个值是$x\in (a,b)$通过$f$作用得到的，即$\exists x_0\in (a,b)$，使得$f(x_0)=m$或$f(x_0)=M$，而最值点必然是极值点，所以，由$Rolle$定理，$f^{'}(x_0)=0$,那么取$\xi=x_0$,则$f^{'}(\xi)=0$
+\end{proof}
+
+\begin{theorem}[Lagrange中值定理]
+若函数$f(x)$在$[a,b]$内连续，在$(a,b)$内可导，则在$(a,b)$上至少存在一点$\xi$，使得
+\begin{equation}
+    f^{'}(\xi)=\frac{f(b)-f(a)}{b-a}
+\end{equation}
+\end{theorem}
+
+\begin{note}
+考虑到要使用$Rolle$定理，那么就需要构造一个函数$g(x)$，满足$g(a)=g(b)$，审视任一显示表达的函数图像，我们由函数本身$f(x)$，还有由$（a,f(a)）$与$(b,f(b))$两点所固定的直线$L(x)$,易得$f(a)-L(a)=f(b)-L(b)=0$，所以$令g(x)=f(x)-L(x)$，然后顺推即可.
+\end{note}
+
+\begin{proof}
+令$g(x)=f(x)-L(x)$,可得$g(a)=g(b)$,由$Rolle$定理，可知$\exist \xi \in （a,b）$使得$g^{'}(\xi)=0$,因为$L(x)=\frac{f(b)-f(a)}{b-a}(x-a)+f(a)$，所以$g(x)=f(x)-\frac{f(b)-f(a)}{b-a}(x-a)+f(a)$，所以$g^{'}(x)=f^{'}(x)-\frac{f(b)-f(a)}{b-a}$，代入可得$g^{'}(\xi)=f^{'}(\xi)-\frac{f(b)-f(a)}{b-a}=0$,所以$ f^{'}(\xi)=\frac{f(b)-f(a)}{b-a}$,得证.
+\end{proof}
+
+\begin{theorem}[Cauchy中值定理]%%ayumu的定义
+设函数$f(x)$和$g(x)$在$[a,b]$上连续，在$(a,b)$上可导，若对于$\forall x\in (a,b)$,都有$g^{'}(x)\neq 0$,则存在$\xi$，使得
+\begin{equation}
+    \frac{f^{'}(\xi)}{g^{'}(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}
+\end{equation}
+\end{theorem}
+
+
+\begin{note}
+$Cauchy$中值定理是$Lagrange$中值定理的进一步推广，从只能用于显示方程的$Lagrange$中值定理到能用于参数方程的$Cauchy$中值定理.设参数方程为
+\begin{equation}
+    \begin{cases}
+    x=g(t)\\
+    y=f(t)
+    \end{cases}
+\end{equation}
+点$A,B$所成直线为的斜率为$k=\frac{f(b)-f(a)}{g(b)-g(a)}$，而曲线上$x\in(a,b)$上任意一点的斜率，我们应参数方程求导法则，可得$k^{'}=\frac{dy}{dx}=\frac{dy}{dt}\frac{dt}{dx}=\frac{dy}{dt}\frac{1}{\frac{dx}{dt}}=\frac{f^{'}(t)}{g^{'}(t)}$,所以在$Cauchy$中值定理的条件中加入了$g^{'}(x)\neq 0$这个条件，所以$Cauchy$中值定理的内容，类比可得，应为$\forall \xi \in (a,b)\;\;\frac{f^{'}(\xi)}{g^{'}(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}$
+\end{note}
+
+\begin{note}
+我们是把$\xi$代入的$\frac{f^{'}(t)}{g^{'}(t)}=\frac{f(b)-f(a)}{g(b)-g(a)}$,所以，这里的$\xi$是$t$轴上的数.而定理中的$f(x)$,$g(x)$在$[a,b]$上连续，在我们的参数方程中，$x$自然被替换成了$t$，这也可以佐证$\xi$是$t$轴上的数.
+\end{note}
+
+\begin{note}
+类比$Lagrange$定理的证明思路，我们需要对$Cauchy$中值定理的函数，构造一个函数$h(t)$，满足$h(a)=h(b)$,则同理可得
+\begin{equation}
+    h(t)=L(t)-f(t)=\frac{f(b)-f(a)}{g(b)-g(a)}(g(t)-g(a))+f(a)-f(t)
+\end{equation}
+\end{note}
+
+\begin{proof}
+令函数
+\begin{equation}
+    h(t)=L(t)-f(t)=\frac{f(b)-f(a)}{g(b)-g(a)}(g(t)-g(a))+f(a)-f(t)
+\end{equation}
+易得$h(a)=h(b)=0$，所以，由$Rolle$定理可知，$\exist \xi \in (a,b)$,满足$h^{'}(\xi)=0$
+\begin{equation}
+    h^{'}(t)=\frac{dh(t)}{dt}=\frac{f(b)-f(a)}{g(b)-g(a)}g^{'}(t)-f^{'}(t)
+\end{equation}
+所以，带入$\xi$可得
+\begin{equation}
+     h^{'}(\xi)=\frac{f(b)-f(a)}{g(b)-g(a)}g^{'}(\xi)-f^{'}(\xi)
+\end{equation}
+即
+\begin{equation}
+     \frac{f^{'}(\xi)}{g^{'}(\xi)}=\frac{f(b)-f(a)}{g(b)-g(a)}
+\end{equation}
+得证
+\end{proof}
+
+\begin{remark}
+$Cauchy$微分中值定理的几何意义是，若$uv$坐标平面的曲线由参数方程
+\begin{equation}
+    \begin{cases}
+    u=g(x),\\
+    v=f(x),
+    \end{cases}
+    x \in [a,b]
+\end{equation}
+给出，所以说这里的$x$是参数方程里面的参数，而非$u$或$v$，即上面证明中的$t$.
+\end{remark}
+
+\section{函数未定义式的定值法——洛必达法则}
+
+\begin{theorem}[$\frac{0}{0}$型不定式，$x \to a$]
+设函数$f(x)$和$g(x)$在$a$点的某一去心邻域$U_{0}(a,\delta)$上可导，而且满足：
+\begin{align*}
+    \lim\limits_{x\to a}f(x)=\lim\limits_{x\to a}g(x)=0;\\
+    g^{'}(x)\neq 0;\\
+    \lim\limtis_{x\to      a}\frac{f^{'}(x)}{g^{'}(x)}=l(\mbox{$l$为有限数或$+\infty$,$-\infty$})
+\end{align*}
+则有
+\begin{equation}
+    \lim\limits_{x \to a}\frac{f(x)}{g(x)}=\lim\limits_{x \to a}\frac{f^{'}(x)}{g^{'}(x)}=l
+\end{equation}
+\end{theorem}
+
+\begin{theorem}[$\frac{0}{0}$型不定式，$x \to \infty$]
+设函数$f(x)$,$g(x)$在$U={x:|x|\leq a \leq 0}$上可导，而且满足：
+\begin{align*}
+    \lim\limits_{x \to \infty}f(x)=\lim\limits_{x \to \infty}g(x)=0;\\
+    g^{'}(x) \neq 0,\forall x \in U;\\
+    \lim\limits_{x \to \infty}\frac{f^{'}(x)}{g^{'}(x)}=l(\mbox{$l$为有限数或$+\infty$,$-\infty$})
+\end{align*}
+则有
+\begin{equation}
+    \lim\limits_{x \to \infty }\frac{f(x)}{g(x)}=\lim\limits_{x \to \infty}\frac{f^{'}(x)}{g^{'}(x)}=l
+\end{equation}
+\end{theorem}
+
+\begin{theorem}[$\frac{\infty}{\infty}$型不等式，$x \to a$，实际上，只要求分母趋于无穷]
+设函数$f(x)$,$g(x)$在$a$点的某一去心邻域$U_{0}(a,\delta)$上可导，且满足：
+\begin{align*}
+    \lim\limits_{x\to a}g(x)=\infty;\\
+    g^{'}(x)\neq 0,\forall x \in U_{0}(a,\delta);\\
+    \lim\limits_{x\to a}\frac{f^{'}(x)}{g^{'}(x)}=l(\mbox{$l$为有限数或$+\infty$,$-\infty$})
+\end{align*}
+则有
+\begin{equation}
+    \lim\limits_{x \to a}\frac{f(x)}{g(x)}=\lim\limits_{x \to a}\frac{f^{'}(x)}{g^{'}(x)}=l
+\end{equation}
+\end{theorem}
+
+\begin{theorem}[$\frac{\infty}{\infty}$型不等式，$x \to \infty$，实际上，只要求分母趋于无穷]
+设函数$f(x)$,$g(x)$在$U={x:|x|\leq a \leq 0}$上可导，而且满足：
+\begin{align*}
+    \lim\limits_{x\to \infty}g(x)=\infty;\\
+    g^{'}(x)\neq 0,\forall x \in U(a,\delta);\\
+     \lim\limits_{x\to \infty}\frac{f^{'}(x)}{g^{'}(x)}=l(\mbox{$l$为有限数或$+\infty$,$-\infty$})
+\end{align*}
+则有
+\begin{equation}
+    \lim\limits_{x \to \infty}\frac{f(x)}{g(x)}=\lim\limits_{x \to \infty}\frac{f^{'}(x)}{g^{'}(x)}=l
+\end{equation}
+\end{theorem}
+
+\section{泰勒公式}
+
+\subsection{带Peano余项的Taylor公式}
+
+\begin{remark}
+带Peano余项的Taylor公式是在某一点处的逼近，是局部性质
+\end{remark}
+
+\begin{note}
+回忆前面学到的微分的定义：若函数$f(x)$在$x_0$处可微，则
+\begin{align*}
+    f(x)-f(x_0)=f^{\prime}(x_0)(x-x_0)+o(x-x_0)\;\;(x \to x_0)\\
+    f(x)=f(x_0)+f^{\prime}(x_0)(x-x_0)+o(x-x_0)\;\;(x \to x_0)
+\end{align*}
+这可以理解为一次的逼近（线性估计），那么，能否用二次，甚至更高次的多项式来估计呢？答案是肯定的
+\end{note}
+
+\begin{theorem}
+设函数$f(x)$在$x_0$处具有$n(n\geq 1)$阶导数，则有
+\begin{equation}
+    f(x)=f(x_0)+f^{\prime}(x_0)(x-x_0)+\frac{f^{\prime \prime }(x_0)}{2!}(x-x_0)^{2}+...+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}+o((x-x_0)^{n})\;\;(x \to x_0)
+\end{equation}
+多项式
+\begin{equation}
+    P_n(x)=f(x_0)+f^{\prime}(x_0)(x-x_0)+\frac{f^{\prime \prime }(x_0)}{2!}(x-x_0)^{2}+...+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}+o((x-x_0)^{n})\;\;(x \to x_0)
+\end{equation}
+被称为泰勒多项式\\
+\begin{equation}
+    R_n(x)=f(x)-P_n(x)=o((x-x_0)^{n})
+\end{equation}
+被称为泰勒公式的余项这种余项被称为Peano余项
+\\当$x_0=0$时此时的泰勒公式被称为麦克劳林公式：
+\begin{equation}
+    f(x)=f(0)+f^{\prime}(0)(x)+\frac{f^{\prime \prime }(0)}{2!}x^{2}+...+\frac{f^{(n)}(0)}{n!}x^{n}+o(x^{n})\;\;(x \to 0)
+\end{equation}
+\end{theorem}
+
+\begin{note}
+函数$f(x)$在$x_0$处具有$n(n\geq 1)$阶导数，表明$f$在$x_0$附近的某邻域上存在所有的$k(k<n)$阶导数，但$f^{(n)}(x)$只知道在$x_0$一点存在
+\end{note}
+\begin{remark}
+使用数学归纳法证明，前提时$n$阶可导,我们可以先看看二次的简单情况
+\end{remark}
+
+\begin{example}
+函数$f(x)$在$x_0$处的二次的泰勒展开为
+\begin{equation}
+    f(x)=f(x_0)+f^{\prime}(x_0)(x-x_0)+\frac{f^{\prime \prime }(x_0)(x-x_0)^{2}}{2}\;\;(x \to x_0)
+\end{equation}
+证明其充分性和必要性
+\end{example}
+
+\begin{proof}
+(1)\;\;(\mbox{充分性})\\
+由待定系数法设$f(x)=A+B(x-x_0)+C(x-x_0)^{2}+R(x)$
+由赋值可得（证明以这种形式展开的唯一性）\\%%第二遍得时候写一下
+(2)\;\;(\mbox{必要性})\\
+即证
+\begin{equation}
+    \lim\limtis_{x \to x_0}\frac{f(x)-f(x_0)-f^{\prime}(x_0)(x-x_0)-\frac{f^{\prime \prime }(x_0)(x-x_0)^{2}}{2}}{(x-x_0)^{2}}=0
+\end{equation}
+因为,由洛必达法则
+\begin{equation}
+\begin{aligned}
+   & \lim\limtis_{x \to x_0}\frac{f(x)-f(x_0)-f^{\prime}(x_0)(x-x_0)-\frac{f^{\prime \prime }(x_0)(x-x_0)^{2}}{2}}{(x-x_0)^{2}}\\
+   & =\lim\limtis_{x\to x_0}\frac{f^{\prime}(x)-f^{\prime}(x_0)-f^{\prime \prime }(x_0)(x-x_0)}{2(x-x_0)}\\
+   & =\frac{1}{2}(\lim\limits_{x\to x_0}\frac{f^{\prime}(x)-f^{\prime}(x_0)}{x-x_0}-f^{\prime \prime}(x_0))\\
+   &=0
+\end{aligned}
+\end{equation}
+得证
+\end{proof}
+
+现在我们开始正式证明完整的局部泰勒展开式
+\begin{proof}
+令
+\begin{equation}
+    T_n(f,x;x_0)=f(x)=f(x_0)+f^{\prime}(x_0)(x-x_0)+\frac{f^{\prime \prime }(x_0)}{2!}(x-x_0)^{2}+...+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}
+\end{equation}
+$n=1$时在定义微分时已证明，假设$n=k$时
+\begin{equation}
+\begin{aligned}
+    f(x)&=f(x_0)+f^{\prime}(x_0)(x-x_0)+\frac{f^{\prime \prime }(x_0)}{2!}(x-x_0)^{2}+...+\frac{f^{(k)}(x_0)}{k!}(x-x_0)^{k}+o((x-x_0)^{k})\\
+    &=T_k(f,x;x_0)+o((x-x_0)^{k})
+    \end{aligned}
+\end{equation}
+成立，要验证$n=k+1$时是否成立,即证
+\begin{equation}
+   \lim\limtis_{x \to x_0}\frac{f(x)-T_{k+1}(f,x;x_0)}{(x-x_0)^{k+1}}=0
+\end{equation}
+因为
+\begin{equation}
+    \begin{aligned}
+         &(T_{k+1}(f,x,x_0))^{\prime}\\
+         &=(f(x_0)+f^{\prime}(x_0)(x-x_0)+\frac{f^{\prime \prime }(x_0)}{2!}(x-x_0)^{2}+...+\frac{f^{(k+1)}(x_0)}{(k+1)!}(x-x_0)^{k+1})^{\prime}\\
+         &=f^{\prime }(x_0)+f^{\prime \prime  }(x-x_0)+\frac{f^{(3)}(x_0)(x-x_0)^{2}}{2!}+...+\frac{f^{(k+1)}(x_0)(x-x_0)^{k}}{k!}\\
+         &=T_{k}(f^{'},x;x_0)
+    \end{aligned}
+\end{equation}
+所以，由洛必达法则
+\begin{equation}
+    \begin{aligned}
+         &\lim\limtis_{x \to x_0}\frac{f(x)-T_{k+1}(f,x;x_0)}{(x-x_0)^{k+1}}\\
+         &=\lim\limits_{x\to x_0}\frac{f^{\prime}(x)-T_{k}(f^{'},x;x_0)}{(k+1)(x-x_0)^{k}}\\
+         &=\frac{o((x-x_0)^{k})}{(k+1)(x-x_0)^{k}}\\
+         &=\frac{o(1)}{k+1}\\
+         &=0
+    \end{aligned}
+\end{equation}
+得证
+\end{proof}
+
+\subsection{带Lagrange余项和Cauchy余项的泰勒公式}
+回顾前面的Lagrange中值定理:若函数$f(x)$在$[a,b]$内连续，在$(a,b)$内可导，则在$(a,b)$上至少存在一点$\xi$，使得
+\begin{equation}
+     f^{'}(\xi)=\frac{f(b)-f(a)}{b-a}
+\end{equation}
+对该式进行恒等变形：
+\begin{equation}
+\begin{aligned}
+     & f(b)=f^{\prime}(\xi)(b-a)+f(a)\\
+     & f(x)=f(x_0)+f^{\prime}(\xi)(x-x_0)
+\end{aligned}
+\end{equation}
+可理解为另一种形式的展开公式，故考虑对该公式的推广：
+\begin{theorem}[带Lagrange余项的泰勒公式]
+设$f(x) \in C^{n}(a,b)$($f^{(n)}(x)$在$(a,b)$上连续)，而且在$(a,b)$内存在$n+1$阶导数，则对任意的$x,x_0 \in[a,b]$，有
+\begin{equation}
+    f(x)=f(x_0)+\frac{f^{\prime}(x_0)(x-x_0)}{1！}+\frac{f^{\prime \prime}(x_0)(x-x_0)^{2}}{2!}+...+\frac{f^{(n)}(x_0)(x-x_0)^{n}}{n!}+\frac{f^{(n+1)}(\xi)(x-x_0)^{n+1}}{(n+1)!}
+\end{equation}
+其中$\xi \in (x,x_0)$\\
+也可以写作
+\begin{equation}
+    f(x)=T_n(f,x;x_0)+\frac{f^{(n+1)}(\xi)(x-x_0)^{n+1}}{(n+1)!}
+\end{equation}
+其中$\frac{f^{(n+1)}(\xi)(x-x_0)^{n+1}}{(n+1)!}$被成为Lagrange余项，是可以定量分析的
+\end{theorem}
+
+\begin{remark}
+带有Peano余项的泰勒公式是对无穷小增量公式的推广，带有Lagrange余项的泰勒公式是对Lagrange中值定理（有限增量公式）的推广
+\end{remark}
+
+\begin{remark}
+任意的$x,x_0$对于对应的$\xi$是取定的值
+\end{remark}
+
+\begin{proof}[方法一：构造辅助函数]%%第三遍了，真的不能再多了！！！
+令$F(t)=T_n(f,t;x)=f(t)+\sum_{k=1}^{n}\frac{f^{(k)}(t)(x-t)^{k}}{k!}$\\
+对$F(t)$求导：
+\begin{equation}
+    \begin{aligned}
+        F^{\prime}(t)&=f^{\prime}(t)+\sum_{k=1}^{n}[\frac{f^{(k+1)}(t)(x-t)^{k}}{k!}-\frac{f^{k}(t)(x-t)^{k-1}}{(k-1)!}]\\
+        &=f^{\prime}(t)+\frac{f^{n+1}(t)(x-t)^{n}}{n!}-f^{\prime}(t)\\
+        &=\frac{f^{n+1}(t)(x-t)^{n}}{n!}
+    \end{aligned}
+\end{equation}
+令函数
+\begin{equation}
+    g(t)=\frac{F(x)-f(x_0)}{(x-x_0)^{p}}p(x-t)^{p}+F(t)-F(x)
+\end{equation}
+(直接证施勒米尔希-洛希余项)\\
+其中$p \in N*$，则$g(t)$在闭区间$[x_0,x]$上连续，在开区间$(x_0,x)$上可导，且$g(x_0)=g(x)=0$满足Rolle中值定理，所以\\
+存在$\xi \in (x_0,x)$,使得
+\begin{equation}
+   \begin{aligned}
+        g^{\prime}(\xi)&=0\\
+        &=-\frac{F(x)-F(x_0)}{(x-x_0)^{p}}(x-\xi)^{p-1}+F^{\prime}(\xi)\\
+        &=-\frac{f(x)-T_n(f,x_0;x)}{(x-x_0)^{p}}p(x-\xi)^{p-1}+\frac{f^{(n+1)}(\xi)}{n!}(x-\xi)^{n}
+   \end{aligned}
+\end{equation}
+所以
+\begin{equation}
+    f(x)=T_n(f,x_0;x)+\frac{f^{(n+1)}(\xi)}{n!p}(x-\xi)^{n-p+1}(x-x_0)^{p}
+\end{equation}
+令$p=n+1$ 
+\begin{equation}
+   f(x)=T_n(f,x_0;x)+\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}
+\end{equation}
+得证
+\end{proof}
+
+\begin{theorem}[带Cauchy余项的泰勒公式]
+若$f$在点$x_0$的某邻域$U(x_0,\delta)$上$n+1$阶可导，则$\forall x \in U(x_0,\delta)$,$x \neq x_0$,$  \exists \eta \in (x_0,x)$,使得
+\begin{equation}
+\begin{aligned}
+    & f(x)=  f(x)=f(x_0)+\frac{f^{\prime}(x_0)(x-x_0)}{1\!}+\frac{f^{\prime \prime}(x_0)(x-x_0)^{2}}{2!}+...+\frac{f^{(n)}(x_0)(x-x_0)^{n}}{n!}+r_n(x)\\
+    & r_n(x)=\frac{f^{(n+1)}(\eta)(x-\eta)^{n}(x-x_0)}{n!}
+\end{aligned}
+\end{equation}
+\end{theorem}
+
+\begin{remark}
+带拉格朗日余项的泰勒公式中的$\xi$与带柯西余项的泰勒公式中的$\eta$，即使是对于同一个函数的不同展开，$\xi$与$\eta$之间不一定相等，因为这是两种不同形式的展开
+\end{remark}
+
+
+
+\subsection{用泰勒公式的余项进行估计}
+\newpage
+
+\chapter{数学分析-\uppercase\expandafter{\romannumeral1}-Riemann积分}
+
+\section{Riemann积分}
+
+\begin{definition}[Riemann积分的定义]
+设函数$f(x)$在区间$[a,b]$上有定义，对闭区间$[a,b]$的一个分割
+\begin{equation}
+    \pi:a=x_0 \textless x_1 \textless x_2 \textless ... \textless x_n=b
+\end{equation}
+记$\Delta x_i=x_{i-1}-x_i(i=1,2,...,n)$，$||\pi||=max_{1 \leq i \leq n}{\Delta x_i}$\\
+在每个小区间$[x_{i-1},x_i](i=1,2,...,n)$上任取$\xi_{i}$作和式
+\begin{equation}
+    \sum_{i=1}^{n}f(\xi_i)\Delta x_i
+\end{equation}
+当$||\pi|| \to 0$时，上述和式存在极限$I$,且$I$不依赖分割$||\pi||$的选取和$\xi_i$在$[x_{i-1},x_i](i=1,2,...,n)$上的选取\\
+则称$f(x)$在区间$[a,b]$上黎曼可积(简称可积)的，同时称$I$为$f(x)$在区间$[a,b]$上的定积分，记为
+\begin{equation}
+    I=\int_{a}^{b}f(x)dx
+\end{equation}
+其中$a$与$b$分别称为定积分的下限和上限，$f(x)$称为被积函数，$x$称为积分变量\\
+和式$ \sum_{i=1}^{n}f(\xi_i)\Delta x_i$称为函数$f(x)$关于$\pi$的黎曼和
+\end{definition}
+
+\begin{definition}[用$\epsilon - \delta$语言定义定积分]
+设函数$f(x)$在区间$[a,b]$上有定义，若存在常数$I \in R$，使得$\forall \epsilon \textgreater 0,\exists \delta \textgreater 0$，对区间$[a,b]$的任何一个分割$\pi$，当$||\pi||  \textless \delta$时，在每个$[x_{i-1},x_i](i=1,2,...,n)$上任取$\xi_{i}$，都有
+\begin{equation}
+    |\sum_{i=1}^{n}f(\xi_i)\Delta x_i-I| \textless \epsilon
+\end{equation}
+则称函数$f(x)$在区间$[a,b]$上黎曼可积，并称$I$为函数$f(x)$在区间$[a,b]$上的定积分\\
+记号$f(x) \in R[a,b]$表示$f(x)$在区间$[a,b]$上黎曼可积
+\end{definition}
+
+\begin{remark}
+可以看出，若$f(x)$在区间$[a,b]$上黎曼可积,则$f(x)$在区间$[a,b]$上的定积分$\int_{a}^{b}f(x)dx$是一种特殊和式的极限，与自变量的选取无关.值得注意的是，上述极限与数列极限和函数极限有所不同.在$||\pi|| \to 0 $的过程中，这个极限过程有两个任意性：1.分割的任意性2.每个小区间上$\xi_i$选取的任意性.但定积分定义中和式的极限与数列极限或函数极限也有相似的性质，如极限的唯一性.
+\end{remark}
+
+
+\section{Riemann可积函数的性质}
+
+
+\section{可积性问题}
+
+\subsection{Riemann可积的条件}
+
+\begin{theorem}[Riemann可积的必要条件]
+若函数$f(x)$在闭区间$[a,b]$上可积，则函数$f(x)$在$[a,b]$上有界
+\end{theorem}
+
+\begin{note}
+证明思路：证一小段有界，再同理证明在全部子区间上有界，然后推出整体有界
+\end{note}
+
+\begin{proof}
+设函数$f(x)$在闭区间$[a,b]$上的Riemann积分为$I$,由Riemann积分的定义可知，对$\epsilon=1$，存在一个分割$ \pi:a=x_0 \textless x_1 \textless x_2 \textless ... \textless x_n=b$，使得
+\begin{equation}
+    |\sum_{i=1}^{n}f(\xi_i)\Delta x_i-I| \textless 1
+\end{equation}
+其中$\xi_i$是$[x_{i-1},x_i$上任意一点$(i=1,2,3,..)$,由三角不等式可知
+\begin{equation}
+     |\sum_{i=1}^{n}f(\xi_i)\Delta x_i|-|I|   \leq |\sum_{i=1}^{n}f(\xi_i)\Delta x_i-I| \textless 1
+\end{equation}
+所以
+\begin{equation}
+     |\sum_{i=1}^{n}f(\xi_i)\Delta x_i| \textless |I|+1
+\end{equation}
+把Riemann和的第一项单独写出，则有
+\begin{equation}
+    \begin{aligned}
+        &|f(\xi_1)\Delta x_1|-|\sum_{i=2}^{n}f(\xi_i)\Delta x_i| \leq |\sum_{i=1}^{n}f(\xi_i)\Delta x_i| \textless |I|+1\\
+        \Rightarrow &|f(\xi_1)\Delta x_1| \textless |\sum_{i=2}^{n}f(\xi_i)\Delta x_i| +|I|+1\\
+        \Rightarrow &|f(\xi_1)| \textless \frac{1}{\Delta x_1}(|\sum_{i=2}^{n}f(\xi_i)\Delta x_i| +|I|+1)
+    \end{aligned}
+\end{equation}
+取定$\xi_2,\xi_3,...,\xi_n$，则上式右侧是固定的实数由于$\xi_1$是$[x_0,x_1]$上任意一点，则$f(x)$在$[x_0,x_1]$上有界同理：$f(x)$在$[x_{i-1},x_i](i=1,2,3,...,n)$上有界\\
+所以$f(x)$在区间$[a,b]$上有界，得证.
+\end{proof}
+
+\begin{remark}
+当然也可以证它的逆否命题成立(见《北》第二册P14-15)
+\end{remark}
+
+\subsection{达布理论}
+\begin{note}
+由于Riemann积分的定义可知，其极限过程有两个任意性，而这对于实际操作十分不便，所以我们想开发出一种与Riemann积分为充要关系的，易于使用的工具
+\end{note}
+
+\begin{definition}
+
+\end{definition}
+
+\subsection{勒贝格定理}
+
+\begin{theorem}[Lebesgue-Vitali 定理]
+设函数$f$在区间$[a,b]$上有界，则$f$在$[a,b]$上Riemann可积当且仅当$f$在$[a,b]$上的不连续点组成的集合是一个零测集.
+\end{theorem}
+
+\begin{note}
+1.用振幅来刻画连续性 $\Rightarrow$ 振幅可以用来证明Riemann可积 $\Rightarrow$ Darboux 积分的思想\\
+2.覆盖 $\Rightarrow$ 测度 $\Rightarrow$ 零测集\\
+3.用 $\epsilon-\delta $语言来证明，调整系数
+\end{note}
+
+\begin{note}
+必要性证明思路：\\
+”R-可积“可以使用Darboux积分来刻画，而Darboux积分可以用振幅来刻画.$D(f)$零测研究的不连续点，同样可以用振幅来刻画.所以“振幅”是连接已知和目标的核心\\
+因为不连续点有至多可数个，并不一定是有限的，所以要对它们进行拆解，将$D(f)$零测转化为$D_{\delta}(f)$零测，这里的$D_{\delta}(f)$指振幅大于$\delta$的不连续点的集合\\
+而因为研究的是不连续点，需要对前面得到的定理做逆否的变换：“$f$在$x_0$处连续$\Leftrightarrow$ $\omega_{f}(x_0)=0$”的逆否命题为“$f$在$x_0$处为间断点 \Leftrightarrow $\omega_{f}(x_0) \neq 0$”(因为是当且仅当关系，所以前后顺序并不影响)
+\end{note}
+
+\begin{proof}
+(必要性)(已知R-可积$\Rightarrow$ $D(f)$零测)
+\begin{equation*}
+    D(f)=D_1 \cup D_{\frac{1}{2}} \cup ... \cup D_{\frac{1}{n}} \cup ...=\bigcup_{n=1}^{\infty} D_{\frac{1}{n}}
+\end{equation*}
+若证明了对任意的$\delta \textgreater 0$，$D_{\delta}(f)$均为零测集，也就证明了$D(f)$是零测集(虽然是无限个，但是是可数个)\\
+设$f$在$[a,b]$上Riemann可积，由Riemann可积的充要条件可知，$\forall \epsilon \textgreater 0$，有
+\begin{equation*}
+    \sum_{i=1}^{n}\omega_i \Delta x_i \textless \frac{\delta \epsilon}{2}
+\end{equation*}
+($\epsilon$可以乘上一个系数，凑系数可以使得结果更好看)\\
+现在，我们要证$D_{\delta}$是零测集 $\Leftrightarrow$ 要找到至多可数个开区间来覆盖这些不连续点，使得这个集合的测度小于$\forall \epsilon \textgreater 0$,而不连续点可能在分割的端点上也有可能在小开区间上，所以要对不连续点进行分类\\
+令
+\begin{equation*}
+   \begin{aligned}
+        &\Lambda =\{i:D_{\delta} \cap (x_{i-1},x_i) (i=1,2,...,m)\}\\
+        \therefore \;& D_{\delta} \subseteq \left [\bigcup_{i \in \Lambda}(x_{i-1,x_i})\right ] \cap  \{x_0,x_1,...,x_m \}\\
+        \therefore \;&D_{\delta} \subseteq \left [\bigcup_{i \in \Lambda}(x_{i-1,x_i})\right ] \cap \left [\bigcup_{i=0}^{m}(x_i-\frac{1}{4(m+1)}\epsilon,x_i+\frac{1}{4(m+1)}\epsilon)\right]
+   \end{aligned}
+\end{equation*}
+用一个个小邻域去覆盖端点，这些小邻域的并集与包含不连续点的集合组成的集合覆盖了所有的不连续点\\
+所以
+\begin{equation*}
+   \begin{aligned}
+         &\sum_{i=0}^{m}\left[(x_i+\frac{1}{4(m+1)}\epsilon)-(x_i-\frac{1}{4(m+1)}\epsilon)\right]\\
+         &=\frac{2(m+1)}{4(m+1)}\epsilon\\
+         &=\frac{\epsilon}{2}\\
+         \therefore &\bigcup_{i=0}^{m}(x_i-\frac{1}{4(m+1)}\epsilon,x_i+\frac{1}{4(m+1)}\epsilon) \leq \frac{\epsilon}{2}
+   \end{aligned}
+\end{equation*}
+（最后一排之所以是小于等于是因为小邻域有可能相交）\\
+现在来处理$\bigcup_{i \in \Lambda}(x_{i-1,x_i})$我们已知$\sum_{i=1}^{n}\omega_i \Delta x_i \textless \frac{\delta \epsilon}{2}$,要证$\sum_{i \in \Lambda }\Delta x_i \leq \frac{\epsilon}{2}$,即证$\delta \sum_{i \in \Lambda }\Delta x_i \leq  \frac{\delta \epsilon}{2}$,现分析$\delta $与$\omega_i$的关系：\\
+$\omege_i$为区间上的振幅，而$\delta $为不连续点上振幅的下界\\
+联想某一点处振幅的定义，是取以这一点为中心的邻域，研究这一邻域上的振幅，显然，当邻域缩小时，振幅不严格单调地变小，所以
+\begin{equation*}
+    \begin{aligned}
+          &\delta \textless \omega \left[ U(x,r)  \right] \textless \omega_i\\
+          \therefore\; &\delta \sum_{i \in \Lambda }\Delta x_i \textless  \sum_{i \in \Lambda }\omega _i \Delta x_i \textless \sum_{i=1 }^{n}\omega _i \Delta x_i \textless \frac{\delta \epsilon}{2}\\
+          \therefore \;&\sum_{i \in \Lambda }\Delta x_i \leq \frac{\epsilon}{2}
+    \end{aligned}
+\end{equation*}
+综上，
+\begin{equation*}
+   \begin{aligned}
+          D_{\delta} \subseteq &\left [\bigcup_{i \in \Lambda}(x_{i-1,x_i})\right ] \cap \left [\bigcup_{i=0}^{m}(x_i-\frac{1}{4(m+1)}\epsilon,x_i+\frac{1}{4(m+1)}\epsilon)\right] \\
+          &\textless \sum_{i \in \Lambda }\Delta x_i +\sum_{i=0}^{m}\left[(x_i+\frac{1}{4(m+1)}\epsilon)-(x_i-\frac{1}{4(m+1)}\epsilon)\right] \\
+          &\textless \frac{\epsilon}{2} +\frac{\epsilon}{2}\\
+          &=\epsilon
+   \end{aligned}
+\end{equation*}
+得证.
+\end{proof}
+
+\begin{note}
+充分性证明思路：\\
+我们联想到R-可积的充分条件：“闭区间上连续 $\Rightarrow$  R-可积”，而我们要证明的命题则是将条件进行了削弱，将“在闭区间上连续”削弱为"在有限闭区间上不连续点地集合为零测集"，所以我们可以类比其证明思想\\
+回顾Riemann可积充分条件的证明，发现关键是一致连续，有了一致连续，我们就可以限定函数值差的范围，所以要对之前的一致连续定理进行推广(从有限闭区间削弱至有限闭集)，即函数$f$在有限闭集上连续，则$f$在其上一致连续\\
+我们把有限闭区间$I$上的不连续点用小邻域$(\alpha_i,\beta_i)$扣掉，就可以得到一个闭集了
+\end{note}
+
+\begin{lemma}
+设闭区间$I$上的函数$f$，若$D(f)$存在一个开覆盖$\{(\alpha_i,\beta_i).i=1,2,3,...\}$\\
+令
+\begin{equation*}
+    K=I \setminus \bigcup_{i=1}^{\infty}(\alpha_i,\beta_i)
+\end{equation*}
+则对于$\forall \epsilon \textgreater 0$，都$\exists \delta \textgreater 0 $,使得当$x \in K,y \in I$，且$\left|x-y\right|\textless \delta$时
+\begin{equation*}
+    \left| f(x)-f(y)     \right| \textless \epsilon
+\end{equation*}
+\end{lemma}
+
+
+\begin{proof}
+(充分性)(已知$D(f)$零测 $\Rightarrow$ R-可积)\\
+要证R-可积，即证$\sum_{i=1}^{n}\omega_i \Delta x_i \textless \epsilon$，先对小区间进行分类：\\
+令：
+\begin{equation*}
+    \begin{aligned}
+           &\Lambda_1=\{i:K\cap (x_{i-1},x_i)\neq \varnothing ,i=1,2,3,...,m    \}\\
+           &\Lambda_2=\{i:K\cap (x_{i-1},x_i)= \varnothing ,i=1,2,3,...,m     \}\\
+           \therefore \; &\Lambda_2 \subseteq \bigcup_{i=1}^{\infty}(\alpha_i,\beta_i)
+    \end{aligned}
+\end{equation*}
+因为 $\bigcup_{i=1}^{\infty}(\alpha_i,\beta_i)$是零测集(零测集的定义)，所以$\Lambda_2$也是零测集.\\
+我们要证明$\sum_{i=1}^{n}\omega_i \Delta x_i \textless \epsilon$，而$\sum_{i=1}^{n}\omega_i \Delta x_i=\sum_{i \in \Lambda_1}\omega_i \Delta x_i+\sum_{i \in \Lambda_2}\omega_i \Delta x_i$，所以即证这两部分分别小于$\frac{\epsilon}{2}$(并没有这两部分相等的意思，我们完全可以证一个小于$\frac{\epsilon}{3}$，另一个小于$\frac{2\epsilon}{3}$)\\
+因为$\Lambda_2$是零测集，易得
+\begin{equation*}
+\begin{aligned}
+    & \sum_{i\in \Lambda_2 }\Delta x_i \leq  \sum_{i=1}^{\infty} (\beta_i -\alpha_i) \textless \frac{\epsilon}{2\omega}\\
+    &  \sum_{i \in \Lambda_2}\omega_i \Delta x_i \textless \sum_{i \in \Lambda_2}\omega \Delta x_i = \omega \sum_{i \in \Lambda_2} \Delta x_i \textless \omega \frac{\epsilon}{2\omega}=\frac{\epsilon}{2}
+\end{aligned}
+\end{equation*}
+现在来研究$\sum_{i \in \Lambda_1}\omega_i \Delta x_i$
+\begin{equation*}
+    \begin{aligned}
+        \omega_i&=sup\{|f(z_1)-f(z_2)|.z_1,z_2 \in [x_{i-1},x_i]   \}\\
+        & \leq sup\{|f(z_1-f(y_i))|+|f(y_i)-f(z_2)|,    z_1,z_2 \in [x_{i-1},x_i],y_i \in K \cup (x_{i-1},x_i)        \}\\
+        & \textless 2\frac{\epsilon}{4(b-a)}\\
+        &=\frac{\epsilon}{2(b-a)}
+    \end{aligned}
+\end{equation*}
+因此
+\begin{equation*}
+    \begin{aligned}
+        \sum_{i \in \Lambda_1}\omega_i \Delta x_i \textless \sum_{i \in \Lambda_1}\frac{\epsilon}{2(b-a)} \Delta x_i=\frac{\epsilon}{2(b-a)} \sum_{i \in \Lambda_1}\Delta x_i \textless \frac{\epsilon}{2(b-a)}\sum_{i=1}^{m}\Delta x_i=\frac{\epsilon}{2(b-a)}(b-a)=\frac{\epsilon}{2}
+    \end{aligned}
+\end{equation*}
+综上,
+\begin{equation*}
+    \sum_{i=1}^{n}\omega_i \Delta x_i=\sum_{i \in \Lambda_1}\omega_i \Delta x_i+\sum_{i \in \Lambda_2}\omega_i \Delta x_i \textless \frac{\epsilon}{2} +\frac{\epsilon}{2}=\epsilon
+\end{equation*}
+所以R-可积\\
+得证.
+\end{proof}
+
+
+\section{定积分的性质}
+规定:\\
+(1)$\int_{a}^{a}f(x)dx=0$;\\
+(2)当函数$f(x)$在区间$[a,b]$上可积时，$\int_{a}^{b}f(x)dx=-\int_{b}^{a}f(x)dx$
+
+\begin{theorem}[线性性质]
+设函数$f(x)$,$g(x)\in R[a,b]$，$\alpha$,$\beta \in R$，则$\alpha f(x)+\beta g(x)\in R[a,b]$，并且有
+\begin{equation*}
+\int_{a}^{b}[\alpha f(x)+\beta g(x)]dx=\alpha \int_{a}^{b}f(x)dx+\beta \int_{a}^{b}g(x)dx
+\end{equation*}
+\end{theorem}
+
+\begin{theorem}
+设函数$f(x)\in R[a,b]$，则$|f(x)| \in R[a,b]$，并且有
+\begin{equation*}
+    \left|\int_a^bf(x)dx\right|\leq \int_a^b\left|f(x)\right|dx
+\end{equation*}
+\end{theorem}
+
+\begin{note}
+可以用面积来形象地理解
+\end{note}
+
+\begin{theorem}
+设$a \textless c \textless b$，则函数$f(x)\in R[a,b]$的充分必要条件是：$f(x)\in R[a,c]$和$f(x)\in R[c,b]$.当$f(x)\in R[a,b]$时，下式成立：
+\begin{equation*}
+    \int_a^bf(x)dx= \int_a^cf(x)dx+ \int_c^bf(x)dx
+\end{equation*}
+\end{theorem}
+
+\begin{theorem}[保序性]
+设函数$f(x)$，$g(x)\in R[a,b]$，并且$\forall x \in [a,b]$，有$f(x)\gep g(x)$，则：
+\begin{equation*}
+    \int_a^bf(x)dx\geq \int_a^bg(x)dx
+\end{equation*}
+\end{theorem}
+
+\begin{theorem}
+设函数$f(x)$,$g(x)\in R[a,b]$，则$f(x)g(x)\in R[a,b]$
+\end{theorem}
+
+\section{变限积分与微积分基本定理}
+\subsection{微积分基本定理}
+\begin{theorem}[Newton-Leibiz公式]
+设函数$f(x)$在$[a,b]$上Riemann可积，且在$(a,b)$上存在原函数$F(x)$，若$F(x)$在$[a,b]$上连续，则：
+\begin{equation*}
+    \int_a^bf(x)dx=F(b)-F(a)
+\end{equation*}
+\end{theorem}
+
+\begin{note}
+实际上，“若$F(x)$在$[a,b]$上连续”这句话是多余的，因为可以证明可积函数的原函数一定是Lipschitz连续的.
+\end{note}
+
+\begin{proof}
+把$[a,b]$做$n$等分($n\to \infty \Leftrightarrow ||\pi||\to0$)：
+\begin{equation*}
+    a=x_0\textless x_1 \textless ... \textless x_n=b
+\end{equation*}
+由Lagrange中值定理：
+\begin{equation*}
+    F(b)-F(a)=\sum_{i=1}^n\left[f(x_i)-f(x_{i-1})  \right]=\sum_{i=1}^n\left[F^{\prime}(\xi)(x_i-x_{i-1})   \right]=\sum_{i=1}^n\left[f(\xi_i)(x_i-x_{i-1})   \right]=\sum_{i=1}^n\left[f(\xi_i)\Delta x_i   \right]
+\end{equation*}
+因为函数$f(x)$在$[a,b]$上Riemann可积，所以令$n\to\infty$
+\begin{equation*}
+    F(b)-F(a)=\lim\limitis_{i=1}^n f(\xi_i)\Delta x_i=\int_a^bf(x)dx
+\end{equation*}
+\end{proof}
+
+\begin{theorem}[微积分基本定理]
+设函数$f(x)$在区间$[a,b]$上有定义，并且满足以下两个条件：\\
+(1)在区间$[a,b]$上可积\\
+(2)在区间$[a,b]$上存在原函数$F(x)$\\
+则有：
+\begin{equation*}
+    \int_a^bf(x)dx=F(b)-F(a)
+\end{equation*}
+也可理解为：
+\begin{equation*}
+    \frac{d}{dx}\left(\int_a^xf(t)dt\right)=f(x)
+\end{equation*}
+\end{theorem}
+
+
+\subsection{变限积分}
+
+\begin{definition}[变限积分]
+设函数$f(t)\in R[a,b]$，则$\forall x \in[a,b]$,$f(t)\in R[a,x]$.因此
+\begin{equation*}
+    \Phi (x)=\int_a^xf(t)dt
+\end{equation*}
+是定义在区间$[a,b]$上的一个函数.我们称$\Phi(x)$为$f(t)$的变上限积分.同理，我们可以在$[a,b]$上定义$f(x)$的变下限积分
+\begin{equation*}
+    \Psi(x)=\int_x^bf(t)dt\;\;\;\;\;(x\in [a,b])
+\end{equation*}
+\end{definition}
+
+\begin{theorem}[变限积分的性质-综述]
+设$\Phi(x)$是函数$f(t)\in R[a,b]$的变上限积分\\
+(1)若$f(t)\in R[a,b]$，则$\Phi(x)\in C[a,b]$\  (实际上是结论更强的Lipschitz连续) \\
+(2)若$f(t)\in C[a,b]$,则$\Phi(x)$在$[a,b]$上可导，并且$\Phi^{\prime}(x)=f(x)$(在端点处为单侧导数)
+\end{theorem}
+
+\begin{remark}
+很容易发现，变限积分具有比$f(t)$更好的性质.即通过积分，可以使函数的性质更好.\\
+可积$\Rightarrow$Lipschitz连续\\
+连续$\Rightarrow$可导\\
+\end{remark}
+
+\begin{theorem}[变限积分的性质：可积$\Rightarrow$Lipschitz连续]
+设函数$f(t)$在闭区间$[a,b]$上可积，令 
+\begin{equation*}
+    F(x)=\int_a^x f(t)dt\;\;\;\;\;x\in[a,b]
+\end{equation*}
+则$F(x)$在$[a,b]$上Lipschitz连续
+\end{theorem}
+
+\begin{note}
+[证明思路]\\
+要证Lipschitz连续，即证$|F(x_1)-F(x_2)|\leq M|x_1-x_2$(目标，要构造这种差的形式)\\
+要构造$|x_1-x_2|$的形式，联想积分的背景，想到构造$\int_{x_1}^{x_2}kdt=k(x_2-x_1)$
+\end{note}
+
+\begin{proof}
+\begin{equation*}
+    F(x_1)-F(x_2)=(F(x_1)-F(a))-(F(x_2)-F(a))=\int_a^{x_1}f(t)dt-\int_{a}^{x_2}F(t)dt=\int_a^{x_1}f(t)dt+\int_{x_2}^{a}f(t)dt=\int_{x_2}^{x_1}f(t)dt
+\end{equation*}
+因为$f(x)\in R[a,b]$，所以$f(x)$在$[a,b]$上有界：
+\begin{equation*}
+    \exists M\textgreater 0,|f(x)|\leq M
+\end{equation*}
+所以
+\begin{equation*}
+    \left|F(x_1)-F(x_2)\right|=\left|\int_{x_2}^{x_1}f(t)dt\right|\leq \int_{x_2}^{x_1}|f(t)|dt\leq \int_{x_2}^{x_1}Mdt
+\end{equation*}
+\begin{equation*}
+    \begin{aligned}
+        &(1)x_1 \textgreater x_2,|F(x_1)-F(x_2)|\leq (x_1-x_2)M\\
+        &(2)x_1 \textless x_1,|F(x_1)-F(x_2)| \leq (x_2-x_1)M\\
+        \mbox{即}&|F(x_1)-F(x_2)|\textless M|x_1-x_2|
+    \end{aligned}
+\end{equation*}
+所以$F(x)$在$[a,b]$上Lipschitz连续，得证.
+\end{proof}
+
+\begin{theorem}[变限积分的性质：有界$\Rightarrow$Lipschitz连续]
+设函数$f(t)$在区间$[a,b]$上有界，令
+\begin{equation*}
+    F(x)=\int_a^xf(t)dt
+\end{equation*}
+则$F(x)$在$[a,b]$上Lipschitz连续
+\end{theorem}
+
+\begin{theorem}[变限积分的性质：连续$\Rightarrow$可导]
+函数$f(t)$在$[a,b]$上可积，令
+\begin{equation*}
+    F(x)=\int_a^{x}f(t)dt
+\end{equation*}
+若$f(t)$在$x_0\in[a,b]$上连续，则$F(x)$在$x_0$可导，且$F^{\prime}(x_0)=f(x_0)$
+\end{theorem}
+
+\begin{note}
+证明思路：\\
+要证$F^{\prime}(x_0)=f(x_0)$，即证$F(x)$在$x_0$处的左导数等于$F(x)$在$x_0$处的右导数等于$f(x_0)$
+\end{note}
+
+\begin{proof}
+(先证明右导数的情况)\\
+要证$F_{+}^{\prime}(x_0)=f(x_0)$，即证$\lim\limits_{h\to 0^+}\frac{F(x_0+h)-F(x_0)}{h}=f(x_0)$,即证$\left|\frac{F(x_0+h)-F(x_0)}{h}-f(x_0)\right|\textless \epsilon(\forall \epsilon \textgreater 0)$
+\begin{equation*}
+   \begin{aligned}
+        &\left| \frac{F(x_0+h)-F(x_0)}{h}-f(x_0)   \right|\\
+       =&\left|\frac{1}{h}\int_{x_0}^{x_0+h}f(t)dt-\frac{1}{h}\int_{x_0}^{x_0+h}f(x_0)dt\right|\\
+       =&\left|\frac{\int_{x_0}^{x_0+h}(f(t)-f(x_0))dt}{h}     \right|\\
+       \leq&\frac{\int_{x_0}^{x_0+h}|f(t)-f(x_0)|dt}{|h|}
+   \end{aligned}
+\end{equation*}
+因为$f(x)$在$x_0$处连续，所以$\forall \epsilon \textgreater 0$,$\exists \delta \textgreater 0$，当$|t-x_0|\textless \delta$时，$|f(t)-f(x_0)|\textless \epsilon$
+所以
+\begin{equation*}
+    \begin{aligned}
+         &\left| \frac{F(x_0+h)-F(x_0)}{h}-f(x_0)   \right|\\
+    \leq &\frac{\int_{x_0}^{x_0+h}|f(t)-f(x_0)|dt}{|h|}\\
+    \textless &\frac{|\int_{x_0}^{x_0+h}|f(t)-f(x_0)|dt|}{|h|}\\
+    \textless  &\frac{|\int_{x_0}^{x_0+h}|\epsilon|dt|}{|h|}\\
+    =&\frac{|h|}{|h|}\epsilon\\
+    =&\epsilon
+    \end{aligned}
+\end{equation*}
+所以$F_{+}^{\prime}(x_0)=f(x_0)$,同理可得$F_{-}^{\prime}(x_0)=f(x_0)$，所以$F_{+}^{\prime}(x_0)=F_{-}^{\prime}(x_0)=f(x_0)$，即$F^{\prime}(x_0)=f(x_0)$，得证.
+\end{proof}
+
+由上述定义可知，区间$[a,b]$上的连续函数$f(x)$总存在原函数，且其变上限积分$\Phi(x)=\int_a^xf(t)dt(x\in [a,b])$即是它的一个原函数，而在上述定理的证明中，我们证明了一个更强的结论：若函数$f(t)\in R[a,b]$，并且在$x_0 \in [a,b]$处连续，则其变上限积分$\Phi(x)$在$x_0$处可导，并且有$\Phi^{\prime}(x_0)=f(x_0)$.
+
+\begin{remark}
+若函数$f(x)$在区间$[a,b]$上连续，则由变限积分的性质，可以推导出Newton-Leibniz公式
+\end{remark}
+
+\section{定积分的计算}
+
+\subsection{分部积分法}
+\begin{theorem}[黎曼积分的分部积分法]
+设函数$u(x)$，$v(x)$在区间$[a,b]$上可导，并且$u^{\prime}(x)$，$v^{\prime}(x)\in R[a,b]$，则
+\begin{equation*}
+    \int_a^bu(x)v^{\prime}(x)dx=\int_a^bu(x)d(v(x))=\int_a^b\left(u(x)v(x)\right)-\int_a^bu^{\prime}(x)v(x)dx
+\end{equation*}
+\end{theorem}
+
+\subsection{换元积分法}
+
+\begin{theorem}[黎曼积分的换元积分法]
+设函数$f(x)\in C[a,b]$,$\varphi(t)$在区间$[\alpha,\beta]$上具有连续导数，且$\varphi(\alpha)=a$，$\varphi(\beta)=b$，$a\leq \varphi(t)\leq b(\alfha \leq t \leq \beta )$，则有
+\begin{equation*}
+    \int_a^bf(x)dx=\int_{\alpha}^{\beta}f(\varphi(t))\varphi^{\prime}(t)dt
+\end{equation*}
+
+\end{theorem}
+
+\section{定积分的应用}
+
+
+\end{document}
