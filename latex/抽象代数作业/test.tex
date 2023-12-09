@@ -203,4 +203,71 @@ $p \equiv 3 \pmod 4$,若存在$a,b \in \mathbb{Z}$, 使得$p=a^2+b^2$，根据�
 
 \section{homework 6a Part1}
 
+\qs{6a-1}{$K$是域$F$的代数扩域，$L$是$K$的包含$F$的子环，证明$L$是域}
+
+\sol
+{
+
+    $L$是域$K$的子环，因此$L$是整环.
+
+    $\forall s \in L\subset K, s \neq 0$, 因为$K$是$F$的代数扩域, 所以$s$在$F$上是代数的, 存在极小多项式$f(x)=a_nx^n+...+a_1x+a_0 \in F[x], f(s)=0$, 由于$f(x)$在$F[x]$上不可约，因此$a_0 \neq 0$, 所以$s(a_ns^{n-1}+...+a_1)(-a_0^{-1})=1, s^{-1}=(a_ns^{n-1}+...+a_1)(-a_0^{-1}) \in F \subset L $, 因此$L$是域.
+    
+}
+
+\qs{6a-2}{$\alpha \in \mathbb{Q}(\sqrt[5]{3})\backslash \mathbb{Q}$, 证明$\sqrt[5]{3} \in \bbQ(\alpha)$}
+
+\sol
+{
+
+    实际上，就是要证明: 如果$\alpha \in \mathbb{Q}(\sqrt[5]{3})\backslash \mathbb{Q}$, 那么$\bbQ(\sqrt[5]{3})=\bbQ(\alpha)$.
+
+    可以巧妙地利用$5$是素数这一点.
+
+    因为$\alpha \in \mathbb{Q}(\sqrt[5]{3})$, 所以$\bbQ(\alpha) \in \mathbb{Q}(\sqrt[5]{3})$. 因为$\alpha \in \mathbb{Q}(\sqrt[5]{3})\backslash \mathbb{Q}$, 所以$[\bbQ(\alpha): \bbQ]\geq2$. 而$[\mathbb{Q}(\sqrt[5]{3}): \bbQ]=5=[\mathbb{Q}(\sqrt[5]{3}): \bbQ(\alpha)][\bbQ(\alpha): \bbQ]$, 所以$[\bbQ(\alpha): \bbQ]=5, [\mathbb{Q}(\sqrt[5]{3}): \bbQ(\alpha)]=1$, 从而$\bbQ(\sqrt[5]{3})=\bbQ(\alpha), \sqrt[5]{3} \in \bbQ(\alpha)$.$\diamondsuit$
+}
+
+\qs{6a-3}{$K=\bbQ(\sqrt[3]{2}, e^{\frac{2\pi i}{3}})$, 给出$K$的子域$F$, $\alpha \in K$, 使得$[F:\bbQ]=3, [F(\alpha), \bbQ(\alpha)]=3$.}
+
+\sol
+{
+
+    $F=\bbQ(\sqrt[3]{2}), [F:\bbQ]=\deg (x^3-2)=3$, $\alpha=e^{\frac{2\pi i}{3}}, [F(e^{\frac{2\pi i}{3}}): \bbQ(e^{\frac{2\pi i}{3}})]=[K:\bbQ(e^{\frac{2\pi i}{3}})]=3$
+}
+
+\qs{6a-5}{$a_1,...,a_n \in \bbN_+$, 两两互素, 都不是完全平方数, 证明: $[\bbQ(\sqrt{a_1},...,\sqrt{a_n}): \bbQ]=2^n$.}
+
+\sol
+{
+
+    利用有限单扩张升链.
+
+    $F_0=\bbQ, F_i=\bbQ(a_1,...,a_i)$, 考察$[F_{i+1}:F_i]$, 因为$a_1,...,a_n$两两互素, 因此$\sqrt{a_{i+1}} \neq F_{i}$, 因此$[F_{i+1}:F_i]>1$. 因为$a_{i+1}$不是完全平方数, $a_{i+1} \in \bbN_+ \subset \bbQ$, 所以$[F_{i+1}:F_i]=2$, 从而$[F_n:F_0]=2^n$.
+}
+
+\qs{6a-6}{$\alpha_1,...,\alpha_n \in \bbC, \alpha_i^2 \in \bbQ$, 证明: 域$\bbQ(\alpha_1,...,\alpha_n)$不包含$\sqrt[6]{2}$.}
+
+\sol
+{
+
+    利用望远镜定理中的整除关系.
+
+    $F_0=\bbQ, F_i=\bbQ(\alpha_1,...,\alpha_i)$, it's easy to show that $[F_{i+1}:F_i]=1$ or $2$.
+
+    若$\bbQ(\alpha_1,...,\alpha_n)$包含$\sqrt[6]{2}$, 那么$[F_n:F_0]=2^k=[F_n:\bbQ(\sqrt[6]{2})][\bbQ(\sqrt[6]{2}):\bbQ], 6\mid 2^k$, 矛盾. 
+}
+
+\qs{6a-7}{证明: $\bbQ(\sqrt[3]{7}+2i)=\bbQ(\sqrt[3]{7},2i)$, 求$\sqrt[3]{7}+2i$在$\bbQ$上极小多项式.}
+
+\sol
+{
+
+    显然有$\bbQ(\sqrt[3]{7}+2i)\subset \bbQ(\sqrt[3]{7},2i)$, 要证明: $\sqrt[3]{7},2i \in \bbQ(\sqrt[3]{7}+2i)$.
+
+    $\alpha=\sqrt[3]{7}+2i, (\alpha-2i)^3=7, \alpha^3-12\alpha+(8-6\alpha^2)i=7, i=\frac{7-\alpha^3+12\alpha}{8-6\alpha^2} \in \bbQ(\sqrt[3]{7}+2i)$, also $\sqrt[3]{7} \in \bbQ(\sqrt[3]{7}+2i)$, then $\bbQ(\sqrt[3]{7}+2i)=\bbQ(\sqrt[3]{7},2i)$.(就是计算极小多项式的中间步骤)
+
+    The degree of minimal polynomial of $\alpha$ over $\bbQ$: $\deg(f(x))=[\bbQ(\sqrt[3]{7}+2i):\bbQ]=6$.
+
+    $f(x)=x^6+12x^4-13x^3+48x^2+168x+113$.$\diamondsuit$
+}
+
 \end{document}
