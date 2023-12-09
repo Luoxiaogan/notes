@@ -1,3 +1,4 @@
 \contentsline {chapter}{\numberline {1}}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}homework 5a Part4}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}homework 6a Part1}{5}{section.1.2}%
 \contentsfinish 
