@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.21)  10 DEC 2023 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.21)  10 DEC 2023 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1470,11 +1470,7 @@ Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (q
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 276 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
  41511 strings out of 476025
  831613 string characters out of 5794015
