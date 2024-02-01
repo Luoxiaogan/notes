@@ -1,5 +1,9 @@
 {
-  "accentColor": "",
-  "theme": "moonstone",
-  "baseFontSize": 19
+  "accentColor": "#ce4040",
+  "theme": "obsidian",
+  "baseFontSize": 11,
+  "interfaceFontFamily": "Book Antiqua",
+  "cssTheme": "Obsidian Nord",
+  "textFontFamily": "Book Antiqua",
+  "monospaceFontFamily": "Book Antiqua"
 }

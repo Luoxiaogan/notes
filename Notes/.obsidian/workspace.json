@@ -4,17 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "14911662fa3d02b1",
+        "id": "dfe93a407c5d8cfe",
         "type": "tabs",
         "children": [
           {
-            "id": "022ec7d0c3f2e5c4",
+            "id": "a883169fc6c6cf74",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "本科生科研/Push-Pull.pdf"
+              }
+            }
+          },
+          {
+            "id": "d275233315872202",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "本科生科研/paper/Previous Work.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "be2a26196fa23833",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3600a7fd814103a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中级微观经济学/notes.md",
-                "mode": "preview",
+                "file": "日记/2024-02-01.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 234.5
   },
   "right": {
     "id": "958dc15e360925f2",
@@ -85,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "日记/2024-02-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "中级微观经济学/notes.md",
+                "file": "日记/2024-02-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +152,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级微观经济学/notes.md"
+                "file": "日记/2024-02-01.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,57 +170,56 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "random-note:开始漫游笔记": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "022ec7d0c3f2e5c4",
+  "active": "3600a7fd814103a7",
   "lastOpenFiles": [
-    "中级微观经济学/Lecture10 -Supply.md",
+    "本科生科研/paper/Previous Work.pdf",
+    "日记/2024-02-01.md",
+    "本科生科研/Push-pull algorithm.md",
+    "本科生科研/未命名.md",
+    "日记",
+    "新建文件夹",
+    "本科生科研/paper reading (Ran Xin).md",
+    "本科生科研/Push-Pull.pdf",
+    "大二上/ML+OP/ML1.md",
+    "本科生科研/paper/stochastic (Ran Xin).pdf",
+    "本科生科研/paper/push-pull (Ran Xin).pdf",
+    "image/2a201d6ac5e757f946d08d2b5c71273.jpg",
+    "大二上/抽象代数/群论/半期往年题.md",
+    "大二上/抽象代数/环论/环论1-环的基本概念.md",
+    "大二上/抽象代数/群论/抽象代数4a_Part3.md",
+    "大二上/中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
+    "本科生科研/paper/Push-Pull (Pu Shi).pdf",
+    "本科生科研/Previous Work.pdf",
+    "本科生科研/Project_on_Pull_Sum_and_Push_Pull (1).pdf",
+    "未命名.md",
     "中级微观经济学/notes.md",
-    "金融数据分析导引/notes.md",
+    "本科生科研",
+    "大二上/抽象代数/环论/环论2-同态与理想.md",
+    "大二上/抽象代数/群论/抽象代数4a_Part4.md",
+    "大二上/抽象代数/群论/小结论.md",
+    "大二上/抽象代数/群论/半期复习ppt.md",
+    "大二上/抽象代数/群论/Dummit_6-2.md",
+    "大二上/抽象代数/作业/5a-Part1.md",
+    "大二上/抽象代数/作业/5a-Par2.md",
+    "大二上/中级微观经济学/notes.md",
+    "大二上/中级微观经济学/Lecture9-Cost-Curves.md",
+    "大二上/中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
+    "大二上/中级微观经济学/Lecture7-Technology.md",
+    "大二上/中级微观经济学/Lecture10 -Supply.md",
+    "大二上/数学分析三/数分三习题课第十周.md",
+    "大二上/日记/2023-11-27.md",
     "image/f19eb0701d765964a0685b63b0ae55a.jpg",
     "image/Pasted image 20231128115318.png",
     "image/cb920e7a983cdee368006da537385a2.jpg",
     "image/Pasted image 20231128112847.png",
-    "日记/2023-11-27.md",
-    "中级微观经济学/Lecture10 -Supply-&-Partial-Equilibrium.md",
-    "ML+OP/ML1.md",
-    "抽象代数/群论/半期往年题.md",
-    "数学分析三/数分三习题课第十周.md",
-    "抽象代数/环论/环论1-环的基本概念.md",
-    "中级微观经济学/Lecture9-Cost-Curves.md",
-    "抽象代数/群论/小结论.md",
-    "抽象代数/群论/抽象代数4a_Part3.md",
-    "抽象代数/环论/环论2-同态与理想.md",
     "image/5711b73cf05fe92364a87ca6ed1afe9.png",
     "image/cfe4cd77de57974607d5d84b5265aaf.png",
     "image/b29b912a60ee9fd440b06caa7714cb5.png",
-    "2023-11-27.md",
-    "日记",
-    "新建文件夹",
     "image/Pasted image 20231127215305.png",
     "image/Pasted image 20231127215201.png",
-    "image/Pasted image 20231127212210.png",
-    "中级微观经济学/Lecture7-Technology.md",
-    "中级微观经济学/Lecture6-Meaket_demand_and_Uncertainty.md",
-    "中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
-    "抽象代数/作业/5a-Par2.md",
-    "抽象代数/作业/5a-Part1.md",
-    "未命名.canvas",
-    "README.md",
-    "抽象代数/群论/Dummit_6-2.md",
-    "抽象代数/群论/半期复习ppt.md",
-    "记录.md",
-    "image",
-    "抽象代数/抽象代数4a_Part3.md",
-    "抽象代数/抽象代数4a_Part4.md",
-    "LICENSE",
-    "中级微观经济学",
-    "数学分析三",
-    "金融数据分析导引",
-    "概率论",
-    "抽象代数/环论",
-    "抽象代数"
+    "未命名.canvas"
   ]
 }
