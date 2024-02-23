@@ -151,5 +151,7 @@
     "searchModalRange": "recent",
     "searchModalDvQuery": ""
   },
-  "excludedFiles": []
+  "excludedFiles": [
+    "本科生科研/寒假想法的总结.md"
+  ]
 }
