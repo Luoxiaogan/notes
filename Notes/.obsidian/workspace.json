@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "484348a9c48d8207",
+        "id": "1d0fea6e45cc33f6",
         "type": "tabs",
         "children": [
           {
-            "id": "6e507cbd23303861",
+            "id": "4aa8c2d90dbc15bd",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "大二下/数算B/上机/Lab1-2024.pdf"
+                "file": "大二下/数算B/notes/线性表-1-笔记.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大二下/数算B/上机/Lab1-2024.pdf",
+                "file": "大二下/数算B/notes/线性表-1-笔记.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大二下/数算B/上机/Lab1-2024.pdf",
+                "file": "大二下/数算B/notes/线性表-1-笔记.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大二下/数算B/上机/Lab1-2024.pdf"
+                "file": "大二下/数算B/notes/线性表-1-笔记.pdf"
               }
             }
           },
@@ -135,7 +135,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -152,33 +153,41 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6e507cbd23303861",
+  "active": "4aa8c2d90dbc15bd",
   "lastOpenFiles": [
-    "大二下/数算B/上机/CCLAB-机位平面图-计算中心5-6机房.pdf",
-    "大二下/数算B/上机/课前上机练习2024.pdf",
-    "本科生科研/论文书写——历史记录/Push-Pull——2024.2.22 version.pdf",
-    "大二下/数算B/上机/Lab1-2024.pdf",
-    "大二下/数算B/上机/Lab1-2024.pdf.crdownload",
-    "大二下/数算B/上机/CCLAB-机位平面图-计算中心5-6机房.pdf.crdownload",
-    "大二下/数算B/上机/课前上机练习2024.pdf.crdownload",
-    "大二下/数算B/上机",
-    "大二下/数算B/新建文件夹",
-    "大二下/数算B/PPT2-线性表1.pdf",
-    "大二下/数算B/PPT1-绪论.pdf",
+    "日记/2024-02-29.md",
+    "大二下/数理统计/数理统计3.pdf",
+    "大二下/数理统计/数理统计1.pdf",
+    "大二下/课表.png",
+    "大二下/计量经济学/资料/5-计量经济学zdd/笔记by娄神等/计量经济学_张丹丹_笔记_来自赛艇.pdf",
+    "大二下/计量经济学/资料/计量经济学——资源/计量经济学笔记/计量经济学笔记01.pdf",
+    "大二下/计量经济学/PPT/chapter2.2.pdf",
+    "大二下/数理统计/数理统计2.pdf",
+    "大二下/计量经济学/PPT/chapter2.1.pdf",
+    "大二下/计量经济学/资料/计量经济学——资源/计量经济学笔记/计量经济学笔记02.pdf",
+    "大二下/计量经济学/资料/5-计量经济学zdd/作业/Assignment 0.pdf",
+    "大二下/计量经济学/资料/计量经济学_张丹丹_笔记.pdf",
+    "大二下/数算B/线性表-1.md",
+    "本科生科研/证明.md",
+    "大二下/马克思主义基本原理概论/笔记.md",
+    "日记/2024-02-27.md",
+    "日记/2024-02-26.md",
+    "大二下/课表.jpg",
     "本科生科研/总结.md",
+    "大二下/研究型学习/未命名.md",
+    "本科生科研/paper reading (Ran Xin).md",
+    "image/Pasted image 20240225145257.png",
+    "日记/2024-02-24.md",
+    "日记/2024-02-23.md",
     "大二下/常微分方程/1.2.jpg",
     "大二下/常微分方程/1.1.jpg",
-    "本科生科研/paper reading (Ran Xin).md",
+    "大二下/常微分方程/6.jpg",
     "本科生科研/Push-pull algorithm.md",
     "日记/2024-02-20.md",
     "image/Pasted image 20240220185240.png",
     "image/Pasted image 20240219212738.png",
     "image/Pasted image 20240219210433.png",
     "image/Pasted image 20240219210423.png",
-    "image/Pasted image 20240219210415.png",
-    "image/Pasted image 20240219210404.png",
-    "image/Pasted image 20240219192309.png",
-    "image/Pasted image 20240219192259.png",
     "日记/2024-02-19.md",
     "大二下/学术科创部/采访老师的问题.md",
     "日记/2024-02-18.md",
@@ -191,15 +200,6 @@
     "日记/2024-02-12.md",
     "日记/2024-02-10.md",
     "日记/2024-02-06.md",
-    "日记/2024-02-02.md",
-    "日记/2024-02-01.md",
-    "本科生科研/未命名 1.md",
-    "本科生科研/未命名.md",
-    "大二上/ML+OP/ML1.md",
-    "大二上/抽象代数/群论/半期往年题.md",
-    "大二上/抽象代数/环论/环论1-环的基本概念.md",
-    "大二上/抽象代数/群论/抽象代数4a_Part3.md",
-    "大二上/中级微观经济学/Lecture8-Profit-Maximization&Cost-Minimization-Problem.md",
     "未命名.canvas"
   ]
 }

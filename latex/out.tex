@@ -1,0 +1,397 @@
+%
+\documentclass[10pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% geometry
+\usepackage[left=1in,top=1in,right=1in,bottom=1in,letterpaper]{geometry}
+\renewcommand{\baselinestretch}{1.5}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+%\input{math_commands.tex}
+
+\usepackage[colorlinks]{hyperref}
+\usepackage{url}
+\usepackage{amsthm,amsmath,amssymb, amscd}
+\usepackage{mathrsfs}
+\usepackage{amsfonts}
+\usepackage[utf8]{inputenc}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{bbding}
+\everymath{\displaystyle}
+\usepackage{indentfirst} 
+\usepackage{enumerate}
+\usepackage{bm}
+\usepackage{enumitem}
+\usepackage{algorithm, algorithmic}
+\usepackage[title]{appendix}
+\usepackage{dsfont}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{makecell}
+\usepackage{colortbl}
+\usepackage{cleveref}
+\usepackage{comment}
+\definecolor{Ocean}{RGB}{129,194,234}
+\definecolor{BPink}{rgb}{0.96, 0.76, 0.76}
+
+\usepackage{xspace}
+%\usepackage[authoryear]{natbib}
+
+\usepackage{mathtools}
+%\mathtoolsset{showonlyrefs=true}
+
+\newtheorem{thm}{Theorem}
+\newtheorem{remark}{Remark}
+\newtheorem{assumption}{Assumption}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{proposition}[thm]{Proposition}
+\newtheorem{example}{Example}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+%\newtheorem{algorithm}{Algorithm}
+\usepackage{apptools}
+
+\AtAppendix{\counterwithin{thm}{section}}
+\renewcommand{\algorithmicforall}{\textbf{on client for}}
+\newcommand{\q}{\frac{N-S}{S(N-1)}}
+
+
+\newcommand{\one}{\mathds{1}}
+
+\newcommand{\va}{{\mathbf{a}}}
+\newcommand{\vb}{{\mathbf{b}}}
+\newcommand{\vc}{{\mathbf{c}}}
+\newcommand{\vd}{{\mathbf{d}}}
+\newcommand{\ve}{{\mathbf{e}}}
+\newcommand{\vf}{{\mathbf{f}}}
+\newcommand{\vg}{{\mathbf{g}}}
+\newcommand{\vh}{{\mathbf{h}}}
+\newcommand{\vi}{{\mathbf{i}}}
+\newcommand{\vj}{{\mathbf{j}}}
+\newcommand{\vk}{{\mathbf{k}}}
+\newcommand{\vl}{{\mathbf{l}}}
+\newcommand{\vm}{{\mathbf{m}}}
+\newcommand{\vn}{{\mathbf{n}}}
+\newcommand{\vo}{{\mathbf{o}}}
+\newcommand{\vp}{{\mathbf{p}}}
+\newcommand{\vq}{{\mathbf{q}}}
+\newcommand{\vr}{{\mathbf{r}}}
+\newcommand{\vs}{{\mathbf{s}}}
+\newcommand{\vt}{{\mathbf{t}}}
+\newcommand{\vu}{{\mathbf{u}}}
+\newcommand{\vv}{{\mathbf{v}}}
+\newcommand{\vw}{{\mathbf{w}}}
+\newcommand{\vx}{{\mathbf{x}}}
+\newcommand{\vy}{{\mathbf{y}}}
+\newcommand{\vz}{{\mathbf{z}}}
+
+\newcommand{\vA}{{\mathbf{A}}}
+\newcommand{\vB}{{\mathbf{B}}}
+\newcommand{\vC}{{\mathbf{C}}}
+\newcommand{\vD}{{\mathbf{D}}}
+\newcommand{\vE}{{\mathbf{E}}}
+\newcommand{\vF}{{\mathbf{F}}}
+\newcommand{\vG}{{\mathbf{G}}}
+\newcommand{\vH}{{\mathbf{H}}}
+\newcommand{\vI}{{\mathbf{I}}}
+\newcommand{\vJ}{{\mathbf{J}}}
+\newcommand{\vK}{{\mathbf{K}}}
+\newcommand{\vL}{{\mathbf{L}}}
+\newcommand{\vM}{{\mathbf{M}}}
+\newcommand{\vN}{{\mathbf{N}}}
+\newcommand{\vO}{{\mathbf{O}}}
+\newcommand{\vP}{{\mathbf{P}}}
+\newcommand{\vQ}{{\mathbf{Q}}}
+\newcommand{\vR}{{\mathbf{R}}}
+\newcommand{\vS}{{\mathbf{S}}}
+\newcommand{\vT}{{\mathbf{T}}}
+\newcommand{\vU}{{\mathbf{U}}}
+\newcommand{\vV}{{\mathbf{V}}}
+\newcommand{\vW}{{\mathbf{W}}}
+\newcommand{\vX}{{\mathbf{X}}}
+\newcommand{\vY}{{\mathbf{Y}}}
+\newcommand{\vZ}{{\mathbf{Z}}}
+
+\newcommand{\cA}{{\mathcal{A}}}
+\newcommand{\cB}{{\mathcal{B}}}
+\newcommand{\cC}{{\mathcal{C}}}
+\newcommand{\cD}{{\mathcal{D}}}
+\newcommand{\cE}{{\mathcal{E}}}
+\newcommand{\cF}{{\mathcal{F}}}
+\newcommand{\cG}{{\mathcal{G}}}
+\newcommand{\cH}{{\mathcal{H}}}
+\newcommand{\cI}{{\mathcal{I}}}
+\newcommand{\cJ}{{\mathcal{J}}}
+\newcommand{\cK}{{\mathcal{K}}}
+\newcommand{\cL}{{\mathcal{L}}}
+\newcommand{\cM}{{\mathcal{M}}}
+\newcommand{\cN}{{\mathcal{N}}}
+\newcommand{\cO}{{\mathcal{O}}}
+\newcommand{\cP}{{\mathcal{P}}}
+\newcommand{\cQ}{{\mathcal{Q}}}
+\newcommand{\cR}{{\mathcal{R}}}
+\newcommand{\cS}{{\mathcal{S}}}
+\newcommand{\cT}{{\mathcal{T}}}
+\newcommand{\cU}{{\mathcal{U}}}
+\newcommand{\cV}{{\mathcal{V}}}
+\newcommand{\cW}{{\mathcal{W}}}
+\newcommand{\cX}{{\mathcal{X}}}
+\newcommand{\cY}{{\mathcal{Y}}}
+\newcommand{\cZ}{{\mathcal{Z}}}
+
+\newcommand{\EE}{\mathbb{E}}
+\newcommand{\RR}{\mathbb{R}}
+
+
+
+\date{}
+
+
+\usepackage{booktabs} % for professional tables
+\usepackage{makecell}
+\usepackage{mathtools}
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+
+
+% Todonotes is useful during development; simply uncomment the next line
+%    and comment out the line below the next line to turn off comments
+
+
+
+
+
+
+
+\newcommand{\bxi}{\boldsymbol{\xi}}
+
+
+\newcommand{\eg}{{\em e.g.\xspace}}
+\newcommand{\ie}{{\em i.e.\xspace}}
+
+\newcommand{\prog}{\mathrm{prog}}
+\newcommand{\dist}{\mathrm{dist}}
+
+%\newcommand{\xh}[1]{\textcolor{blue}{[XH: #1]}}
+\newcommand{\lly}[1]{\textcolor{blue}{[LLY: #1]}}
+
+\title{Towards better understanding of decentralized optimization using row stochastic matrix}
+
+
+\author{
+Liyuan Liang
+} 
+\begin{document}
+\maketitle
+\section{Related Works}
+\cite{xi2018linear,mai2016distributed} suggests using only row-stochastic matrix for decentralized optimization. There are some works following this idea:...
+\section{Assumptions and Notations}
+
+\paragraph{Data heterogeneity:}There exists a constant $b$ such that $\|\nabla f_i(x)-\nabla f(x)\|\le b^2,\forall i=1,2,\dots,n$.
+
+\paragraph{Notation.}Suppose that we have primitive row-stochastic matrix $A$ satisfying $\pi^\top A=\pi^\top, A\mathds{1}_n=\mathds{1}_n$. Here $\pi$ is the Perron vector whose sum is $1$. We define $V_{0}=I_n,  D_{k}=\mathrm{diag}(V_k)+\underbrace{\epsilon_k I_n}_{\text{New!}}, A_\infty=\lim_{k\to\infty}V_k=\mathds{1}_n\pi^\top$. We use bold symbol to express parameter matrix. $\vx^{(k)}:=[{x_1^{(k)}}^T,\dots,{x_n^{(k)}}^T]^T\in\mathbb{R}^{n\times d},\nabla f(\vx^{(k)}) := \nabla f(\vx^{(k)})=[\nabla f_1(x_1^{(k)})^T;\dots;\nabla f_n(x_n^{(k)})^T]^T\in\mathbb{R}^{n\times d},\vw^{(k)}=A_\infty\vx^{(k)},w^{(k)}=\pi^T\vx^{(k)}$,
+\section{Generalized Pull-Sum Gradient Tracking}
+
+To generalize the pull-diging method, we introduce a decay weight for the nonlinear divisor. 
+
+\paragraph{Algorithm.}
+\begin{align}
+    \vx^{(k+1)}&=A \vx^{(k)}-\alpha \vy^{(k)} \label{pull-sum-1}\\
+    V_{k+1}&=AV_{k}\label{pull-sum-2}\\
+    \vy^{(k+1)}&=A\vy^{(k)}+ D_{k+1}^{-1}\nabla f(\vx^{(k+1)})- D_{k}^{-1}\nabla f(\vx^{(k)})\label{pull-sum-3}
+\end{align}
+hereon we set $\vy^{(0)}=\nabla f(\vx^{(0)})$.
+
+
+
+
+
+
+\subsection{Estimate of Gradient Consensus Error(Lemma 7 in \cite{xi2018linear})}
+\lly{Xinyi, please complete it following the proof in Lemma B.5 in my paper}
+\begin{lemma}
+When $\alpha\le \frac{1-\beta}{12L\kappa_\pi(1+2\beta^2)(\frac{T}{1-\beta}+D_2+1)}$, we have:
+    \begin{align}
+    \sum_{k=0}^T\|\vy^{(k+1)}-A_\infty\vy^{(k+1)}\|_\pi^2 \le \frac{2\kappa_\pi^2(1+\beta)}{(1-\beta)^4}\|\vy^{(0)}\|^2_\pi\nonumber \\+\frac{6L^2\kappa_\pi^2(1+2\beta^2)}{(1-\beta)}(\frac{T}{1-\beta}+D_2+1)\sum_{k=0}^T\|\vx^{(k)}-\vw^{(k)}\|^2_\pi+\frac{6\alpha^2L^2\kappa_\pi^2}{1-\beta}(\frac{T}{1-\beta}+D_2+1)\sum_{k=0}^T\|A_\infty\vy^{(k)}\|_\pi^2
+\end{align}
+\end{lemma}
+\begin{proof}
+To bound $\vy^{(k-i)}-A_\infty\vy^{(k-i)}$, we left multiply $A_\infty $ on each side of \eqref{pull-sum-3}, we have 
+\begin{align}\label{GCE-1}
+    \hat{\vy}^{(k+1)}=\hat{\vy}^{(k)}+A_\infty D_{k+1}^{-1}\nabla f(\vx^{(k+1)})-A_\infty{ D_{k}}^{-1}\nabla f(\vx^{(k)})
+\end{align}
+\textbf{Remarks.} Unfold \eqref{GCE-1}, we have $\hat{\vy}^{(k)}=\hat{\vy}_0+A_\infty D_{k}^{-1}\nabla f(\vx^{(k)})-A_\infty{ D_{0}}^{-1}\nabla f^{(0)}=A_\infty{ D_{k}}^{-1}\nabla f_{k}$. When $k\to \infty$, $\epsilon_k\to 0, \hat{\vy}^{(k)}\to \mathds{1}_n\pi^\top \mathrm{diag}(\pi)^{-1}\nabla f(\vx^{(k)})=\mathds{1}_n\mathds{1}_n^\top \nabla f(\vx^{(k)})$. This is why we use $ D_{k}$ as the divisor.
+
+Define $\Delta^{(k)}=\nabla f(\vx^{(k+1)})-\nabla f(\vx^{(k)}),\delta_k=D_{k+1}^{-1}-D_k^{-1}$, Subtract \eqref{GCE-1} from \eqref{pull-sum-3}, we have the following equation:
+\begin{align}\label{GCE-2}
+    &\vy^{(k+1)}-A_\infty\vy^{(k+1)}\nonumber\\
+    =&(A-A_\infty)(\vy^{(k)}-A_\infty\vy^{(k)})+(D_{k+1}^{-1}-A_\infty D_{k+1}^{-1})\nabla f(\vx^{(k+1)})-(D_{k}^{-1}-A_\infty D_{k}^{-1})\nabla f(\vx^{(k)})\nonumber \\
+    =& (A-A_\infty)(\vy^{(k)}-A_\infty\vy^{(k)})+(D_{k+1}^{-1}-A_\infty D_{k+1}^{-1})\Delta^{(k)}+(I_n-A_\infty)\delta_k\nabla f(\vx^{(k)})\nonumber \\
+    =&(A-A_\infty)^2(\vy^{(k-1)}-A_\infty\vy^{(k-1)})+(I_n-A_\infty)D_{k+1}^{-1}\Delta^{(k)}+(I_n-A_\infty)[\delta_k+(A-A_\infty)(D_k^{-1}-A_\infty D_k^{-1})]\Delta^{(k-1)}\nonumber \\
+    &\qquad+[(I_n-A_\infty)\delta_k+(A-A_\infty)(I_n-A_\infty)\delta_{k-1}]\nabla f(\vx^{(k-1)}) \nonumber \\
+    =&\dots \nonumber\\
+    =&(A-A_\infty)^{k+1}(\vy^{(0)}-A_\infty \vy^{(0)})+\sum_{i=0}^{k} C_i \Delta^{(k-i)}+\sum_{i=0}^k(A-A_\infty)^i(I_n-A_\infty)\delta_{k-i}\vy^{(0)} \nonumber \\
+    =&[(A-A_\infty)^{k+1}+\sum_{i=0}^k(A-A_\infty)^i(I_n-A_\infty)\delta_{k-i}]\vy^{(0)}+\sum_{i=0}^{k} C_i \Delta^{(k-i)}
+\end{align}
+where $$C_i=(A-A_\infty)^i(I_n-A_\infty)D_{k+1-i}^{-1}+\sum_{j=0}^{i}(A-A_\infty)^j(I_n-A_\infty)\delta_{k-j}$$
+Suppose that we have a constant $\kappa_\pi$ satisfying $$\|D_k^{-1}\|\le \kappa_\pi, \|\delta_k\|\le \kappa_\pi\beta^k$$
+Let $\beta=\|A-A_\infty\|_\pi$, then
+\begin{align}
+&\|A^k-A_\infty\|_F^2=\|(A-A_\infty)^k\|_F^2=\sum_{i=1}^{n}\|(A-A_\infty)^k\ve_i\|_F^2\nonumber \\
+=&\sum_{i=1}^n\|\Pi^{-\frac{1}{2}}\Pi^{\frac{1}{2}}(A-A_\infty)^k \ve_i\|_F^2\le\sum_{i=1}^n\|\Pi^{-\frac{1}{2}}\|_2^2\|(A-A_\infty)^k \ve_i\|_\pi^2\le\underline{\pi}^{-1}\sum_{i=1}^{n}\|(A-A_\infty)^k\|_\pi^2\|\ve_i\|_\pi^2\nonumber\\
+\le&\sum_{i=1}^{n}\frac{1}{\underline{\pi}}\beta^{2k}\pi_i=\frac{1}{\underline{\pi}}\beta^{2k}
+\end{align}
+Therefore, for each k and $1\le i,j\le n$ denote $v_i^{(k)}=(V_k)_{ii}$.We have$|v_i^{(k)}-\pi_i|\le \sqrt{\frac{1}{\underline{\pi}}}\beta^{k}$.\\
+Let $\epsilon_k=\sqrt{\frac{1}{\underline{\pi}}}\beta^{k}$ ,then $\|D_k^{-1}\|\le \frac{1}{\underline{\pi}}$ and since $$|\frac{1}{v_i^{(k)}}-\frac{1}{v_i^{(k+1)}}|=\frac{|v_i^{(k)}-v_i^{(k+1)}|}{v_i^{(k)}v_i^{(k+1)}}\nonumber \le \frac{\sqrt{\frac{1}{\underline{\pi}}}\beta^k(\beta+1)}{\underline{\pi}^2}$$ we have $$\|\delta_k\|\le\frac{\sqrt{\frac{1}{\underline{\pi}}}\beta^k(\beta+1)}{\underline{\pi}^2}$$
+So we just let $\kappa_\pi= \max\left\{\frac{1}{\pi}, \frac{1+\beta}{\underline{\pi}^{2.5}}\right\}=\frac{1+\beta}{\underline{\pi}^{2.5}}$\\
+It can be easily verified that $\|C_i\|_\pi\le\kappa_\pi(\beta^i+k\beta^k)$. Thus, using Jensen inequality, we have 
+\begin{align}\label{GCE-3}
+    \|\vy^{(k+1)}-A_\infty\vy^{(k+1)}\|_\pi^2\le \frac{\kappa_\pi^2\beta^{k+1}}{1-\beta}(k+2)^2\|\vy^{(0)}\|_\pi^2+\frac{\kappa_\pi^2}{1-\beta}\sum_{i=0}^k\beta^i(1+k\beta^{k-i})^2\|\Delta^{(k-i)}\|_\pi^2
+\end{align}
+Notice that 
+\begin{align}
+    &\|\vx^{(k+1)}-\vw^{(k+1)}\|^2=\|(A-\mathds{1}_n\pi^T)(\vx^{(k)}-\vw^{(k)})-\alpha(I_n-\mathds{1}_n\pi^T)(\vy^{(k)} -A_\infty \vy^{(k)})\|^2\nonumber\\
+    \le&2\beta^2\|\vx^{(k)}-\vw^{(k)}\|^2+2\alpha^2\|\vy^{(k)} -A_\infty \vy^{(k)}\|^2
+\end{align}
+here we use the fact that $\|I_n-\mathds{1}_n\pi^T\|_\pi= 1$. Then we have
+\begin{align}\label{GCE-4}
+    \|\Delta^{(k)}\|^2_\pi&\le 3L^2 (\|\vx^{(k+1)}-\vw^{(k+1)}\|_\pi^2+\|\vw^{(k+1)}-\vw^{(k)}\|_\pi^2+\|\vx^{(k)}-\vw^{(k)}\|_\pi^2) \nonumber\\
+    &\le 3L^2(1+2\beta^2)\|\vx^{(k)}-\vw^{(k)}\|_\pi^2+3\alpha^2L^2\|A_\infty\vy^{(k)}\|_\pi^2+6\alpha^2L^2\|\vy^{(k)} -A_\infty \vy^{(k)})\|_\pi^2
+\end{align}
+
+Plug \eqref{GCE-4} into \eqref{GCE-3}, we should have 
+\begin{align}\label{GCE-5}
+    &\|\vy^{(k+1)}-A_\infty\vy^{(k+1)}\|_\pi^2\nonumber \\ 
+    \le &\frac{\kappa_\pi^2\beta^{k+1}}{1-\beta}(k+2)^2\|\vy^{(0)}\|_\pi^2+\frac{3L^2\kappa_\pi^2(1+2\beta^2)}{1-\beta}\sum_{i=0}^k\beta^i(1+k\beta^{k-i})^2\|\vx^{(i)}-\vw^{(i)}\|_\pi^2\nonumber\\ 
+    &\quad+\frac{3\alpha^2L^2\kappa_\pi^2}{1-\beta}\sum_{i=0}^k\beta^i(1+k\beta^{k-i})^2\|A_\infty\vy^{(i)}\|_\pi^2+\frac{6\alpha^2L^2\kappa_\pi^2(1+2\beta^2)}{1-\beta}\sum_{i=0}^k\beta^i(1+k\beta^{k-i})^2\|\vy^{(i)} -A_\infty \vy^{(i)}\|_\pi^2
+\end{align}
+Sum up \eqref{GCE-5} and we obtain:
+\begin{align}
+    \sum_{k=0}^T\|\vy^{(k+1)}-A_\infty\vy^{(k+1)}\|_\pi^2 \le \frac{\kappa_\pi^2(1+\beta)}{(1-\beta)^4}\|\vy^{(0)}\|^2_\pi+\frac{3L^2\kappa_\pi^2(1+2\beta^2)}{1-\beta}(\frac{T}{1-\beta}+D_2+1)\sum_{k=0}^T\beta^k\|\vx^{(k)}-\vw^{(k)}\|^2_\pi \nonumber\\
+    +\frac{3\alpha^2L^2\kappa_\pi^2}{1-\beta}(\frac{T}{1-\beta}+D_2+1)\sum_{k=0}^T\beta^k\|A_\infty\vy^{(k)}\|_\pi^2
+    +\frac{6\alpha^2L^2\kappa_\pi^2(1+2\beta^2)}{1-\beta}(\frac{T}{1-\beta}+D_2+1)\sum_{k=0}^T\beta^k\|\vy^{(k)}-A_\infty\vy^{(k)}\|_\pi^2
+\end{align}
+Here is the detailed calculation process.\\
+Since
+\begin{align}
+\sum_{k=0}^T k(k+1)\beta^k=&\beta( \sum_{k=1}^T\beta^{k+1})^{(2)}\nonumber\\
+ =&\beta \frac{2-(T+1)(T+2)\beta^T+2T(T+2)\beta^{T+1}-(T+1)(T+2)\beta^{T+2}}{(1-\beta)^3}\nonumber\\
+ \le&\beta \frac{2}{(1-\beta)^3}=D_1
+\end{align}
+And
+\begin{align}
+\sum_{k=0}^Tk\beta^k=&\beta(\sum_{k=1}^T\beta^k)^{(1)} =\beta \frac{1-(T+1)\beta^T+T\beta^{T+1}}{(1-\beta)^2}\le\frac{\beta}{(1-\beta)^2}=D_2
+\end{align}
+Then
+\begin{align}
+\sum_{k=0}^Tk^2\beta^k=&\beta\frac{1+\beta-(T+1)^2\beta^T+(2T^2+2T-1)\beta^{(T+1)}-T(T+3)\beta^{T+2}}{(1-\beta)^3}\nonumber\\
+\le&\beta\frac{1+\beta}{(1-\beta)^3}=D_3
+\end{align}
+Then
+\begin{align}
+&\sum_{k=i}^T \beta^i(1+k\beta^{k-i})^2=\sum_{k=i}^T(\beta^i+2k\beta^k+k^2\beta^{(2k-i)})\nonumber\\
+=&(T-i+1)\beta^i+\beta^i\sum_{s=0}^{T-i}s\beta^s+\beta^ii\sum_{s=0}^{T-i}\beta^s \nonumber\\
+\le&\beta^i(T+1-i+D_2+\frac{i}{1-\beta})\le\beta^i(\frac{T}{1-\beta}+D_2+1)
+\end{align}
+Therefore, we have
+Choose $\alpha\le ?$, then we can move the last term to left and we obtain the GCE lemma
+\end{proof}
+\subsection{Estimate of Consensus Error}
+\lly{Xinyi, please complete it following the proof in Lemma B.6 in my paper}
+\begin{lemma}
+When $\alpha\le \frac{(1-\beta)^2}{12L\kappa_\pi(1+2\beta^2)(\frac{T}{1-\beta}+D_2+1)\|I_n-\mathds{1}_n\pi^T\|_\pi}$ , we have:
+    \begin{align}
+        \sum_{k=0}^{T+1}\|\vw^{(k)}-\vx^{(k)}\|^2\le \frac{4\alpha^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2\kappa_\pi^2(1+\beta)}{(1-\beta)^6}\|\vy^{(0)}\|^2_\pi+\frac{12\alpha^4L^2\kappa_\pi^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2}{(1-\beta)^3}(\frac{T}{1-\beta}+D_2+1) \sum_{k=0}^T\|A_\infty\vy^{(k)}\|_\pi^2
+    \end{align}
+\end{lemma}
+\begin{proof}
+    $\vw^{(k)}$ or $w^{(k)}$ should be the true model parameter. Left multiply $A_\infty $ on each side of \eqref{pull-sum-1}, we have 
+\begin{align}\label{CE-1}
+    \vw^{(k+1)}=\vw^{(k)}-\alpha A_\infty\vy^{(k)}
+\end{align}
+To estimate consensus error, we unfold the iteration:
+\begin{align}
+    \vx^{(k+1)}-\vw^{(k+1)}&=(A-\mathds{1}_n\pi^T)(\vx^{(k)}-\vw^{(k)})-\alpha(I_n-\mathds{1}_n\pi^T)(\vy^{(k)} -A_\infty \vy^{(k)})\nonumber\\
+    &=\dots \nonumber\\
+    &=-\alpha\sum_{i=0}^k(A-\mathds{1}_n\pi^T)^i(I_n-\mathds{1}_n\pi^T)(\vy^{(k-i)}-A_\infty\vy^{(k-i)})
+\end{align}
+Then we can use Jensen inequality
+\begin{align}
+\|\vx^{(k+1)}-\vw^{(k+1)}\|^2&\le \alpha^2\sum_{i=0}^k\frac{\beta^i}{1-\beta}\|I_n-\mathds{1}_n\pi^T\|_\pi^2\|\vy^{(k-i)}-A_\infty\vy^{(k-i)}\|_\pi^2
+\end{align}
+Sum up, we have
+\begin{align}
+&\sum_{k=0}^{T+1}\|\vw^{(k)}-\vx^{(k)}\|^2\le \alpha^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2\sum_{k=0}^{T}\sum_{i=0}^k\frac{\beta^{k-i}}{1-\beta}\|\vy^{(i)}-A_\infty\vy^{(i)}\|_\pi^2\nonumber\\
+\le&\frac{\alpha^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2}{(1-\beta)^2}\sum_{k=0}^{T}\|\vy^{(i)}-A_\infty\vy^{(i)}\|_\pi^2\nonumber\\
+\le&\frac{\alpha^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2}{(1-\beta)^2}(\frac{2\kappa_\pi^2(1+\beta)}{(1-\beta)^4}\|\vy^{(0)}\|^2_\pi+\frac{6L^2\kappa_\pi^2(1+2\beta^2)}{(1-\beta)}(\frac{T}{1-\beta}+D_2+1)\sum_{k=0}^T\|\vx^{(k)}-\vw^{(k)}\|^2_\pi\nonumber\\
++&\frac{6\alpha^2L^2\kappa_\pi^2}{1-\beta}(\frac{T}{1-\beta}+D_2+1)\sum_{k=0}^T\|A_\infty\vy^{(k)}\|_\pi^2)
+\end{align}
+\end{proof}
+\subsection{Descent Lemma}
+
+\begin{lemma}
+When $\alpha\le ?$, we have:
+    \begin{align}
+        f(w^{(k+1)})\le f(w^{(k)})-\frac{\alpha}{4c_{k,1}}\|\pi^T\vy^{(k)}\|^2-\frac{\alpha}{2c_{k,1}}\|\mathds{1}_n^T\nabla f(\vw^{k})\|^2+\frac{\alpha L^2c_{k,2}}{nc_{k,1}}\|\vx^{(k)}-\vw^{(k)}\|^2+\frac{\alpha b^2c_{k,2}}{c_{k,1}} 
+    \end{align}
+\end{lemma}
+
+Define $c_{k,1}=\sum_{i=1}^n\frac{\pi_i}{D_{k,i}},c_{k,2}=\sum_{i=1}^n\frac{\pi_i^2}{D_{k,i}^2}$, then we have 
+\begin{align}\label{Des-1}
+    &\|\pi^T\vy^{(k)}-\frac{c_{k,1}}{n}\mathds{1}_n^T\nabla f(\vw^{(k)})\|^2 \nonumber \\
+    =&\|\sum_{i=1}^n\frac{\pi_i}{D_{k,i}}(\nabla f(x_i^{(k)})-\frac{1}{n}\mathds{1}_n^T\nabla f(\vw^{(k)}))\|^2 \nonumber \\
+    \le& 2\|\sum_{i=1}^n\frac{\pi_i}{D_{k,i}}(\nabla f_i(x_i^{(k)})-\nabla f(x_i^{(k)}))\|^2+2\|\sum_{i=1}^n\frac{\pi_i}{D_{k,i}}\sum_{j=1}^n\frac{1}{n}(\nabla f(x_j^{(k)})-\nabla f(w_j^{(k)}))\|^2\nonumber \\
+    =& 2\|\sum_{i=1}^n\frac{\pi_i}{D_{k,i}}(\nabla f_i(x_i^{(k)})-\nabla f(x_i^{(k)}))\|^2+\frac{2c_{k,2}}{n^2}\|\mathds{1}_n^T\left(\nabla f(\vx^{(k)})-\nabla f(\vw^{(k)})\right) \|^2 \nonumber \\
+    \le &2b^2c_{k,2}+\frac{2L^2c_{k,2}}{n}\|\vx^{(k)}-\vw^{(k)}\|^2
+\end{align}
+Using L-smoothness inequality, we have
+
+\begin{align}\label{Des-2}
+    f(w^{(k+1)})&\le f(w^{(k)})-\alpha \langle\pi^T\vy^{(k)},\frac{1}{n}\mathds{1}_n^T\nabla f(\vw^{k})\rangle +\frac{\alpha^2L}{2}\|\pi^T\vy^{(k)}\|^2 \nonumber \\
+    &= f(w^{(k)})-\frac{\alpha}{c_{k,1}} \langle\pi^TD_k^{-1}\nabla f(\vx^{(k)}),\frac{c_{k,1}}{n}\mathds{1}_n^T\nabla f(\vw^{(k)})\rangle +\frac{\alpha^2L}{2}\|\pi^TD_k^{-1}\nabla f(\vx^{(k)})\|^2 \nonumber\\
+    &=f(w^{(k)})-\frac{\alpha}{2c_{k,1}}\|\pi^TD_k^{-1}\nabla f(\vx^{(k)})\|^2-\frac{\alpha c_{k,1}}{2n^2}\|\mathds{1}_n^T\nabla f(\vw^{k})\|^2\nonumber\\
+    &\qquad+\frac{\alpha}{2c_{k,1}} \|\pi^T\vy^{(k)}-\frac{c_{k,1}}{n}\mathds{1}_n^T\nabla f(\vw^{(k)})\|^2+\frac{\alpha^2L}{2}\|\pi^TD_k^{-1}\nabla f(\vx^{(k)})\|^2 \nonumber\\
+    &\overset{(a)}{\le} f(w^{(k)})-\frac{\alpha-c_{k,1}\alpha^2L}{2c_{k,1}}\|\pi^TD_k^{-1}\nabla f(\vx^{(k)})\|^2-\frac{\alpha c_{k,1}}{2n^2}\|\mathds{1}_n^T\nabla f(\vw^{k})\|^2\nonumber\\
+    &\qquad +\frac{\alpha}{2c_{k,1}}(2b^2c_{k,2}+\frac{2L^2c_{k,2}}{n}\|\vx^{(k)}-\vw^{(k)}\|^2) \nonumber\\
+    &\overset{(b)}{\le} f(w^{(k)})-\frac{\alpha}{4c_{k,1}}\|\pi^T\vy^{(k)}\|^2-\frac{\alpha c_{k,1}}{2n^2}\|\mathds{1}_n^T\nabla f(\vw^{k})\|^2+\frac{\alpha L^2c_{k,2}}{nc_{k,1}}\|\vx^{(k)}-\vw^{(k)}\|^2\nonumber\\
+    &\qquad +\frac{\alpha b^2c_{k,2}}{c_{k,1}} \nonumber\\
+\end{align}
+(a) uses \eqref{Des-1}, (b) holds when $\alpha \leq \frac{1}{2c_{k,1}L}$ .
+
+
+\subsection{Main Theorem}
+\lly{Please complete it following the proof of Theorem 4 in my paper.}
+\begin{theorem}
+When \\
+Since $|v_i^{(k)}-\pi_i|\le \sqrt{\frac{1}{\underline{\pi}}}\beta^{k}$, we have $n\frac{\overline{\pi}}{\overline{\pi}+\sqrt{\frac{1}{\underline{\pi}}}\beta}\le c_{k,i}\le n$.
+And notice that $c_{k,2}\le c_{k,1}^2\le nc_{k,2}$
+
+\begin{align}
+\|\mathds{1}_n^T\nabla f(\vw^{k})\|^2\le&\frac{2n^2}{\alpha c_{k,1}}(f(w^{(k)})-f(w^{(k+1)}))-\frac{n^2}{2c_{k,1}^2}\|\pi^T\vy^{(k)}\|^2+\frac{2nL^2c_{k,2}}{c_{k,1}^2}\|\vx^{(k)}-\vw^{(k)}\|^2+\frac{2b^2n^2c_{k,2}}{c_{k,1}^2}\nonumber\\
+\le&\frac{2n(\overline{\pi}+\sqrt{\frac{1}{\underline{\pi}}}\beta)}{\alpha\overline{\pi}}(f(w^{(k)})-f(w^{(k+1)}))-\frac{1}{2}\|\pi^T\vy^{(k)}\|^2+2nL^2\|\vx^{(k)}-\vw^{(k)}\|^2+2b^2n^2
+\end{align}
+It then follows
+\begin{align}
+\sum_{k=0}^{T+1}\|\mathds{1}_n^T\nabla f(\vw^{k})\|^2\le&\frac{2n(\overline{\pi}+\sqrt{\frac{1}{\underline{\pi}}}\beta)}{\alpha\overline{\pi}}\bigtriangleup+2nL^2\sum_{k=0}^{T+1}\|\vx^{(k)}-\vw^{(k)}\|^2+2b^2n^2(T+2)\nonumber \\
+\le&\frac{2n(\overline{\pi}+\sqrt{\frac{1}{\underline{\pi}}}\beta)}{\alpha\overline{\pi}}\bigtriangleup+2nL^2(\frac{4\alpha^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2\kappa_\pi^2(1+\beta)}{(1-\beta)^6}\|\vy^{(0)}\|^2_\pi+\nonumber \\
+&\frac{12\alpha^4L^2\kappa_\pi^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2}{(1-\beta)^3}(\frac{T}{1-\beta}+D_2+1) \sum_{k=0}^{T+1}\|A_\infty\vy^{(k)}\|_\pi^2)+2b^2n^2(T+2)-\frac{1}{2}\sum_{k=0}^{T+1}\|\pi^T\vy^{(k)}\|^2\nonumber\\
+=&\frac{2n(\overline{\pi}+\sqrt{\frac{1}{\underline{\pi}}}\beta)}{\alpha\overline{\pi}}\bigtriangleup+2nL^2\frac{4\alpha^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2\kappa_\pi^2(1+\beta)}{(1-\beta)^6}\|\vy^{(0)}\|^2_\pi\nonumber\\
+-&(\frac{1}{2}-\frac{12\alpha^4L^2\kappa_\pi^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2}{(1-\beta)^3}(\frac{T}{1-\beta}+D_2+1) )\sum_{k=0}^{T+1}\|\pi^T\vy^{(k)}\|^2+2b^2n^2(T+2)\nonumber\\
+\le&\frac{2n(\overline{\pi}+\sqrt{\frac{1}{\underline{\pi}}}\beta)}{\alpha\overline{\pi}}\bigtriangleup+2nL^2\frac{4\alpha^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2\kappa_\pi^2(1+\beta)}{(1-\beta)^6}\|\vy^{(0)}\|^2_\pi+2b^2n^2(T+2)
+\end{align}
+Let\\
+Then
+\begin{align}
+\frac{\sum_{k=0}^{T+1}\|\mathds{1}_n^T\nabla f(\vw^{k})\|^2}{T+2}\le&\frac{2n(\overline{\pi}+\sqrt{\frac{1}{\underline{\pi}}}\beta)}{\alpha\overline{\pi}(T+2)}\bigtriangleup+2nL^2\frac{4\alpha^2\|I_n-\mathds{1}_n\pi^T\|_\pi^2\kappa_\pi^2(1+\beta)}{(1-\beta)^6(T+2)}\|\vy^{(0)}\|^2_\pi+2b^2n^2
+\end{align}
+\end{theorem}
+
+\newpage
+\appendix
+\end{document}
